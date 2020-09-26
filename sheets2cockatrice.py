@@ -85,7 +85,11 @@ for sheet in urls:
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
         if len(card['Slot']):
-            out += writeCard(card)
+            try: 
+                if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'): out += writeCard(card)
+            except:
+                print("card parsing failed.")
+                continue
 out += "\n</cards>\n</cockatrice_carddatabase>"
 #print(out)
 
