@@ -46,7 +46,7 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
     result = re.findall("<i>([\S\s]*?)<\\/i>", card["Rules"])
     for r in result:
         if any(bad in r.lower() for bad in ["\"", ")", "as", "strength in numbers", "symmetry", "enrage"]): continue
-        related += "\n <related>" + r + "</related>"
+        related += "\n <related>" + r.strip(" \t\n'") + "</related>"
         #print(r)
     if "<u>Doubt" in card['Rules']: related += "\n <related>Doubt</related>"
     if "<u>Warrent" in card['Rules']: related += "\n <related>Incarceration</related>"
@@ -62,7 +62,7 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
         + transient\
         + related\
         +"\n "+"<tablerow>"+str(row)+"</tablerow>"\
-        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("~@", card['Name'].split(",")[0]).replace("~", card['Name'])+"</text>"\
+        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("<p>", "\n\n<p>").replace("<br>", "\n").replace("</br>", "\n").replace("<br/>", "\n").replace("~@", card['Name'].split(",")[0]).replace("~", card['Name'])+"</text>"\
         +"\n"+"</card>"
 
 urls = getURLs()
