@@ -62,10 +62,11 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
         + transient\
         + related\
         +"\n "+"<tablerow>"+str(row)+"</tablerow>"\
-        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("~@", card['Name'].split(",")[0]).replace("~", card['Name'])+"</text>"\
+        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("<p>", "\n\n<p>").replace("<br>", "\n").replace("</br>", "\n").replace("<br/>", "\n").replace("~@", card['Name'].split(",")[0]).replace("~", card['Name']).strip("\n ")+"</text>"\
         +"\n"+"</card>"
 
 urls = getURLs()
+print("Processessing...")
 out = r'''<?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_carddatabase version="3">
  <sets>
