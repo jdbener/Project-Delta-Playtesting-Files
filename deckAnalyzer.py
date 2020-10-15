@@ -14,6 +14,7 @@ def getURLs():
 
 urls = getURLs()
 db = {}
+print("Building database")
 for sheet in urls:
     sheet = sheet.replace("https://docs.google.com/spreadsheets/d/","").split("/")[0]
     sheet = urllib.request.urlopen("https://docs.google.com/spreadsheets/d/" + sheet + "/gviz/tq?tqx=out:csv")\
@@ -35,7 +36,7 @@ def getDeck():
     f = ""
     while isinstance(f, str):
         #try:
-            tmp = input("Next deck: ")
+            tmp = input("Select deck: ")
             f = untangle.parse(tmp)
             #print(f)
         #except: continue
@@ -66,7 +67,7 @@ for zone in deck.cockatrice_deck.zone:
             response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[card['name']]['Slot']+"_001.png")
             img = Image.open(BytesIO(response.read()))
             img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
-            if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 8))
+            if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
             
             for i in range(0, int(card['number'])):
                 image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
