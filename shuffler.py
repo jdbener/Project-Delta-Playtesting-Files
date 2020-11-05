@@ -15,32 +15,25 @@ class card:
 #deck = [card("A", 24), card("B", 26)]
 #deck = [card("A", 16), card("B", 16), card("C", 17)]
 deck = [card("A"), card("B"), card("C", 2), card("D", 2), card("C", 2), card("E", 10), card("F"), card("G"), card("H", 2), card("I", 2), card("J", 2), card("K", 8), card("L")]
-#deck = []
-#letter = 1 # 'A'
-#while len(deck) * 4 <= 50:
+# deck = []
+# letter = 1 # 'A'
+# while len(deck) * 4 <= 50:
 #    deck.append(card(str(letter)))
 #    letter += 1
 
+# Merge all the sublists into a single long list
 tmp = []
 for c in deck:
     tmp += c.makeList()
 deck = tmp
 
+
+
 def swap(a, b):
-    tmp = a
-    a = b
-    b = tmp
-    return a, b
+    return b, a
 
-def numericly(e):
-    return int(e)
-
-def sort(list):
-    list.sort(key=numericly)
-    return list
-
+# https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm
 def yatesShuffle(deck):
-    # https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm
     n = len(deck) - 2
     for i in range(0, n):
         j = random.randrange(i, len(deck))
@@ -50,48 +43,53 @@ def yatesShuffle(deck):
 def shuffle(deck):
     # Actualy shuffle the deck
     yatesShuffle(deck)
+    print("Post yates shuffle:\n", deck)
 
+    # This loop finds elements next to eachother and tries to rerandomize them
     i = 1
-    iLast = []
     n = len(deck)
+    # Variables which track the last index and how many times we have swapped that index
+    iLast = -1
+    iLastCount = 0
     while i < n:
-        print(i," - ", iLast)
-        if len(iLast) > 10:
-            print(shuffle.count)
-            shuffle.count = 0
+        # If we have swapped the same index more than 10 times (say a deck is all the same card)
+        # Give up on fixing the shuffle
+        if iLastCount > 10:
             return
-        #print(i)
+
         # If there are two of the same element twice in a row
         if deck[i - 1] == deck[i]:
-            # Swap it to the other end of the deck (if we can)
+            # Apply a random offset to all of the swaps so they aren't exact
             offset = random.randrange(2, int(n / 10))
+            if(offset == i): offset = max(offset + 2, n - 1) # If the offset is i make it bigger (maxing out at the total size of the deck)
+
+            # Swap it to the other end of the deck (if we can)
             if((n - i) + offset < len(deck)):
                 deck[i - 1], deck[(n - i) + offset] = swap(deck[i - 1], deck[(n - i) + offset])
             # If we can't swap it to the other end, swap it with the beginning
             else:
                 deck[offset], deck[i] = swap(deck[offset], deck[i])
-            # And scan the array again
-            if len(iLast):
-                if iLast[0] == i:
-                    iLast.append(i)
-                else:
-                    iLast = [i]
-            else: iLast.append(i)
-            i = 0
-            shuffle.count += 1
-            # Bail if we have failed to find the perfect shuffle after we have retried for every card in the deck
-            #shuffle.count += 1
-            #if shuffle.count > len(deck):
-            #    shuffle.count = 0
-            #    return
-        i+=1
-    print(shuffle.count)
-    shuffle.count = 0
-# Set inital shuffle alteration count
-shuffle.count = 0
 
-#print(len(deck))
+            # And scan the array again... tracking how many times we have swapped the same index
+            if iLastCount and iLast == i:
+                iLastCount += 1
+            else:
+                iLast = i
+                iLastCount = 1
+            # Scanning again means resetting current index to 1 (0 here since the next step increments)
+            i = 0
+        # Increment to the next loop itteration
+        i += 1
+
+
+
+print(len(deck))
 print("Pre shuffle:\n", deck)
 shuffle(deck)
 print("Post shuffle:\n", deck)
-print(sort(deck[0:5]), sort(deck[6:11]), sort(deck[12:17]))
+print("\nHands:")
+
+def sort(list):
+    list.sort()
+    return list
+print(sort(deck[0:6]), sort(deck[7:13]), sort(deck[14:20]))
