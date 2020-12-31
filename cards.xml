@@ -1,0 +1,4032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+ <sets>
+  <set>
+   <name>pd</name>
+   <longname>Project Delta</longname>
+   <settype>Custom</settype>
+   <releasedate>2020-09-19</releasedate>
+  </set>
+ </sets>
+<cards>
+<card>
+ <name>Bullet</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_001_001.png">pd</set>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Asset - <u>Transient</u> Bullet</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <text><u><u>Transient</u></u> (If <i>Bullet</i> would enter your discard, remove it from the game instead.)
+
+<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Bullet</i>: Chose anything for <i>Bullet</i> to deal 2 damage to.</p></text>
+</card>
+<card>
+ <name>Doubt</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_002_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Effect - <u>Transient</u> Tragedy</type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><u><u>Transient</u></u> (If <i>Doubt</i> would enter your discard, remove it from the game instead.)
+
+<p>When you draw <i>Doubt</i>, reveal it and your commander loses 1 loyalty.</p>
+
+<p>Each of your opponents commanders lose 1 loyalty.</p></text>
+</card>
+<card>
+ <name>Incarceration</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_003_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Effect - <u>Transient</u> Tragedy</type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><p>When you draw <i>Incarceration</i>, reveal it, your commander loses 1 loyalty, then <u>end the turn</u> (Send all cards and abilities on the stack to their owner's discard. Then damage wears off of combatants and temporary +X or -X effects end, the player whose turn is ending must discard down to their maximum hand size, and finally all energy drains from each player's energy bank.)</p>
+
+<p>Each player draws a card.</p></text>
+</card>
+<card>
+ <name>Tip</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_004_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Transient</u> Clue <u>Response</u></type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><u><u>Transient</u></u> (If <i>Tip</i> would enter your discard, remove it from the game instead.), <u>Response</u> (You may deploy <i>Tip</i> in response to other cards and abilities.)
+
+<p>When you draw <i>Tip</i>, reveal it, then draw a card.</p>
+
+<p>Draw a card</p></text>
+</card>
+<card>
+ <name>Duck</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_005_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Asset - <u>Transient</u> Duck</type>
+ <pt>1/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <text><u><u>Transient</u></u> (If <i>Duck</i> would enter your discard, remove it from the game instead.), <u>Flying</u> (<i>Duck</i> can only be intercepted by assets with flying or anti-air.)</text>
+</card>
+<card>
+ <name>Emergency Defibrillator</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_006_001.png">pd</set>
+ <color>Y</color>
+ <manacost>YY</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Fleeting</u> <u>Transient</u> <u>Response</u></type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><u><u>Fleeting</u></u> (Discard <i>Emergency Defibrillator</i> at the end of your turn.), <u><u>Transient</u></u> (If <i>Emergency Defibrillator</i> would enter your discard, remove it from the game instead.), <u>Response</u> (You may deploy <i>Emergency Defibrillator</i> in response to other cards and abilities.)
+
+<p>Choose a combatant that entered your discard this turn to return to your hand.</p></text>
+</card>
+<card>
+ <name>Unstable Battery</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_007_001.png">pd</set>
+ <color>G</color>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Effect - <u>Transient</u></type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><u><u>Transient</u></u> (If <i>Unstable Battery</i> would enter your discard, remove it from the game instead.)
+
+<p>Add <u>X</u> (X is the amount of energy which would have drained from your pool when this card was created. X can't be less than 0.) Generic ([C]) energy to your pool.</p>
+
+<p>(At the end of each turn X is halved, rounding down each time.)</p></text>
+</card>
+<card>
+ <name>W.E.B</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_CMDR_001.png">pd</set>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Commander -  </type>
+ <tablerow>1</tablerow>
+ <text><p><b><i>As Commander</i> --</b> [6], <i>W.E.B</i> loses 2 loyalty: Draw a card.</p>
+
+<p>(<i>W.E.B</i> can be exhausted for any type of energy. <i>W.E.B</i> can only be included in a deck as its commander.)</p></text>
+</card>
+<card>
+ <name>Martha Briggs Spacecorp Commander</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_R_CMDR_1_001.png">pd</set>
+ <color>R</color>
+ <manacost>3RR</manacost>
+ <cmc>5</cmc>
+ <type>Commander - Augmented Spacecorp Leader</type>
+ <pt>11/9</pt>
+ <tablerow>2</tablerow>
+ <text><p><b><i>As Commander</i> --</b> Whenever a combatant enters the battlefield, you may pay [R] if you do it gains <u>airdrop</u> (The specified asset can attack, intercept, and exhaust as soon as it is deployed.)</p>
+
+<p><b><i>As Asset</i> --</b> After interceptors are declared, if <i>Martha Briggs</i> would do combat damage to a commander, you may put a combatant onto the battlefield attacking, then <u>forfeit</u> (Put the specified asset into its owner's discard.) it at the end of your turn.</p></text>
+</card>
+<card>
+ <name>Lexi Xenos Spacecorp Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_001_001.png">pd</set>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>R. Asset - Human Spacecorp Cadet</type>
+ <pt>5/5</pt>
+ <tablerow>2</tablerow>
+ <text>(If you deploy or otherwise obtain another card with the same name as <i>Lexi Xenos, Spacecorp Recruit</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can not be spent to deploy renowned cards.)
+
+<p>When <i>Lexi Xenos</i> leaves the battlefield, you may search your deck for up to four cards to remove from the game.</p></text>
+</card>
+<card>
+ <name>Spacecorp Cadet</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RC_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Spacecorp Cadet</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Rewire</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RC_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose a card on the stack and replace all references to players on that card with the player of your choice.</text>
+</card>
+<card>
+ <name>Quinton Anon The Inciter of Violence</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_R_CMDR_2_001.png">pd</set>
+ <color>R</color>
+ <manacost>1RR</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Enigma Leader</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u>
+
+<p><b><i>As Commander</i> --</b> Combatants you control have <u>mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)</p>
+
+<p><b><i>As Asset</i> --</b> Mobs you control have +2/+2.</p></text>
+</card>
+<card>
+ <name>Marina Arigotti Femme Fatale</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RR_005_001.png">pd</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <cmc>4</cmc>
+ <type>R. Asset - Human Civilian Prostitute</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>(If you deploy or otherwise obtain another card with the same name as <i>Marina Arigotti, Femme Fatale</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can not be spent to deploy renowned cards.)
+
+<p>When <i>Marina Arigotti</i> enters the battlefield, choose a human to gain control of until she leaves the battlefield.</p></text>
+</card>
+<card>
+ <name>Armed Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_009_001.png">pd</set>
+ <color>R</color>
+ <manacost>1RR</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Civilian <u>Mob</u></type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)</text>
+</card>
+<card>
+ <name>Growing Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_010_001.png">pd</set>
+ <color>R</color>
+ <manacost>RR</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Civilian <u>Mob</u></type>
+ <pt>/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)
+
+<p><i>Growing Mob</i>'s attack power is equal to twice the number of cards named <i>Growing Mob</i> that have been deployed this game.</p></text>
+</card>
+<card>
+ <name>Angry Customer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_011_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Civilian</type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Angry Customer</i> enters the battlefield, it deals 3 damage to anything you choose.</text>
+</card>
+<card>
+ <name>Angry Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RC_013_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Civilian <u>Mob</u></type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)</text>
+</card>
+<card>
+ <name>Samuel Reid Political Dissident</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_O_CMDR_1_001.png">pd</set>
+ <color>O</color>
+ <manacost>OOO</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Augmented Delta Politician</type>
+ <pt>10/10</pt>
+ <related>Incarceration</related>
+ <tablerow>2</tablerow>
+ <text><p><u>Pierce</u> (<i>Samuel Reid</i> deals combat damage greater than the health of the assets intercepting it to the commander it is attacking and bypasses armor.), <u>Warrant</u> (When <i>Samuel Reid</i> enters the battlefield, shuffle an <i>'Incarceration'</i> into your deck.)</p>
+
+<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield, you may pay [1O], if you do it permanently gains <u>pierce</u> and ranged.</p></text>
+</card>
+<card>
+ <name>? Infiltrator</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OR_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>4OOO</manacost>
+ <cmc>7</cmc>
+ <type>R. Asset - Augmented Delta Operative</type>
+ <pt>13/13</pt>
+ <tablerow>2</tablerow>
+ <text>(If you deploy or otherwise obtain another card with the same name as <i>?, Infiltrator</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can not be spent to deploy renowned cards.)
+
+<p><u>Reckless</u> (<i>?</i> can't intercept.)</p>
+
+<p>After each opponent's first combat phase, you get a combat phase.</p></text>
+</card>
+<card>
+ <name>Inspiring Leadership</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OU_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect -  </type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Combatant [2OO]</u> (As you deploy a combatant you may reveal <i>Inspiring Leadership</i> and pay [2OO] if you do add this card's effects as it resolves.)
+
+<p>You may activate your commander's As Commander ability (ignoring any costs and timing/occurrence restrictions.)</p></text>
+</card>
+<card>
+ <name>Flakka Shot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OU_002_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Drug</type>
+ <tablerow>1</tablerow>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Flakka Shot</i>: Choose an asset to permanently get +3/+3 and <u>reckless</u> (The specified asset can't intercept.)</text>
+</card>
+<card>
+ <name>Delta Enforcer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OC_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Augmented Delta Operative</type>
+ <pt>3/3</pt>
+ <related>Bullet</related>
+ <tablerow>2</tablerow>
+ <text>Whenever <i>Delta Enforcer</i> deals combat damage to an opponent, create a <i>'Bullet'</i> on the battlefield.</text>
+</card>
+<card>
+ <name>Reckless Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OC_002_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Delta Recruit</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Reckless</u> (<i>Reckless Recruit</i> can't intercept.)</text>
+</card>
+<card>
+ <name>Fist Fight</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OC_003_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose two combatants to <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks.) eachother.</text>
+</card>
+<card>
+ <name>Sara Anthony Master of Disguise</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_O_CMDR_2_001.png">pd</set>
+ <color>O</color>
+ <manacost>3O</manacost>
+ <cmc>4</cmc>
+ <type>Commander - Augmented Delta Operative</type>
+ <pt>6/7</pt>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u>
+
+<p><b><i>As Commander</i> --</b> Once each game, at the beginning of your turn, you may choose a combatant to transform into a copy of another combatant with an equal or lesser <u>generalized cost</u>.</p>
+
+<p><b><i>As Asset</i> --</b> Sara Anthony may enter the battlefield as a copy of another combatant of your choice.</p></text>
+</card>
+<card>
+ <name>Ambush</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OR_005_001.png">pd</set>
+ <color>O</color>
+ <manacost>XO</manacost>
+ <cmc>2</cmc>
+ <type>R. Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can not be spent to deploy renowned cards.)
+
+<p>Choose a combatant in your hand with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Delta Operative has a generalized cost of [2].) [X] or less to put into play intercepting an attacking combatant of your choice an opponent controls.</p></text>
+</card>
+<card>
+ <name>Lurking Operative</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OU_009_001.png">pd</set>
+ <color>O</color>
+ <manacost>OO</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Delta Operative <u>Response</u></type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Response</u> (<i>Lurking Operative</i> can be deployed during response phases.)
+
+<p><i>Lurking Operative</i> can intercept as soon as it is deployed.</p></text>
+</card>
+<card>
+ <name>Delta Operative</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OC_013_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Delta Operative</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>A.L.I.V.E First Responder</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_Y_CMDR_1_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3YY</manacost>
+ <cmc>5</cmc>
+ <type>Commander - AI Police Medic</type>
+ <related>Emergency Defibrillator</related>
+ <related>Emergency Defibrillator</related>
+ <tablerow>1</tablerow>
+ <text><p><i>A.L.I.V.E</i> isn't renowned.</p>
+
+<p><b><i>As Commander</i> --</b> At the beginning of each turn, <i>A.L.I.V.E</i> gains 1 loyalty.</p>
+
+<p><b><i>As Asset</i> --</b> Each time your commander loses <u>X</u> (X is 1/5 your commander's starting loyalty) loyalty, create an <i>'Emergency Defibrillator'</i> in your hand. If <i>A.L.I.V.E</i> is inside a vehicle, instead create an <i>'Emergency Defibrillator'</i> whenever your commander loses loses loyalty.</p></text>
+</card>
+<card>
+ <name>? Anti-Riot Bulwark</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YR_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2YYY</manacost>
+ <cmc>5</cmc>
+ <type>R. Asset - Human Police Leader</type>
+ <pt>2/10</pt>
+ <tablerow>2</tablerow>
+ <text><p>When <i>?</i> enters the battlefield or attacks, until end of turn, all other assets you control gain <u>shield</u> (Prevent the next instance of damage or health reduction exaLink Defense Drone would receive. Once damage or health reduction has been prevented this way, exaLink Defense Drone loses Shield.)</p></text>
+</card>
+<card>
+ <name>Inspiring Sergeant</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YR_002_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2YY</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Human Police Leader</type>
+ <pt>7/5</pt>
+ <tablerow>2</tablerow>
+ <text>Police assets you control have your choice of +2/+0 or +0/+2 (you choose as <i>Inspiring Sergeant</i> enters the battlefield.)</text>
+</card>
+<card>
+ <name>Hand of A.L.I.V.E</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YU_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - <u>Vehicle</u> Ambulance</type>
+ <pt>7/7</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>Hand of A.L.I.V.E</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)
+
+<p>If your commander would gain loyalty, it gains an additional 1 loyalty.</p>
+
+<p>If an asset would be healed, it is additionally healed 1.</p></text>
+</card>
+<card>
+ <name>Patrolman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Police</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>? Anti-Trafficker</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_Y_CMDR_2_001.png">pd</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Commander - Human Civilian Investigator</type>
+ <pt>1/1</pt>
+ <related>Tip</related>
+ <related>Tip</related>
+ <related>Tip</related>
+ <tablerow>2</tablerow>
+ <text><p>Whenever a Child or Civilian intercepts or <u>dies</u> (Enters a discard from the battlefield), shuffle a <i>'Tip'</i> into your deck (only create one <i>'Tip'</i> if it died while intercepting.)</p>
+
+<p><b><i>As Asset</i> --</b> Whenever you deploy a Clue, until end of turn, combatants you control can't be chosen by cards with the energy type of your choice.</p></text>
+</card>
+<card>
+ <name>Underworld Investigator</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_013_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Civilian Investigator</type>
+ <pt>4/4</pt>
+ <related>Tip</related>
+ <related>Tip</related>
+ <tablerow>2</tablerow>
+ <text>When <i>Underworld Investigator</i> <u>dies</u> (Enters a discard from the battlefield), shuffle a <i>'Tip'</i> into your deck.</text>
+</card>
+<card>
+ <name>First Aid</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_014_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose one --
+-> Your commander gains 3 loyalty.
+-> Choose an asset to <u>Heal 3</u> (If the specified asset has permanent attack power or health reductions, reduce them by 3. Otherwise remove 3 damage from it.)</text>
+</card>
+<card>
+ <name>Scared Child</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_015_001.png">pd</set>
+ <color>Y</color>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Asset - Human Child</type>
+ <pt>0/1</pt>
+ <tablerow>2</tablerow>
+ <text><i>Scared Child</i> can't attack or intercept.</text>
+</card>
+<card>
+ <name>L.O.K.I.O Logistics AI</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_G_CMDR_1_001.png">pd</set>
+ <color>G</color>
+ <manacost>2GG</manacost>
+ <cmc>4</cmc>
+ <type>Commander - AI Advisor</type>
+ <related>Unstable Battery</related>
+ <tablerow>1</tablerow>
+ <text><b><i>As Commander</i> --</b> Whenever you have the option to hire a card as a generator, you may instead return a generator you control to your hand.
+
+<p><b><i>As Asset</i> --</b> If energy would drain from your bank, instead create an <i>'Unstable Battery'</i> in your hand.
+If <i>L.O.K.I.O</i> is inside a vehicle it gains, "[T]: Choose an asset to exhaust or refresh."</p></text>
+</card>
+<card>
+ <name>Bottom of the Bin</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_001_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Effect -  </type>
+ <tablerow>3</tablerow>
+ <text>Put the bottom two cards of your deck into your hand.</text>
+</card>
+<card>
+ <name>Warehouse Guard</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GC_001_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Civilian Guard</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>? PMC Commander</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_G_CMDR_2_001.png">pd</set>
+ <color>G</color>
+ <manacost>3GGG</manacost>
+ <cmc>6</cmc>
+ <type>Commander - Human Leader</type>
+ <pt>10/10</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 5</u> (Damage dealt to <i>?</i> by any source is reduced by 5. Whenever damage is reduced this way, <i>?</i>'s armor is reduced by 1.)
+
+<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, it permanently gains <u>armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
+
+<p><b><i>As Asset</i> --</b> [G], [T]: Choose a combatant to have its armor repaired to its original maximum.</p></text>
+</card>
+<card>
+ <name>Daring Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GR_005_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Soldier</type>
+ <pt>5/5</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever a combatant enters the battlefield, <i>Daring Recruit</i> may <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks.) that asset.</text>
+</card>
+<card>
+ <name>Battlefield Promotion</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_009_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset to permanently get +2/+0 and <u>armor 2</u> (Damage dealt to <i>Battlefield Promotion</i> by any source is reduced by 3. Whenever damage is reduced this way, <i>Battlefield Promotion</i>'s armor is reduced by 1.)</text>
+</card>
+<card>
+ <name>Equipment Upgrades</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_010_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Effect -  </type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset to have its armor repaired to its original maximum and then doubled.</text>
+</card>
+<card>
+ <name>Duel in the Barracks</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_011_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant you control to <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks.) an asset of your choice you don't control.</text>
+</card>
+<card>
+ <name>PMC Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GC_013_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Recruit</type>
+ <pt>4/1</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 4</u> (Damage dealt to <i>PMC Recruit</i> by any source is reduced by 4. Whenever damage is reduced this way, <i>PMC Recruit</i>'s armor is reduced by 1.)</text>
+</card>
+<card>
+ <name>Adrenaline Injection</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GC_014_001.png">pd</set>
+ <color>G</color>
+ <manacost>G</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Drug</type>
+ <tablerow>1</tablerow>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Adrenaline Injection</i>: Choose an asset to get +4/+4 until end of turn.</text>
+</card>
+<card>
+ <name>The Director</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_B_CMDR_1_001.png">pd</set>
+ <color>B</color>
+ <manacost>BBB</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Enigma</type>
+ <tablerow>1</tablerow>
+ <text>At the beginning of each other player's turn they reveal a non-revealed card from their hand.
+
+<p><b><i>As Asset</i> --</b> Whenever an opponent reveals any number of non-revealed cards in their hand, draw a card.</p></text>
+</card>
+<card>
+ <name>exaLink's Flagship</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BU_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>1BB</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Augmentation Link</type>
+ <tablerow>1</tablerow>
+ <text><p>When exaLink's Flagship enters the battlefield, choose a commander to attach it to.</p>
+
+<p>The attached commander's controller plays with their hand revealed. Whenever they draw a card, you may draw a card.</p></text>
+</card>
+<card>
+ <name>Curfew</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BU_002_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect -  </type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Effect [YB]</u> (As you deploy an effect you may reveal <i>Curfew</i> and pay [YB] if you do add this card's effects as it resolves.)
+
+<p>Choose an asset to return to its owner's hand.</p></text>
+</card>
+<card>
+ <name>Plan</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BC_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Look at the top three cards of your deck, draw one of them, then put the rest back on top in any order.
+
+<p>You may pay an additional [2B] as you deploy <i>Plan</i>, if you do choose an asset to return to its owner's hand, it looses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
+</card>
+<card>
+ <name>Intelligence Agent</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BC_002_001.png">pd</set>
+ <color>B</color>
+ <manacost>1B</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Spy</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Sara Anthony Cyber Criminal</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_B_CMDR_2_001.png">pd</set>
+ <color>B</color>
+ <manacost>1B</manacost>
+ <cmc>2</cmc>
+ <type>Commander - Human Child Hacker</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u> (When <i>Sara Anthony</i> enters the battlefield, shuffle an 'Incarceration' into your deck.)
+
+<p><b><i>As Commander</i> --</b> Your maximum hand size is doubled (this applies after any fixed additions or subtractions.)</p>
+
+<p><b><i>As Asset</i> --</b> Whenever you resolve a Virus, choose an effect in your hand to have its cost permanently reduced by [1].</p></text>
+</card>
+<card>
+ <name>Governmental Reeducation</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BR_005_001.png">pd</set>
+ <color>B</color>
+ <manacost>4BB</manacost>
+ <cmc>6</cmc>
+ <type>Asset - Equipment Link</type>
+ <related>Doubt</related>
+ <tablerow>1</tablerow>
+ <text><u>Doubt 2</u> (When you deploy <i>Governmental Reeducation</i>, shuffle two 'Doubt's into your deck.)
+
+<p>When <i>Governmental Reeducation</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>You control the attached asset.</p></text>
+</card>
+<card>
+ <name>Hack</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BU_009_001.png">pd</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Virus <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text><u>Card Hack</u> (Choose a card on the stack to send to its owner's discard, none of its effects happen.), that card's owner looks at the top 4 cards of their deck and draws one of them.</text>
+</card>
+<card>
+ <name>High Profile SQL Injection</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BU_010_001.png">pd</set>
+ <color>B</color>
+ <manacost>3B</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Virus</type>
+ <tablerow>3</tablerow>
+ <text>Choose an opponent, to choose a card in their hand to shuffle into your deck.</text>
+</card>
+<card>
+ <name>Jonathan Arrigotti Sara's Partner in Crime</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_BU_011_001.png">pd</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <cmc>2</cmc>
+ <type>R. Asset - Human Child Hacker</type>
+ <pt>2/2</pt>
+ <related>High Profile SQL Injection</related>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u> (When <i>Jonathan Arrigotti</i> enters the battlefield, shuffle an 'Incarceration' into your deck.)
+
+<p><i>Jonathan Arrigotti</i> can't be intercepted.</p>
+
+<p>Whenever <i>Jonathan Arrigotti</i> enters the battlefield or deals combat damage to an opponent, shuffle a <i>'High Profile SQL Injection'</i> into your deck.</p></text>
+</card>
+<card>
+ <name>Lexi "Lux" Xenos Pirate Captain</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_P_CMDR_1_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Human Pirate Leader</type>
+ <pt>4/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u>
+
+<p><b><i>As Commander</i> --</b> Whenever an asset you don't control leaves the battlefield, you may look at the top two cards of your deck and put any number of them on the bottom.</p>
+
+<p><b><i>As Asset</i> --</b> Whenever Lexi Xenos deals combat damage to a commander, put the top two cards of the commander's owner's deck under Lexi Xenos. You may deploy these cards as if they were in your hand.</p></text>
+</card>
+<card>
+ <name>Cristina Gilca Pirate Technician</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PR_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>R. Asset - Augmented Pirate Engineer</type>
+ <pt>2/8</pt>
+ <related>Prototype Tractor Beam</related>
+ <tablerow>2</tablerow>
+ <text><u>Warrant</u> (When <i>Cristina Gilca</i> enters the battlefield, shuffle an 'Incarceration' into your deck.)
+
+<p>Whenever you gain control of an asset an opponent controls, shuffle a <i>Prototype Tractor Beam'</i> into your deck.</p></text>
+</card>
+<card>
+ <name>Prototype Tractor Beam</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PR_002_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>R. Asset - Equipment</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Prototype Tractor Beam</i> enters the battlefield, attach it to target combatant.
+
+<p>The attached asset gains <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.), ranged, and "whenever this asset deals combat damage to a commander, gain control of an asset that commander's controller controls with <u>generalized cost</u> less than or equal to this asset's attack power, then <u>forfeit</u> <i>Prototype Tractor Beam</i>."</p></text>
+</card>
+<card>
+ <name>Cripple</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PU_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset to permanently gain <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.) and -6/-6.</text>
+</card>
+<card>
+ <name>Interceptor</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PU_002_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Asset - <u>Vehicle</u> <u>Spacecraft</u></type>
+ <pt>5/1</pt>
+ <related>Prototype Tractor Beam</related>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>Interceptor</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with Spacecraft.)
+
+<p>When <i>Interceptor</i> enters the battlefield, you may attach a <i>'Prototype Tractor Beam'</i> you control to it.</p></text>
+</card>
+<card>
+ <name>Lux's Crewman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PC_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Pirate</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Bing Du Zhe Unhinged Researcher</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_P_CMDR_2_001.png">pd</set>
+ <color>P</color>
+ <manacost>2PP</manacost>
+ <cmc>4</cmc>
+ <type>Commander - Augmented Civilian Scientist</type>
+ <pt>7/7</pt>
+ <related>Doubt</related>
+ <tablerow>2</tablerow>
+ <text><u>Doubt 2</u>
+
+<p><b><i>As Commander</i> --</b> At the beginning of your turn, if you have no cards in hand, draw an additional card then <i>Bing Du Zhe</i> loses one loyalty.</p>
+
+<p><b><i>As Asset</i> --</b> <u>Forfeit X</u> (X is the generalized cost of the card to be returned.) non-<u>Transient</u> assets you control which share a type with an asset of your choice in your discard: Return that asset from your discard to the battlefield, it becomes an Augmented Mutant.</p></text>
+</card>
+<card>
+ <name>Mortal Reaction</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PU_009_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Experiment</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Experiment [PP]</u> (As you deploy a card with experiment you may reveal <i>Mortal Reaction</i> and pay [PP]. If you do, add this card's effects as it resolves.)
+
+<p>Choose a combatant, and activate any of its on death abilities.</p></text>
+</card>
+<card>
+ <name>Stockholm Experiment</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PU_010_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Experiment</type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset to permanently get -3/-3.
+
+<p>Your commander gains 3 loyalty.</p></text>
+</card>
+<card>
+ <name>Test Subject</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PC_013_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Mutant Subject</type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>At the beginning of your turn, <i>Test Subject</i> permanently gets +1/+1.</text>
+</card>
+<card>
+ <name>P.O.T.U.S</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CR_001_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>R. Asset - Human Civilian Leader</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><p>If <i>P.O.T.U.S</i> is in your opening hand, you may reveal it. If you do, you go first (If both players reveal <i>P.O.T.U.S</i>, the player who was to go first previously goes first as normal.)</p></text>
+</card>
+<card>
+ <name>Power Grid</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CR_002_001.png">pd</set>
+ <manacost> </manacost>
+ <cmc>0</cmc>
+ <type>Generator -  </type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Power Grid</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>[T]: Add <u>[X]</u> ([X] is the number cards named <i>Power Grid</i> on the battlefield.) to your energy bank.</p></text>
+</card>
+<card>
+ <name>Execution</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CR_003_001.png">pd</set>
+ <manacost>7</manacost>
+ <cmc>7</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant to kill.</text>
+</card>
+<card>
+ <name>Public Transportation</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_001_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Asset - <u>Vehicle</u></type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text><p><u>Vehicle</u> (When <i>Public Transportation</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Rush</u> (<i>Public Transportation</i> can attack and intercept as soon as it enters the battlefield, but it can't be explicitly exhausted.)</p></text>
+</card>
+<card>
+ <name>Standard Issue Big Gun</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_002_001.png">pd</set>
+ <manacost>4</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Equipment Gun</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Standard Issue Big Gun</i>'s cost, if you do choose another asset to attach it to.)
+
+<p>When <i>Standard Issue Big Gun</i> enters the battlefield, choose an asset to attach it to.</p>
+
+<p>Attached asset gets +6/-4, ranged, and "Whenever this asset kills a combatant deal 1 damage to each intercepting combatant the killed asset's owner controls."</p></text>
+</card>
+<card>
+ <name>Space Shuttle</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_003_001.png">pd</set>
+ <manacost>5</manacost>
+ <cmc>5</cmc>
+ <type>Asset - <u>Vehicle</u> <u>Spacecraft</u></type>
+ <pt>8/8</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>Space Shuttle</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with Spacecraft.)</text>
+</card>
+<card>
+ <name>New Hire Welcoming Party</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_005_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Passive</type>
+ <tablerow>3</tablerow>
+ <text>(Passive Effects remain on the battlefield once they resolve.)
+
+<p>Whenever a combatant enters the battlefield, you may attach <i>New Hire Welcoming Party</i> to it.</p>
+
+<p>Whenever you hire a card as a generator, until end of turn, attached asset gets +2/+2.</p></text>
+</card>
+<card>
+ <name>Business Laptop</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_006_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Laptop</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Business Laptop</i>'s cost, if you do choose another asset to attach it to.)
+
+<p>When <i>Business Laptop</i> enters the battlefield, choose an asset to attach it to.</p>
+
+<p>Whenever the attached asset deals combat damage to a commander, draw a card.</p></text>
+</card>
+<card>
+ <name>Release the Quacken!</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CC_001_001.png">pd</set>
+ <manacost>X</manacost>
+ <cmc>1</cmc>
+ <type>Effect -  </type>
+ <related>Duck</related>
+ <tablerow>3</tablerow>
+ <text>Create [X] <i>'Duck'</i>s on the battlefield.</text>
+</card>
+<card>
+ <name>Hit em' With The Butt-End</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CC_002_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Effect - <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text>Choose anything for <i>Hit em' With The Butt-End</i> to deal 1 damage to, if it would die as a result draw a card.</text>
+</card>
+<card>
+ <name>Economic Suicide</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PU_017_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose two (you may choose the same mode more than once)
+-> Your commander loses half its loyalty.
+-> Discard half of the cards in your hand.
+-> <u>Forfeit</u> (Put the specified asset into its owner's discard.) half of the assets you control.</text>
+</card>
+<card>
+ <name>Battle Angel</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RC_025_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Augmented Gladiator</type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Brutal</u> (<i>Battle Angel</i> deals combat damage before assets without brutal.), <u>Rush</u> (<i>Battle Angel</i> can attack and intercept as soon as it enters the battlefield, but it can't be explicitly exhausted.)</text>
+</card>
+<card>
+ <name>Burn the Ring</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_017_001.png">pd</set>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Style <u>Response</u></type>
+ <tablerow>3</tablerow>
+ <text><i>Burn the Ring</i> costs [1] less to deploy if you didn't go first.
+
+<p><i>Burn the Ring</i> deals 5 damage split between one or two targets of your choice.</p></text>
+</card>
+<card>
+ <name>Unhinged Pyromaniac</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RR_009_001.png">pd</set>
+ <color>M</color>
+ <manacost>2RP</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented Gladiator</type>
+ <tablerow>1</tablerow>
+ <text>Effects you control have <u>permanence</u> (Damage they deal permanently reduces the health of the assets which they damage.)</text>
+</card>
+<card>
+ <name>Compromised Firewall</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_0_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>1B</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Transient Response</type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><u>Effect Hack</u> (Choose an effect on the stack and send it to its owner's discard, none of its effects happen.), unless it's owner pays [2].
+
+<p>If the effect isn't hacked, you may look at the top <u>X</u> (X is 1/2 the generalized cost of the effect to be hacked, rounded up.) cards of your deck and put any number of them on the bottom.</p></text>
+</card>
+<card>
+ <name>Fellow Officer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_0_004_001.png">pd</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Transient Human Police</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <text><i><span foreground='#FF34343A'>"Now they make fun of me for getting covered in <b>REDACTED</b>."</span></i></text>
+</card>
+<card>
+ <name>Squandered Tax Money</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_0_005_001.png">pd</set>
+ <color>Y</color>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Effect - Transient Response</type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text><p>Add one energy of any type to your energy pool.</p>
+
+<p>Discard <i>Squandered Tax Money</i> at the beginning of your turn.</p></text>
+</card>
+<card>
+ <name>Stargate Project Office</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BBG_001.png">pd</set>
+ <color>B</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Information</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Stargate Project Office</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>Stargate Project Office</i>s in it.)</p>
+
+<p>[T]: Add [B] to your energy bank (You may activate this ability the turn you hire <i>Stargate Project Office</i>.)</p></text>
+</card>
+<card>
+ <name>RT_BC_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Effect Hack</u> (Choose an effect on the stack and send it to its owner's discard, none of its effects happen.), unless its controller pays <u>[X]</u> ([X] is 1 plus the number of cards named <i>RT_BC_001</i> that have been deployed this game.)</text>
+</card>
+<card>
+ <name>Overwatch</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_002_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose an opponent to reveal their hand.
+
+<p>That opponent's maximum hand size is reduced by one until the start of your next turn.</p></text>
+</card>
+<card>
+ <name>Refund</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_003_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><u>Exchange [1]</u> (Pay [1], Discard this card from your hand: Draw a card.)
+
+<p>Choose an asset to return to its owner's hand, it looses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
+</card>
+<card>
+ <name>Paralyzer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_004_001.png">pd</set>
+ <color>B</color>
+ <manacost>2B</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Link</type>
+ <tablerow>1</tablerow>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Paralyzer</i>: Choose a combatant to return to its owner's hand, it looses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</text>
+</card>
+<card>
+ <name>Interrogate</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_007_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a player to reveal a non-revealed card in their hand. If they can't you draw a card.</text>
+</card>
+<card>
+ <name>Reverse Engineered Design</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_008_001.png">pd</set>
+ <color>B</color>
+ <manacost>1BB</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a non-Human asset on the battlefield, create a copy of it.</text>
+</card>
+<card>
+ <name>Scout Drone</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_009_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Drone Spy</type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text><p>(A deck may have any number of Scout Drones in it.)</p>
+
+<p><u>Flying</u> (Scout Drone can only be intercepted by assets with flying or anti-air.)</p></text>
+</card>
+<card>
+ <name>Their Password was 'password'</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_010_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a card to <u>hack</u> (Send the specified card to its owner's discard, none of its effects happen.) with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Their Password was 'password' has a generalized cost of [1].) [2] or less.</text>
+</card>
+<card>
+ <name>Plainclothesman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_011_001.png">pd</set>
+ <color>B</color>
+ <manacost>1B</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Police</type>
+ <pt>3/4</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Evasive Fugitive</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BC_012_001.png">pd</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Criminal</type>
+ <pt>3/4</pt>
+ <tablerow>2</tablerow>
+ <text><i>Evasive Fugitive</i> can't be intercepted.</text>
+</card>
+<card>
+ <name>Stargate Project Access Point</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BR_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>1BB</manacost>
+ <cmc>3</cmc>
+ <type>Asset - AI Spy</type>
+ <tablerow>1</tablerow>
+ <text>Whenever an opponent reveals any number of non-revealed cards in their hand, draw a card.</text>
+</card>
+<card>
+ <name>Confused Loyalties</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BR_003_001.png">pd</set>
+ <color>B</color>
+ <manacost>4BBB</manacost>
+ <cmc>7</cmc>
+ <type>Effect</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 2</u> (When you deploy <i>Confused Loyalties</i>, shuffle two 'Doubt's into your deck.)
+
+<p>Choose two players, swap control of all assets they control.</p></text>
+</card>
+<card>
+ <name>Security Loophole</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BR_004_001.png">pd</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose an effect in your discard, you may deploy that card. If you do, remove it from the game.</text>
+</card>
+<card>
+ <name>Construct Digital Profile</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BR_005_001.png">pd</set>
+ <color>B</color>
+ <manacost>2BB</manacost>
+ <cmc>4</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a player to reveal their hand.
+
+<p>You may discard any number of cards in your hand, then draw that many cards.</p></text>
+</card>
+<card>
+ <name>Wait and Observe</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BR_006_001.png">pd</set>
+ <color>B</color>
+ <manacost>XB</manacost>
+ <cmc>2</cmc>
+ <type>R. Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Look at the top [X] cards of your deck, you may put any number of them on the bottom, then draw [X] cards.</p></text>
+</card>
+<card>
+ <name>RT_BU_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>1BB</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>RT_BU_001</i> costs [1] less to deploy if you didn't go first.
+
+<p><u>Hack</u> (Choose a card or ability on the stack to send to its owner's discard, none of its effects happen.)</p></text>
+</card>
+<card>
+ <name>Linked Intelligence</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_003_001.png">pd</set>
+ <color>B</color>
+ <manacost>XB</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Response [XXBB]</u> (As you deploy a card with Response you may reveal Linked Intelligence and pay [XXBB] if you do add this card's effects as it resolves.)
+
+<p>Look at the top [X] cards of your deck, draw a number of them equal to the number of Link cards on the battlefield, put the rest back in any order.</p></text>
+</card>
+<card>
+ <name>Intelligence Intern</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_004_001.png">pd</set>
+ <color>B</color>
+ <manacost>2B</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Intern</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Firewall</u> (Intelligence Intern can't be chosen.), <u>Quick Hire</u> (When <i>Intelligence Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+
+<p>[T]: Add [B].</p>
+
+<p>[2BB], [T]: Choose a player to reveal the top three cards of their deck, they then put them back in any order.</p></text>
+</card>
+<card>
+ <name>Reconnaissance Satellite</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_005_001.png">pd</set>
+ <color>B</color>
+ <manacost>BBB</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Spacecraft</type>
+ <pt>4/4</pt>
+ <related>Plan</related>
+ <tablerow>2</tablerow>
+ <text><u>Spacecraft</u> (<i>Reconnaissance Satellite</i> can only intercept or be intercepted by assets with spacecraft.)
+
+When <i>Reconnaissance Satellite</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>'Plan'</i> in your hand.</text>
+</card>
+<card>
+ <name>Eminent Domain</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_006_001.png">pd</set>
+ <color>B</color>
+ <manacost>2B</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 1</u> (When you deploy <i>Eminent Domain</i>, shuffle a 'Doubt' into your deck.)
+
+<p>Choose an asset, then return all assets with the same name to their owners' hands.</p>
+
+<p>Draw a card.</p></text>
+</card>
+<card>
+ <name>Incremental Advantage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_008_001.png">pd</set>
+ <color>B</color>
+ <manacost>BB</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Look at the top five cards of your deck. Draw <u>X</u> (X is one plus the number of times Incremental Advantage has been deployed this game, maximum of five.) of them, then put the rest back in any order.</text>
+</card>
+<card>
+ <name>Remembrance</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_009_001.png">pd</set>
+ <color>B</color>
+ <manacost>1BB</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Chose an effect on the stack, you may deploy a copy of that effect without paying its mana cost.</text>
+</card>
+<card>
+ <name>RT_BU_010</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_010_001.png">pd</set>
+ <color>B</color>
+ <manacost>2BB</manacost>
+ <cmc>4</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Card Hack</u> (Choose a card on the stack to send to its owner's discard, none of its effects happen.)
+
+<p>Look at the top four cards of your deck, then put them back in any order.</p></text>
+</card>
+<card>
+ <name>Quadcopter</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_011_001.png">pd</set>
+ <color>B</color>
+ <manacost>3B</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Vehicle Quadcopter</type>
+ <pt>8/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Flying</u> (<i>Quadcopter</i> can only be intercepted by assets with flying or anti-air.), <u>Vehicle</u> (When <i>Quadcopter</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Patriot Blocker</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_001_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Link</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Patriot Blocker</i> enters the battlefield, choose a combatant to attach it to.
+
+<p>Attached asset has <u>firewall</u> (It can't be chosen.)</p></text>
+</card>
+<card>
+ <name>Lunar Citizen</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_002_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Astronaut</type>
+ <pt>2/3</pt>
+ <tablerow>2</tablerow>
+ <text><i><span foreground='#FF34343A'>"Out here you have to be tough to survive kiddo."</span></i></text>
+</card>
+<card>
+ <name>Shuffle</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_003_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a player to shuffle their deck.
+
+<p>Draw a card.</p></text>
+</card>
+<card>
+ <name>Antique Sherman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_004_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Vehicle Tank</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>Antique Sherman</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Hit em' With the Butt End</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_005_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Style</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant, <i>Hit em' With the Butt End</i> deals 1 damage to it.
+
+<p>If <i>Hit em' With the Butt End</i> kills that asset, draw a card.</p></text>
+</card>
+<card>
+ <name>Explorer Drone</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CC_006_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Drone</type>
+ <pt>1/3</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Explorer Drone</i> dies, draw a card.</text>
+</card>
+<card>
+ <name>Head of State</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CR_002_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Politician</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Firewall</u> (<i>Head of State</i> can't be chosen.)
+
+<p>If <i>Head of State</i> is in your opening hand, you may reveal it. If you do, you go first (If both players reveal <i>Head of State</i>, the player who was to go first previously goes first as normal.)</p></text>
+</card>
+<card>
+ <name>Full Dive</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CR_003_001.png">pd</set>
+ <manacost>10</manacost>
+ <cmc>10</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a player to control during their next turn.</text>
+</card>
+<card>
+ <name>Lunar Water Reserves</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CR_004_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Discovery</type>
+ <related>Explorer Drone</related>
+ <tablerow>3</tablerow>
+ <text>(Discoveries remain on the battlefield indefinitely. When <i>Lunar Water Reserves</i> enters the battlefield or at the beginning of your turn progress to the next phase unless the final phase has been reached.)
+
+<p><span foreground='#FF44444A'><i>1-4)</i></span> Create <u>X</u> (X is the number of turns <i>Lunar Water Reserves</i> has been on the battlefield) <i>'Explorer Drone'</i>s in your hand.</p>
+
+<p><span foreground='#FF44444A'><i>Final)</i></span> At the beginning of each turn, your commander gains 1 loyalty.</p></text>
+</card>
+<card>
+ <name>Contrived Accusations</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CU_001_001.png">pd</set>
+ <manacost>1</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant, remove it from the game unless its controller pays [2].
+
+<p>If they pay the cost shuffle a <i>'Doubt'</i> into your deck.</p></text>
+</card>
+<card>
+ <name>Crash Landing</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CU_002_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>All assets loose unbreakable until end of turn.
+
+<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) an asset you control: Choose a combatant or commander, <i>Crash Landing</i> deals X (X is the discarded asset's attack power.) damage to it.</p></text>
+</card>
+<card>
+ <name>Irradiated Monstrosity</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CU_003_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Mutant</type>
+ <pt>6/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Irradiated Monstrosity</i> deals permanently reduces the attack power and health of the assets which it damages.)
+
+<p>Irradiated Monstrosity enters the battlefield exhausted.</p></text>
+</card>
+<card>
+ <name>Model 700</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_CU_008_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Gun</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Model 700</i>'s cost, if you do choose another combatant to attach it to.)
+
+<p>When <i>Model 700</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached asset gets +4/-1, <u>pierce</u> (Attached asset deals combat damage greater than the health of the assets intercepting it to the commander it is attacking and bypasses armor.), and ranged.</p></text>
+</card>
+<card>
+ <name>L.O.K.I.O Storehouse Manager</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_G_CMDR_001_001.png">pd</set>
+ <color>G</color>
+ <manacost>3GG</manacost>
+ <cmc>5</cmc>
+ <type>Commander - AI Advisor</type>
+ <related>Unstable Battery</related>
+ <tablerow>1</tablerow>
+ <text><i>As Commander</i> -- At the end of each turn you didn't hire a card as a generator, you may choose a generator you control to return to your hand.
+
+<p><i>As Asset</i> -- If energy would drain from your bank, instead create an <b><i>'Unstable Battery'</i></b> in your hand.</p>
+
+<p>[T]: Choose another asset to Exhaust or Refresh.</p></text>
+</card>
+<card>
+ <name>G_CMDR_002 Private Armorer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_G_CMDR_002_001.png">pd</set>
+ <color>G</color>
+ <manacost>1GGG</manacost>
+ <cmc>4</cmc>
+ <type>Commander - Augmented General</type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander/Asset</i> -- Combatants you control gain <u>armor X</u> (X is 1/4 the number of generators you control, rounded up. Damage dealt to them by any source is reduced by X. Whenever damage is reduced this way, that combatant's armor is reduced by one.) when they enter the battlefield
+
+<p><i>As Asset</i> -- [4G], [T]: Choose an asset, repair its armor to its original value.</p></text>
+</card>
+<card>
+ <name>Agricultural Tower</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GBG_001.png">pd</set>
+ <color>G</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Vitality</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Agricultural Tower</i> whenever you have the option to hire generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>Agricultural Tower</i>s in it.)</p>
+
+<p>[T]: Add [G] to your energy bank (You may activate this ability the turn you hire <i>Agricultural Tower</i>.)</p></text>
+</card>
+<card>
+ <name>RT_GC_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_001_001.png">pd</set>
+ <color>G</color>
+ <manacost>G</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant, until end of turn it gets <u>+Y/+X</u>  (X is 1 plus the number of cards named <i>RT_GC_001</i> that have been deployed this game. Y is half of X, rounded up.)</text>
+</card>
+<card>
+ <name>RT_GC_002</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_002_001.png">pd</set>
+ <color>G</color>
+ <manacost>G</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset you control to <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks.) an asset an opponent controls unless they pay [2].</text>
+</card>
+<card>
+ <name>Anti-Air Cannon</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_003_001.png">pd</set>
+ <color>G</color>
+ <manacost>3G</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Vehicle</type>
+ <pt>6/8</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>Anti-Air Cannon</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Anti-Air</u> (<i>Anti-Air Cannon</i> can intercept assets with flying.)</text>
+</card>
+<card>
+ <name>Generator Guard</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_004_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Drone Guard</type>
+ <pt>2/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 3</u> (Damage dealt to them by any source is reduced by three. Whenever damage is reduced this way, that combatant's armor is reduced by one.)
+
+<p>Generators you control have <u>unbreakable</u> (They can't be killed.)</p></text>
+</card>
+<card>
+ <name>Generator Tuner</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_005_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - AI Technician</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Generator Tuner</i> enters the battlefield, choose a generator to attach it to.
+
+<p>Attached generator gains "[T]: Add <u>X</u> (X is the number of generators you control that share a name with attached generator.) energy of this card's type."</p></text>
+</card>
+<card>
+ <name>Incremental Design</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_006_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset to permanently gain <u>armor X</u> (X is 2 times 1 plus the number of times <i>Incremental Design</i> has been deployed this game [2 * (1 + X)]. Damage dealt to that asset by any source is reduced by X. Whenever damage is reduced this way, that asset's armor is reduced by one.)</text>
+</card>
+<card>
+ <name>Measure Reserves</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_007_001.png">pd</set>
+ <color>G</color>
+ <manacost>GG</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Look at the top 5 cards of your deck, put a card from among them into your hand, then put the rest on the bottom of your deck.</text>
+</card>
+<card>
+ <name>Resource Reclamation</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_008_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a generator to return to its owner's hand.</text>
+</card>
+<card>
+ <name>Survivalist</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_009_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Soldier</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Challenge</u> (Whenever <i>Survivalist</i> attacks, choose another combatant to intercept it.)</text>
+</card>
+<card>
+ <name>exaLink GC010</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GC_010_001.png">pd</set>
+ <color>G</color>
+ <manacost>GG</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Drone Soldier</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 3</u> (Damage dealt to <i>exaLink GC010</i> by any source is reduced by three. Whenever damage is reduced this way, <i>exaLink GC010</i>'s armor is reduced by one.)</text>
+</card>
+<card>
+ <name>Reuse</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GR_002_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a card in your discard to return to your hand.</text>
+</card>
+<card>
+ <name>Welcoming Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GR_004_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Soldier Intern</type>
+ <pt>1/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 2</u> (Damage dealt to <i>Welcoming Recruit</i> by any source is reduced by one. Whenever damage is reduced this way, <i>Welcoming Recruit</i>'s armor is reduced by one.)
+
+<p>Whenever you hire a card as a generator, add one energy of any type to your energy bank.</p></text>
+</card>
+<card>
+ <name>Peace in Troubled Times</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GR_003_001.png">pd</set>
+ <color>G</color>
+ <manacost>3GGG</manacost>
+ <cmc>6</cmc>
+ <type>R. Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Each commander's loyalty returns to their starting loyalty.</p>
+
+<p>Prevent all damage that would be dealt this turn.</p></text>
+</card>
+<card>
+ <name>Medical Expenses</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GR_011_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Tax</type>
+ <tablerow>3</tablerow>
+ <text><u>Tax</u> (When Healthcare Fees resolves, if it is not a copy, copy it for each other card and trigger on the stack.)
+
+<p>Your commander gains 4 loyalty.</p></text>
+</card>
+<card>
+ <name>Abundant Harvest</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_001_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>Abundant Harvest</i> costs [1] less to deploy if you didn't go first.
+
+<p>Search your deck for a card, you may hire that card as a generator, then shuffle your deck.</p></text>
+</card>
+<card>
+ <name>Planned Expansion</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_002_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><u>Exchange [1]</u> (Pay [1], Discard this card from your hand: Draw a card.)
+
+<p>Look at the top card of your deck, you may put it into your hand.</p>
+
+<p>You may hire a card as a generator.</p></text>
+</card>
+<card>
+ <name>Agricultural Intern</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_003_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Farmer Intern</type>
+ <pt>3/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 3</u> (Damage dealt to <i>Agricultural Intern</i> by any source is reduced by three. Whenever damage is reduced this way, <i>Agricultural Intern</i>'s armor is reduced by one.), <u>Quick Hire</u> (When <i>Agricultural Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+
+<p>[T]: Add [G] to your energy bank.</p>
+
+<p>[4], [T]: Add one energy of each type a generator you control could produce to your energy bank.</p></text>
+</card>
+<card>
+ <name>Agricultural Complex</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_004_001.png">pd</set>
+ <color>G</color>
+ <manacost>GGG</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Building</type>
+ <pt>2/6</pt>
+ <related>Abundant Harvest</related>
+ <tablerow>2</tablerow>
+ <text><u>Barricade 2</u> (Agricultural Complex can't attack. However, it can intercept up to two assets each combat.), <u>Armor 3</u> (Damage dealt to Agricultural Complex by any source is reduced by three. Whenever damage is reduced this way, Agricultural Complex's armor is reduced by one.)
+
+When <i>Agricultural Complex</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>'Abundant Harvest'</i> in your hand.</text>
+</card>
+<card>
+ <name>Construction Drone</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_006_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Drone Technician</type>
+ <pt>1/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 3</u> (Damage dealt to <i>Construction Drone</i> by any source is reduced by three. Whenever damage is reduced this way, <i>Construction Drone</i>'s armor is reduced by one.)
+
+<p>When Construction Drone enters the battlefield, search your deck for a vitality card, you may hire it as a generator, then shuffle your deck.</p></text>
+</card>
+<card>
+ <name>exaLink Defense Drone</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_007_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Drone Guard</type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><i>exaLink Defense Drone</i> enters the battlefield with your choice of <u>armor 3</u> (Damage dealt to exaLink Defense Drone by any source is reduced by two. Whenever damage is reduced this way, exaLink Defense Drone's armor is reduced by one.) or <u>shield</u> (Prevent the next instance of damage or health reduction exaLink Defense Drone would receive. Once damage or health reduction has been prevented this way, exaLink Defense Drone loses Shield.)</text>
+</card>
+<card>
+ <name>Expansion</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_008_001.png">pd</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>You may hire up to two cards as generators.</text>
+</card>
+<card>
+ <name>Medical Storehouse</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_009_001.png">pd</set>
+ <color>G</color>
+ <manacost>GG</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Building</type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Barricade 2</u> (Medical Storehouse can't attack. However, it can intercept up to two assets each combat.), <u>Armor 2</u> (Damage dealt to Medical Storehouse by any source is reduced by two. Whenever damage is reduced this way, Medical Storehouse's armor is reduced by one.)
+
+<p>[XG] (X is the number of times this ability has been activated.): Your commander gains [X] loyalty. This ability may be activated by any player.</p></text>
+</card>
+<card>
+ <name>Flower Gardner</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_010_001.png">pd</set>
+ <color>G</color>
+ <manacost>2G</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Farmer</type>
+ <pt>2/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Quick Hire</u> (When <i>Flower Gardner</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+
+<p>[T]: Add [G] to your energy bank.</p>
+
+<p>[GGGG], [T]: Choose an asset to permanently gain <u>shield</u> (Prevent the next instance of damage or health reduction that asset would receive. Once damage or health reduction has been prevented this way, that asset loses shield.)</p></text>
+</card>
+<card>
+ <name>Cyber Tank</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_011_001.png">pd</set>
+ <color>G</color>
+ <manacost>3G</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Vehicle Tank</type>
+ <pt>6/8</pt>
+ <tablerow>2</tablerow>
+ <text><u>Armor 5</u> (Damage dealt to <i>Cyber Tank</i> by any source is reduced by five. Whenever damage is reduced this way, <i>Cyber Tank</i>'s armor is reduced by one.), <u>Vehicle</u> (When <i>Cyber Tank</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Steroids</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_012_001.png">pd</set>
+ <color>G</color>
+ <manacost>G</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Combatant [1G]</u> (As you deploy a combatant you may reveal <i>Steroids</i> and pay [1G] if you do add this card's effects as it resolves.)
+
+<p>Choose a combatant, until end of turn, it gets +2/+2.</p></text>
+</card>
+<card>
+ <name>Reprogramed Guardbot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MC_OB_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>OB</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Drone</type>
+ <pt>2/4</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever <i>Reprogramed Guardbot</i> is chosen, until end of turn, it gets +2/+0.</text>
+</card>
+<card>
+ <name>Lunar Sherif</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MC_RY_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>RY</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Police</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust Lunar Sherif.), <u>Airdrop</u> (<i>Lunar Sherif</i> can attack and exhaust as soon as it is deployed.)</text>
+</card>
+<card>
+ <name>Crackdown</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MC_YG_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>([_] can be paid with either [Y] or [G].)
+
+<p>Choose one -- 
+-> Prevent all combat damage this turn.
+-> Choose an asset which dealt damage to you this turn to remove from the game.</p></text>
+</card>
+<card>
+ <name>Illegal Augmentations</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MR_GP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>___</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Augmentation</type>
+ <tablerow>1</tablerow>
+ <text>([_] can be paid with either [G] or [P].)
+
+<p>(If a Human asset has an Augmentation attached, it becomes Augmented.)</p>
+
+<p>When <i>Illegal Augmentations</i> enters the battlefield, choose an asset in your discard to attach it to. That asset is returned to the battlefield. If <i>Illegal Augmentations</i> would leave the battlefield <u>forfeit</u> (Put the specified asset into its owner's discard.) the attached asset.</p></text>
+</card>
+<card>
+ <name>Storehouse Raid</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MR_OG_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>3OG</manacost>
+ <cmc>5</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose one or both --
+-> Choose a commander, double its loyalty.
+-> Choose a commander, halve its loyalty.</text>
+</card>
+<card>
+ <name>Armor Package</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_MU_OG_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>XXOG</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Delivery</type>
+ <tablerow>3</tablerow>
+ <text><u>Deliver [OOGG]</u> (You may set <i>Armor Package</i> aside and pay [OOGG]. If you do, the next time you deploy a card, deploy <i>Armor Package</i> without paying its cost.)
+
+<p>The next combatant in your deck gains <u>armor [X]</u> ([X] is 2 if you deliver. Damage dealt to that asset by any source is reduced by X. Whenever damage is reduced this way, that asset's armor is reduced by one.)</p></text>
+</card>
+<card>
+ <name>City Slums</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OBG_001.png">pd</set>
+ <color>O</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Unrest</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>City Slums</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>City Slums</i> in it.)</p>
+
+<p>[T]: Add [O] to your energy bank (You may activate this ability the turn you hire <i>City Slums</i>.)</p></text>
+</card>
+<card>
+ <name>Planned Ejection</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant to remove from the game. Return that asset to the battlefield at the end of the turn.</text>
+</card>
+<card>
+ <name>RT_OC_003</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_003_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>2/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)
+
+When <i>RT_OC_003</i> enters the battlefield, choose a combatant to gain <u>+X/+0</u>  (X is 1 plus the number of cards named <i>RT_OC_003</i> that have been deployed this game.) for as long as <i>RT_OC_003</i> remains on the battlefield.</text>
+</card>
+<card>
+ <name>Anti-Air Gun</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_004_001.png">pd</set>
+ <color>O</color>
+ <manacost>2OO</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Equipment Gun</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Anti-Air Gun</i>'s cost, if you do choose another combatant to attach it to.)
+
+<p>When <i>Anti-Air Gun</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached asset gets +1/+0 and <u>anti-air</u> (<i>Anti-Air Gun</i> can intercept assets with flying.)</p></text>
+</card>
+<card>
+ <name>Arm the Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_005_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <related>Incarceration</related>
+ <tablerow>3</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Arm the Mob</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>Choose an asset to permanently gain +1/+1 and <u>mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)</p></text>
+</card>
+<card>
+ <name>Criminal Virus</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_007_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Virus</type>
+ <tablerow>3</tablerow>
+ <text>Reveal a non-revealed card in your hand, if you do, choose an AI asset or effect on the battlefield to kill.</text>
+</card>
+<card>
+ <name>Disgruntled Employee</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_008_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Rebel</type>
+ <pt>4/6</pt>
+ <related>Doubt</related>
+ <tablerow>2</tablerow>
+ <text><u>Doubt 1</u> (When you deploy <i>Disgruntled Employee</i>, shuffle two 'Doubt's into your deck.)
+
+<p>Disgruntled Employee enters the battlefield exhausted.</p></text>
+</card>
+<card>
+ <name>Restrain</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_009_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant, until end of turn, it has an attack power of 0.</text>
+</card>
+<card>
+ <name>Reword the Memo</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_010_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Swap the order of the two triggers and/or cards on the stack before this card.</text>
+</card>
+<card>
+ <name>Sabotage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_011_001.png">pd</set>
+ <color>O</color>
+ <manacost>3O</manacost>
+ <cmc>4</cmc>
+ <type>Effect</type>
+ <related>Incarceration</related>
+ <tablerow>3</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Sabotage</i>, shuffle an 'Incarceration' into your deck.)
+
+<p><i>Sabotage</i> costs [1] less to deploy if you didn't go first.</p>
+
+<p>Choose a generator to kill.</p></text>
+</card>
+<card>
+ <name>Shield Package</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_012_001.png">pd</set>
+ <color>O</color>
+ <manacost>OO</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Delivery</type>
+ <tablerow>3</tablerow>
+ <text>The next combatant in your deck gains +1/+1 and <u>shield</u> (Prevent the next instance of damage or health reduction Shield Package would receive. Once damage or health reduction has been prevented this way, Shield Package loses Shield.)</text>
+</card>
+<card>
+ <name>Production Layoffs</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_013_001.png">pd</set>
+ <color>O</color>
+ <manacost>3O</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Response</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 2</u> (When you deploy <i>Production Layoffs</i>, shuffle two 'Doubt's into your deck.)
+
+<p>Choose a generator to return to its owner's hand.</p></text>
+</card>
+<card>
+ <name>RT_OC_014</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_014_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><i>Strength in Numbers</i> -- Whenever <i>RT_OC_014</i> attacks, choose another attacking combatant, until end of turn it gets +2/+0.</text>
+</card>
+<card>
+ <name>Agitated Crowd</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_015_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)</text>
+</card>
+<card>
+ <name>Loyal Supporter</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OC_017_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Rebel</type>
+ <pt>4/3</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Loyal Supporter</i> enters the battlefield, remove the first Tragedy card in your deck from the game.</text>
+</card>
+<card>
+ <name>Political Intern</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Politician Intern</type>
+ <pt>5/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Quick Hire</u>
+
+<p>When <i>Political Intern</i> enters the battlefield or changes controller it gains <u>shield</u> (Prevent the next instance of damage or health reduction <i>Political Intern</i> would receive. Once damage or health reduction has been prevented this way, <i>Political Intern</i> loses Shield.)</p>
+
+<p>[T]: Add [O].</p>
+
+<p>[2OO], [T]: Swap control of Political Intern and an asset of your choice an opponent controls.</p></text>
+</card>
+<card>
+ <name>Mass Rioting</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_002_001.png">pd</set>
+ <color>O</color>
+ <manacost>4OOO</manacost>
+ <cmc>7</cmc>
+ <type>Effect</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 4</u> (When you deploy <i>Mass Rioting</i>, shuffle three 'Doubt's into your deck.)
+
+<p>Each player chooses a generator they control, then <u>forfeits</u> (Put the specified assets into their owner's discard.) the rest.</p></text>
+</card>
+<card>
+ <name>Sara's Quest</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_003_001.png">pd</set>
+ <color>O</color>
+ <manacost>2OO</manacost>
+ <cmc>4</cmc>
+ <type>R. Effect</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Search your deck for a card, put a copy of it into your hand, then shuffle your deck.</p></text>
+</card>
+<card>
+ <name>Violent Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_004_001.png">pd</set>
+ <color>O</color>
+ <manacost>3OO</manacost>
+ <cmc>5</cmc>
+ <type>Asset - Augmented Mob Propagandist</type>
+ <pt>8/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)
+
+<p>If an opponent would lose loyalty outside of combat, they loose twice as much loyalty instead.</p></text>
+</card>
+<card>
+ <name>Arms Dealer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_005_001.png">pd</set>
+ <color>O</color>
+ <manacost>1OO</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Criminal</type>
+ <pt>3/5</pt>
+ <related>Bullet</related>
+ <related>Incarceration</related>
+ <tablerow>2</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Arms Dealer</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>Combatants you control are ranged.</p>
+
+<p>Whenever another combatant enters the battlefield under your control, create a <i>'Bullet'</i> on the battlefield.</p></text>
+</card>
+<card>
+ <name>Arms Runner</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OR_006_001.png">pd</set>
+ <color>O</color>
+ <manacost>3OO</manacost>
+ <cmc>5</cmc>
+ <type>Asset - Augmented Rebel</type>
+ <pt>7/8</pt>
+ <tablerow>2</tablerow>
+ <text><i>Strength in Numbers</i> -- Whenever <i>Arms Runner</i> attacks, choose another attacking combatant, until end of turn it gets +2/+2 and ranged. If that combatant has <i>Strength in Numbers</i> its choice gets +2/+2 and ranged as well, repeat this process until there are no more combatants or a combatant which has already received this buff is chosen.</text>
+</card>
+<card>
+ <name>RT_OU_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>RT_OU_001</i> costs [1] less to deploy if didn't go first.
+
+<p>Choose two cards on the stack to swap.</p></text>
+</card>
+<card>
+ <name>Modified Link</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_002_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - AI Augmentation Link</type>
+ <related>Doubt</related>
+ <related>Incarceration</related>
+ <tablerow>1</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Modified Link</i>, shuffle an Incarceration into your deck.)
+
+<p>(If a Human asset has an Augmentation attached, it becomes Augmented.)</p>
+
+<p>Whenever an opponent would force you to reveal or discard a card in your hand, you may instead shuffle a <i>'Doubt'</i> into your deck.</p>
+
+<p>Your maximum hand size is increased by one.</p></text>
+</card>
+<card>
+ <name>Bribed Forman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_003_001.png">pd</set>
+ <color>O</color>
+ <manacost>OOO</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human</type>
+ <pt>4/4</pt>
+ <related>Production Layoffs</related>
+ <tablerow>2</tablerow>
+ <text><u>Pierce</u> (Bribed Foreman deals combat damage greater than the health of the assets intercepting it to the commander it is attacking and bypasses armor.)
+
+When <i>Bribed Forman</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>'Production Layoffs'</i> in your hand.</text>
+</card>
+<card>
+ <name>Assets Lost Assets Found</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_004_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Draw two cards then put two cards from your hand on top of your deck.</text>
+</card>
+<card>
+ <name>Enrage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_005_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Refresh all assets you control, until end of turn they get +2/+0.</text>
+</card>
+<card>
+ <name>Fickle Loyalist</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_006_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Augmented Rebel</type>
+ <pt>5/5</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever Fickle Loyalist is dealt damage, the player who controlled the source of damage gains control of Fickle Loyalist.</text>
+</card>
+<card>
+ <name>Robber of the Rich</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_008_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Criminal</type>
+ <pt>3/3</pt>
+ <related>Incarceration</related>
+ <tablerow>2</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Robber of the Rich</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>When <i>Robber of the Rich</i> enters the battlefield, choose an asset to lose all <u>stat modifications</u> (Added/changed words, attack power, health, or range.)</p></text>
+</card>
+<card>
+ <name>Leadership</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_009_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Activate your commander's As Commander ability (Ignore any restrictions on timing and occurrence count.)
+
+<p>You may remove any number of Tragedy cards in your hand from the game, draw that many cards.</p></text>
+</card>
+<card>
+ <name>Delta Infiltrator </name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_010_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Rebel</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><i>Strength in Numbers</i> -- Whenever <i>Delta Infiltrator </i> attacks, choose another attacking combatant, until end of turn it gets <u>shield</u> (Prevent the next instance of damage or health reduction that asset would receive. Once damage or health reduction has been prevented this way, that asset loses shield.)</text>
+</card>
+<card>
+ <name>RT_OU_011</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_011_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Vehicle Car</type>
+ <pt>8/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>RT_OU_011</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Stolen Helicopter</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_012_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Vehicle Helicopter</type>
+ <pt>6/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Flying</u> (<i>Stolen Helicopter</i> can only be intercepted by assets with flying or anti-air.), <u>Vehicle</u> (When <i>Stolen Helicopter</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)
+
+<p><i>Strength in Numbers</i> -- Whenever <i>Stolen Helicopter</i> attacks, choose another asset, until end of turn it gains <u>brutal</u> and +1/+0.</p></text>
+</card>
+<card>
+ <name>Shoot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_014_001.png">pd</set>
+ <color>O</color>
+ <manacost>O</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <related>Bullet</related>
+ <tablerow>3</tablerow>
+ <text><u>Append to Effect [1O]</u> (As you deploy an effect you may reveal <i>Shoot</i> and pay [1O] if you do add this card's effects as it resolves.)
+
+<p>Create a <i>'Bullet'</i> on the battlefield.</p></text>
+</card>
+<card>
+ <name>ProtoSys Laboratory</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PBG_001.png">pd</set>
+ <color>P</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Entropy</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>ProtoSys Laboratory</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>ProtoSys Laboratory</i>s in it.)</p>
+
+<p>[T]: Add [P] to your energy bank (You may activate this ability the turn you hire <i>ProtoSys Laboratory</i>.)</p></text>
+</card>
+<card>
+ <name>Engineered Plague</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant, until end of turn it gets <u>-X/-X</u> (X is 1 plus the number of cards named <i>Engineered Plague</i> that have been deployed this game.)</text>
+</card>
+<card>
+ <name>ProtoSys Nanoswarm</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_003_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Nanoswarm</type>
+ <pt>1/1</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever <i>ProtoSys Nanoswarm</i> deals combat damage to a commander, an opponent of your choice <u>decays 1</u> (The specified player puts the top card of their deck into their discard.)</text>
+</card>
+<card>
+ <name>Disgruntled Engineer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_005_001.png">pd</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented Pirate</type>
+ <pt>5/3</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Disgruntled Engineer</i> enters the battlefield, draw a card then your commander loses <u>X</u> (X is the number of cards in your hand.) loyalty.</text>
+</card>
+<card>
+ <name>Poisoned Bullets</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_006_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose a ranged combatant, it permanently gets -1/+1 and <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.).</text>
+</card>
+<card>
+ <name>Obsessed Researcher</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_008_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Researcher</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Obsessed Researcher</i> deals permanently reduces the attack power and health of the assets which it damages.)</text>
+</card>
+<card>
+ <name>RT_PC_009</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_009_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Researcher</type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>RT_PC_009</i> enters the battlefield, Drones in your hand permanently get +1/-1.</text>
+</card>
+<card>
+ <name>Siphoner</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_010_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Doctor</type>
+ <pt>1/3</pt>
+ <tablerow>2</tablerow>
+ <text>[P], [T]: Choose a combatant, until end of turn it gets -1/-1.</text>
+</card>
+<card>
+ <name>Harassment</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_020_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <related>Incarceration</related>
+ <tablerow>3</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Harassment</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>Choose a combatant, <i>Harassment</i> deals 1 damage to it.</p>
+
+<p>Choose a commander, its controller <u>decays 5</u> (The specified player puts the top five cards of their deck into their discard.)</p>
+
+<p>Draw a card.</p></text>
+</card>
+<card>
+ <name>Bumbling Thief</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PC_011_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Pirate</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Bumbling Thief</i> enters the battlefield, choose an asset with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. <i>Bumbling Thief</i> has a generalized cost of [4].) [2] or less, until end of turn gain control of it.</text>
+</card>
+<card>
+ <name>Recycle</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Brainwash</u> (Damage dealt by <i>Recycle</i> is gained as loyalty.)
+
+<p>Choose a player, they discard a card of your choice.
+-> If that card is a combatant, draw a card and your commander loses 1 loyalty.
+-> If that card is an effect, deal 2 damage to their commander.</p></text>
+</card>
+<card>
+ <name>ProtoSys Gas Grenadier</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_002_001.png">pd</set>
+ <color>P</color>
+ <manacost>2PP</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented Subject</type>
+ <pt>4/4</pt>
+ <related>Incarceration</related>
+ <tablerow>2</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>ProtoSys Gas Grenadier</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>Whenever your commander loses loyalty, other assets permanently get -1/-1.</p>
+
+<p>If there are no other combatants on the battlefield, <u>forfeit</u> (Put the specified asset into its owner's discard.) <i>ProtoSys Gas Grenadier</i>.</p></text>
+</card>
+<card>
+ <name>Infect the Strong</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_003_001.png">pd</set>
+ <color>P</color>
+ <manacost>3PPPP</manacost>
+ <cmc>7</cmc>
+ <type>Effect</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 1</u> (When you deploy <i>Infect the Strong</i>, shuffle a 'Doubt' into your deck.)
+
+<p>Assets permanently get <u>-X/-X</u>  (X is the attack power of each individual asset.)</p>
+
+<p>Each opponent <u>decays 4</u> (The specified player puts the top three cards of their deck into their discard.)</p></text>
+</card>
+<card>
+ <name>Organ Harvester</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_004_001.png">pd</set>
+ <color>P</color>
+ <manacost>2PP</manacost>
+ <cmc>4</cmc>
+ <type>Asset - AI</type>
+ <tablerow>1</tablerow>
+ <text>Whenever a combatant has its health permanently reduced, draw a card and your commander loses 2 loyalty. If <i>Organ Harvester</i> is inside a vehicle, instead only draw a card.</text>
+</card>
+<card>
+ <name>Lux's Quest</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_005_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>R. Effect</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Choose an asset to permanently gain control of.</p></text>
+</card>
+<card>
+ <name>T.H.E.F.T</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PR_006_001.png">pd</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>R. Asset - AI Pirate</type>
+ <related>Incarceration</related>
+ <related>Incarceration</related>
+ <tablerow>1</tablerow>
+ <text><p>At the beginning of combat on your turn, if you control a permanent you don't own, draw a card. If <i>T.H.E.F.T</i> is inside a vehicle, you may instead, choose an asset you control and an asset an opponent controls to swap until you draw an <i>'Incarceration'</i>, then shuffle an <i>'Incarceration'</i> into your deck.</p></text>
+</card>
+<card>
+ <name>RT_PU_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>RT_PU_001</i> costs [1] less to deploy if you didn't go first.
+
+<p>Choose a combatant, until end turn it gets <u>-X/-X</u> (X is it's base health.)</p></text>
+</card>
+<card>
+ <name>RT_PU_002</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_002_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Exchange [2]</u> (Pay [2], Discard this card from your hand: Draw a card.)
+
+<p>Choose a player to discard two cards.</p></text>
+</card>
+<card>
+ <name>Questionable Intern</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_003_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Scientist Intern</type>
+ <pt>2/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Questionable Intern</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Quick Hire</u> (When <i>Questionable Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+
+<p>[T]: Add [P].</p>
+
+<p>[2PP], [T]: Draw a card. Then your commander loses <u>X</u> (X is the number of cards in your hand.) loyalty.</p></text>
+</card>
+<card>
+ <name>Plague Engineer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_004_001.png">pd</set>
+ <color>P</color>
+ <manacost>PPP</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Scientist</type>
+ <pt>2/4</pt>
+ <related>Engineered Plague</related>
+ <related>Incarceration</related>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Plague Engineer</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Warrent</u> (When you deploy <i>Plague Engineer</i>, shuffle an 'Incarceration' into your deck.)
+
+When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>Engineered Plague</i> in your hand.</text>
+</card>
+<card>
+ <name>Reduce</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_005_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Each player <u>decays the bottom 5 cards of their deck</u> (They put the bottom 5 cards of their deck into their discard.)</text>
+</card>
+<card>
+ <name>Necessary Politics</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_006_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <related>Doubt</related>
+ <tablerow>3</tablerow>
+ <text><u>Doubt 1</u> (When you deploy <i>Necessary Politics</i>, shuffle a 'Doubt' into your deck.)
+
+<p>Choose one --
+-> Draw two cards, your commander loses two loyalty.
+-> Choose an opponent to discard two cards, your commander gains two loyalty.</p></text>
+</card>
+<card>
+ <name>Molecular Assassin</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_007_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Nanoswarm</type>
+ <pt>1/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Molecular Assassin</i> deals permanently reduces the attack power and health of the assets which it damages.)
+
+<p>Whenever you draw a card each opponent <u>decays 1</u> (The specified player puts the top card of their deck into their discard.)</p></text>
+</card>
+<card>
+ <name>Harbinger of Grief</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_009_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - AI Messenger</type>
+ <tablerow>1</tablerow>
+ <text>Whenever another combatant dies, its controller discards a card.</text>
+</card>
+<card>
+ <name>Petty Thief</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_010_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Pirate</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Petty Thief</i> enters the battlefield, put the bottom card of your opponent's deck into your hand.</text>
+</card>
+<card>
+ <name>RT_PU_011</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_011_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Each player shuffles their hand into their deck, then draws that many cards minus one.</text>
+</card>
+<card>
+ <name>Infection Carrier</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_012_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Subject</type>
+ <pt>1/2</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Infection Carrier</i> enters the battlefield, each player <u>forfeits</u> (Put the specified asset into its owner's discard.) a combatant they control.</text>
+</card>
+<card>
+ <name>ProtoSys Mobile Laboratory</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_013_001.png">pd</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Vehicle Car</type>
+ <pt>6/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Vehicle</u> (When <i>ProtoSys Mobile Laboratory</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)
+
+<p>[T]: Add [P].</p>
+
+<p>Whenever <i>ProtoSys Mobile Laboratory</i> deals combat damage to a commander, choose a combatant to permanently get -1/-1.</p></text>
+</card>
+<card>
+ <name>Underworld Harvester</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_014_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Augmented Criminal</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Underworld Harvester</i> deals permanently reduces the attack power and health of the assets which it damages.)
+
+<p>Whenever a combatant has its health permanently reduced, your commander loses 1 loyalty. Then If your commander's loyalty is less than half of its starting value, <i>Underworld Harvester</i> permanently gets +1/+1.</p></text>
+</card>
+<card>
+ <name>Concuss</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_017_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Combatant [1P]</u> (As you deploy a combatant you may reveal <i>Concuss</i> and pay [1P] if you do add this card's effects as it resolves.)
+
+<p>Choose a player to discard a card.</p></text>
+</card>
+<card>
+ <name>Brainwash</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_019_001.png">pd</set>
+ <color>P</color>
+ <manacost>PP</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><u>Brainwash</u> (Damage dealt by <i>Brainwash</i> is gained as loyalty.)
+
+<p>Choose a combatant or commander, <i>Brainwash</i> deals 3 damage to it.</p>
+
+<p>Draw a card.</p></text>
+</card>
+<card>
+ <name>Talia Briggs SpaceCorp Commander</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_R_CMDR_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RR</manacost>
+ <cmc>4</cmc>
+ <type>Commander - Augmented Astronaut</type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander/Asset</i> -- Whenever you deploy an asset you may pay [R], if you do it gains <u>airdrop</u> (They can attack and exhaust as soon as they are deployed.)
+
+<p><i>As Asset</i> -- [2R]: Assets you control get +1/+0 or +0/+1 until end of turn.</p></text>
+</card>
+<card>
+ <name>The Inciter of Violence</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_R_CMDR_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Enigma</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander/Asset</i> -- Mobs cost [1] less to deploy.
+
+<p><i>As Asset</i> -- Whenever a non-transient Mob enters the battlefield under your control, create a transient copy of it on the battlefield.</p></text>
+</card>
+<card>
+ <name>Lunar Colony Control Outpost</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RBG_001.png">pd</set>
+ <color>R</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Emotion</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Lunar Colony Control Outpost</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>Lunar Colony Control Outpost</i>s in it.)</p>
+
+<p>[T]: Add [R] to your energy bank (You may activate this ability the turn you hire <i>Lunar Colony Control Outpost</i>.)</p></text>
+</card>
+<card>
+ <name>RT_RC_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.) 
+
+<p><i>RT_RC_001</i>'s power is equal to twice the number of cards named <i>RT_RC_001</i> that have been deployed this game.</p></text>
+</card>
+<card>
+ <name>Wrist Mounted Flame-thrower</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Style Equipment</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Wrist Mounted Flame-thrower</i>'s cost, if you do choose another combatant to attach it to.)
+
+<p>When <i>Wrist Mounted Flame-thrower</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached combatant deals combat damage after all other assets. Whenever an asset or effect you control deals combat damage to an opponent, until end of turn, attached asset gets +1/+0.</p></text>
+</card>
+<card>
+ <name>Failed Reentry</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_006_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset, until end of turn it gets +4/+0 and <u>airdrop</u> (It can attack and exhaust as soon as it is deployed.).
+
+<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) it at the end of the turn.</p></text>
+</card>
+<card>
+ <name>Rig the Dice</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_007_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a card on the stack to change a percentage chance on by 25%. (You choose if it's in the controller's favor or against.)</text>
+</card>
+<card>
+ <name>Riled Mob</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_008_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.), <u>Brutal</u> (Riled Mob deals combat damage before assets without brutal.)</text>
+</card>
+<card>
+ <name>Risky Repairs</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_009_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Draw two cards then discard a card at random.</text>
+</card>
+<card>
+ <name>Transfer Supplies</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_010_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose an opponent, swap the top card of your deck with the top card of their deck.</text>
+</card>
+<card>
+ <name>Adoring Crowd</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_011_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)</text>
+</card>
+<card>
+ <name>SpaceCorp Recruit</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RC_012_001.png">pd</set>
+ <color>R</color>
+ <manacost>RR</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Astronaut</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text><u>Airdrop</u> (<i>SpaceCorp Recruit</i> can attack and exhaust as soon as it is deployed.)</text>
+</card>
+<card>
+ <name>Dangerous Seductress</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RR_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RR</manacost>
+ <cmc>4</cmc>
+ <type>R. Asset - Human Colonist</type>
+ <pt>3/3</pt>
+ <related>Doubt</related>
+ <tablerow>2</tablerow>
+ <text>(Each player can only control one copy of each renowned card. If you deploy or otherwise obtain another card with the same name as <i>Dangerous Seductress</i>, you must choose one to keep and another to send to its owner's discard.)
+
+<p><u>Doubt 2</u> (When you deploy <i>Dangerous Seductress</i>, shuffle two 'Doubt's into your deck.)</p>
+
+<p>Choose a Human asset to gain control of until <i>Dangerous Seductress</i> leaves the battlefield.</p></text>
+</card>
+<card>
+ <name>Engine Room Mechanic</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RR_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>RRR</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Mechanic</type>
+ <pt>3/5</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Engine Room Mechanic</i> enters the battlefield, search your deck for a card, shuffle your deck, then there is a 50% chance to put that card on top of your deck and a 50% chance to put that card on the bottom of your deck.</text>
+</card>
+<card>
+ <name>Financial Gamble</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RR_003_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RRR</manacost>
+ <cmc>5</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><p>Take a chance up to 5 times, each time there is 50% chance for an opponent of your choice  to <u>forfeit</u> (Put the specified asset into its owner's discard.) an asset at random and a 50% chance for you to <u>forfeit</u> (Put the specified asset into its owner's discard.) an asset at random.</p></text>
+</card>
+<card>
+ <name>Brigg's Quest</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RR_004_001.png">pd</set>
+ <color>R</color>
+ <manacost>XR</manacost>
+ <cmc>2</cmc>
+ <type>R. Effect</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Choose a combatant or player, <i>Brigg's Quest</i> deals [X] damage to it.</p>
+
+<p>You may deploy an asset in your hand with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Brigg's Quest</i> has a generalized cost of [1].) [X] or less without paying its cost.</p></text>
+</card>
+<card>
+ <name>RT_RU_001</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>RT_RU_001</i> costs [1] less to deploy if you didn't go first.
+
+<p>Choose a combarant or commander, <i>RT_RU_001</i> deals 4 damage to it.</p></text>
+</card>
+<card>
+ <name>Gunpoint Diplomacy</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_003_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose an opponent, then draw 2 cards, unless their commander takes 4 damage.</text>
+</card>
+<card>
+ <name>Intercept</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_004_001.png">pd</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a card on the stack, until end of turn gain control of it. It permanently gains <u>airdrop</u> (It can attack and exhaust as soon as it is deployed.)</text>
+</card>
+<card>
+ <name>SpaceCorp Miner</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_005_001.png">pd</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Miner Spacecraft</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><u>Spacecraft</u> (SpaceCorp Miner can only intercept or be intercepted by assets with Spacecraft.)
+
+<p>[2RR], 50% chance of discarding a card at random: Until end of turn, assets you control get +1/+0.</p></text>
+</card>
+<card>
+ <name>RT_RU_006</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_006_001.png">pd</set>
+ <color>R</color>
+ <manacost>RRR</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented ?</type>
+ <pt>4/2</pt>
+ <tablerow>2</tablerow>
+ <text><u>Brutal</u> (<i>RT_RU_006</i> deals combat damage before assets without brutal.)
+
+When <i>RT_RU_006</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) copy of a random Emotion ([R]) effect in your deck with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>RT_RU_006</i> has a generalized cost of [4].) of [4] or less in your hand.</text>
+</card>
+<card>
+ <name>Set Fire to the Engine Room</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_007_001.png">pd</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a generator, its owner <u>forfeits</u> (Put the specified asset into its owner's discard.) it.
+
+<p>You have a 50% chance to <u>forfeit</u> (Put the specified asset into its owner's discard.) a random generator you control.</p></text>
+</card>
+<card>
+ <name>Ruined Plan</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_008_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a player, <i>Ruined Plan</i> deals 2 damage to their commander for each card they control on the stack.</text>
+</card>
+<card>
+ <name>Stacked Deck</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_010_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a card on the stack to replace with the top card of its controller's deck.</text>
+</card>
+<card>
+ <name>Xenophobia</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_012_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RR</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant subtype, an opponent of your choice reveals their hand, and <i>Xenophobia</i> deals 4 damage to their commander for each card of the chosen type in their hand.</text>
+</card>
+<card>
+ <name>Reentry Capsule</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_013_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Vehicle Spacecraft</type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Airdrop</u> (<i>Reentry Capsule</i> can attack and exhaust as soon as it is deployed.), <u>Spacecraft</u> (<i>Reentry Capsule</i> can only intercept or be intercepted by assets with spacecraft.), <u>Vehicle</u> (When <i>Reentry Capsule</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Charm</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_015_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Combatant [4R]</u> (As you deploy a combatant you may reveal <i>Charm</i> and pay [4R] if you do add this card's effects as it resolves.)
+
+<p>Choose a combatant an opponent controls, until end of turn, gain control of it.</p></text>
+</card>
+<card>
+ <name>Peter Kostas Sledcom Director</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_Y_CMDR_002_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2YY</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented General</type>
+ <pt>6/6</pt>
+ <related>Fellow Officer</related>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>Peter Kostas</i>.)
+
+<p><i>As Commander/Asset</i> -- Each time <i>Peter Kostas</i> has seen three more non-transient Police assets enter the battlefield, create a <i>'Fellow Officer'</i> on the battlefield.</p>
+
+<p><i>As Asset</i> -- Whenever one or more transient combatants enter the battlefield under your control you may pay [B]. If you do draw a card.</p></text>
+</card>
+<card>
+ <name>Precinct Headquarters</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YBG_001.png">pd</set>
+ <color>Y</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator - Basic Order</type>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Precinct Headquarters</i> whenever you have the option to hire a generator instead of hiring any other card as a generator.)
+
+<p>(A deck may have any number of <i>Precinct Headquarters</i> in it.)</p>
+
+<p>[T]: Add [Y] to your energy bank (You may activate this ability the turn you hire <i>Precinct Headquarters</i>.)</p></text>
+</card>
+<card>
+ <name>Pastor</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Clergy</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Pastor</i> enters the battlefield, choose one --
+-> Choose a combatant to heal <u>X</u> (X is 2 plus the number of cards named <i>Pastor</i> that have been deployed this game.)
+-> Choose a commander to gain <u>X</u> (X is 2 plus the number of cards named <i>Pastor</i> that have been deployed this game.) loyalty.</text>
+</card>
+<card>
+ <name>Capture the Weak</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_002_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Capture the Week has a generalized cost of [2].) [4] or less to remove from the game.</text>
+</card>
+<card>
+ <name>Cuffs</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_003_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Police</type>
+ <tablerow>1</tablerow>
+ <text>When Cuffs enters the battlefield, choose a combatant to attach it to.
+
+<p>The attached asset can't attack or intercept.</p></text>
+</card>
+<card>
+ <name>Barricade Bot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_004_001.png">pd</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Drone Police</type>
+ <tablerow>1</tablerow>
+ <text><u>Barricade 2</u> (Barricade Bot can't attack. However, it can intercept up to two assets each combat.), <u>Shield</u> (Prevent the next instance of damage or health reduction Barricade Bot would receive. Once damage or health reduction has been prevented this way, Barricade Bot loses Shield.)</text>
+</card>
+<card>
+ <name>Corrupt Investigator</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_005_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Human Police</type>
+ <pt>3/5</pt>
+ <related>Doubt</related>
+ <tablerow>2</tablerow>
+ <text><u>Doubt 1</u> (When you deploy <i>Corrupt Investigator</i>, shuffle a 'Doubt' into your deck.)
+
+<p>When <i>Corrupt Investigator</i> enters the battlefield, look at the top card of your deck, you may draw it or put it on the bottom. If you do remove a card in your hand from the game.</p></text>
+</card>
+<card>
+ <name>Inexhaustible Officer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_006_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Police</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust Inexhaustible Officer.)</text>
+</card>
+<card>
+ <name>Augmented Officer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_007_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Police</type>
+ <pt>6/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust Cybernetic Officer.)</text>
+</card>
+<card>
+ <name>Internet Service Fees</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_008_001.png">pd</set>
+ <color>Y</color>
+ <manacost>YY</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response Tax</type>
+ <tablerow>3</tablerow>
+ <text><u>Tax</u> (When Internet Service Fees resolves, if it is not a copy, copy it for each other card and trigger on the stack.)
+
+<p>Choose an opponent, draw a card unless they pay [2].</p></text>
+</card>
+<card>
+ <name>Solitary Confinement</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_009_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Prison</type>
+ <tablerow>1</tablerow>
+ <text>Choose an asset to put under <i>Solitary Confinement</i> until <i>Solitary Confinement</i> leaves the battlefield</text>
+</card>
+<card>
+ <name>SWAT Team Leader</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_010_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3YY</manacost>
+ <cmc>5</cmc>
+ <type>Asset - Augmented Police</type>
+ <pt>4/4</pt>
+ <related>Fellow Officer</related>
+ <tablerow>2</tablerow>
+ <text>When <i>SWAT Team Leader</i> enters the battlefield, create <u>X</u> (X is 2 plus the number of cards named <i>SWAT Team Leader</i> that have been deployed this game.) <i>'Fellow Officer'</i>s on the battlefield.</text>
+</card>
+<card>
+ <name>Upstanding Officer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_011_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Police</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><i><span foreground='#FF34343A'>"Back in the Academy they would joke about how the A.L.I.V.E units were in charge..."</span></i></text>
+</card>
+<card>
+ <name>Contracted Officer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YC_013_001.png">pd</set>
+ <color>Y</color>
+ <manacost>1Y</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Police</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Organ Transplant</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YR_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>4YY</manacost>
+ <cmc>6</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose two commanders to exchange loyalty.</text>
+</card>
+<card>
+ <name>Caught a Snitch</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YR_003_001.png">pd</set>
+ <color>Y</color>
+ <manacost>4YYY</manacost>
+ <cmc>7</cmc>
+ <type>R. Effect</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p>Remove all assets from the game.</p></text>
+</card>
+<card>
+ <name>Maintain Order</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2YY</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>Maintain Order</i> costs [1] less to deploy if you didn't go first.
+
+<p>Kill all attacking combatants.</p></text>
+</card>
+<card>
+ <name>Redistribution</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_002_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Exchange [1]</u> (Pay [1], Discard this card from your hand: Draw a card.)
+
+<p>Each player may draw up to two cards. Their commanders gain 2 loyalty for each card they don't draw.</p></text>
+</card>
+<card>
+ <name>Department Trainee</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_003_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Police Intern</type>
+ <pt>4/4</pt>
+ <related>Fellow Officer</related>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust Department Trainee.), <u>Quick Hire</u> (When <i>Department Trainee</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+
+<p>[T]: Add [Y].</p>
+
+<p>[2YY], [T]: Create a <i>'Fellow Officer'</i> on the battlefield. This ability may be activated if <i>Department Trainee</i> is hired as a generator.</p></text>
+</card>
+<card>
+ <name>Enforcer Bot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_004_001.png">pd</set>
+ <color>Y</color>
+ <manacost>YYY</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Drone Police</type>
+ <pt>4/6</pt>
+ <related>Cuffs</related>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>Enforcer Bot</i>.)
+
+When <i>Enforcer Bot</i> enters the battlefield create a <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>'Cuffs'</i> in your hand.</text>
+</card>
+<card>
+ <name>Enhanced Firewall</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_005_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Enhanced Firewall</i> enters the battlefield, choose a non-Human combatant to attach it to.
+
+<p>Attached asset has <u>firewall</u> (It can't be chosen.)</p></text>
+</card>
+<card>
+ <name>Wire Cutter</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_007_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Police</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text>Players can't draw more than one card each turn.</text>
+</card>
+<card>
+ <name>Property Tax Collector</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_008_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - AI</type>
+ <related>Squandered Tax Money</related>
+ <related>Doubt</related>
+ <tablerow>1</tablerow>
+ <text><u>Doubt 2</u> (When you deploy <i>Property Tax Collector</i>, shuffle two 'Doubt's into your deck.)
+
+<p>Whenever an opponent deploys an asset, create a <i>'Squandered Tax Money'</i> in your hand unless that opponent pays [2] or <i>Property Tax Collector</i> is inside a vehicle.</p></text>
+</card>
+<card>
+ <name>Healthcare Fees</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_009_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Response Tax</type>
+ <tablerow>3</tablerow>
+ <text><u>Tax</u> (When Healthcare Fees resolves, if it is not a copy, copy it for each other card and trigger on the stack.)
+
+<p>Your commander gains 4 loyalty.</p></text>
+</card>
+<card>
+ <name>Martial Law</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_010_001.png">pd</set>
+ <color>Y</color>
+ <manacost>4Y</manacost>
+ <cmc>5</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Until the beginning of your next turn, cards in play, discards, and hands lose all abilities.</text>
+</card>
+<card>
+ <name>BearCat</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_011_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Vehicle Police</type>
+ <pt>8/8</pt>
+ <tablerow>2</tablerow>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>BearCat</i>.), <u>Vehicle</u> (When <i>BearCat</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+</card>
+<card>
+ <name>Sedative Cuffs</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_012_001.png">pd</set>
+ <color>Y</color>
+ <manacost>3Y</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Equipment Police</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Sedative Cuffs</i> enters the battlefield choose a combatant to attach it to.
+
+<p>The attached asset can't attack or intercept and has "[1Y]: Until end of turn, this asset loses all abilities. This ability may be activated by any player."</p></text>
+</card>
+<card>
+ <name>Moral</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_014_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2Y</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Effect [4Y]</u> (As you deploy an Effect you may reveal <i>Moral</i> and pay [4Y] if you do add this card's effects as it resolves.)
+
+<p>All combatants of a subtype of your choice, on the battlefield, permanently gain +1/+1.</p></text>
+</card>
+<card>
+ <name>Mulligan</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_RU_014_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Trap Response</type>
+ <tablerow>3</tablerow>
+ <text>If an opponent searched their deck for a card this turn, <i>Mulligan</i> costs [1] less.
+
+<p>Each player shuffles their hand into their deck and draws that many cards.</p></text>
+</card>
+<card>
+ <name>Banked Favors</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_013_001.png">pd</set>
+ <color>O</color>
+ <manacost>XXO</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Trap Response</type>
+ <tablerow>3</tablerow>
+ <text>The top [X] cards of your deck cost [Z] (Z is one plus the number of combatants that entered the battlefield under your opponent's control this turn.) less.</text>
+</card>
+<card>
+ <name>Arrest</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_YU_013_001.png">pd</set>
+ <color>Y</color>
+ <manacost>2YY</manacost>
+ <cmc>4</cmc>
+ <type>Effect - Trap Response</type>
+ <related>Incarceration</related>
+ <tablerow>3</tablerow>
+ <text>If an opponent attacked you with three or more combatants this turn, <i>Arrest</i> costs [2] less as long as the chosen asset belongs to that opponent.
+
+<p>Choose an asset to remove from the game. Shuffle an <i>'Incarceration'</i> into its owner's deck.</p></text>
+</card>
+<card>
+ <name>RT_GU_013</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_GU_013_001.png">pd</set>
+ <color>G</color>
+ <manacost>XXG</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Trap Response</type>
+ <tablerow>3</tablerow>
+ <text>If an opponent deployed a non-combatant card this turn, <i>RT_GU_013</i> costs [4] less. 
+
+<p>Combatants you control gain <u>armor [X]</u> (Damage dealt to them by any source is reduced by X. Whenever damage is reduced this way, that combatant's armor is reduced by one.) If [X] is [4] or more you may put an asset onto the battlefield.</p></text>
+</card>
+<card>
+ <name>Abuse of the Tax Code</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_BU_012_001.png">pd</set>
+ <color>B</color>
+ <manacost>XBB</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Trap Response</type>
+ <tablerow>3</tablerow>
+ <text><i>Abuse of the Tax Code</i> costs [1] less for every card on the stack.
+
+<p><u>Hack</u> (Send the specified cards on the stack to their owners' discards, none of their effects happen.) every card on the stack unless each card's controller pays [X] for it.</p></text>
+</card>
+<card>
+ <name>Entropy</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_PU_015_001.png">pd</set>
+ <color>P</color>
+ <manacost>XXP</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Trap Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose an opponent, <i>Entropy</i> costs [2] less for every card that opponent has drawn this turn.
+
+<p>That opponent <u>decays [X]</u> (The specified player puts the top X cards of their deck into their discard.)</p></text>
+</card>
+<card>
+ <name>Pain Amplifier</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/OLD_RT_OU_015_001.png">pd</set>
+ <color>O</color>
+ <manacost>2O</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Drug</type>
+ <tablerow>3</tablerow>
+ <text>Choose a combatant to permanently take double damage.</text>
+</card>
+<card>
+ <name>Savings</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_0_001_001.png">pd</set>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Effect - Transient Response</type>
+ <token>1</token>
+ <tablerow>3</tablerow>
+ <text>Choose a card in your hand to permanently cost [1] less.</text>
+</card>
+<card>
+ <name>Kyoko Battlemaster</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>1RP</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Augmented Gladiator</type>
+ <pt>6/4</pt>
+ <related>Torment the Opponent</related>
+ <tablerow>2</tablerow>
+ <text><i>As Commander/Asset</i> -- Each time <i>Kyoko</i> has seen you deploy three effects targeting combatants you control, at end of turn, you may return the third effect from your discard to your hand.
+
+<p><i>As Asset</i> -- Whenever a combatant you control dies, create a <u>fleeting</u> (Discard it at end of turn.), <u>transient</u> (It ceases to exist if it enters any player's discard.) <i>'Torment the Opponent'</i> in your hand.</p></text>
+</card>
+<card>
+ <name>Frugal Angel</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RR_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RR</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented Gladiator</type>
+ <pt>5/5</pt>
+ <related>Savings</related>
+ <tablerow>2</tablerow>
+ <text>When <i>Frugal Angel</i> enters the battlefield or attacks, create a <i>'Savings'</i> in your hand.</text>
+</card>
+<card>
+ <name>Reaction Augmenter</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>RP</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Augmentation</type>
+ <tablerow>1</tablerow>
+ <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
+
+<p>When <i>Reaction Augmenter</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached combatant gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.)</p>
+
+<p>Whenever the attached asset kills a combatant it permanently gets +1/+1.</p></text>
+</card>
+<card>
+ <name>Human Trafficking</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_002_001.png">pd</set>
+ <color>M</color>
+ <manacost>XXXRP</manacost>
+ <cmc>5</cmc>
+ <type>R. Effect</type>
+ <related>Vital Tracker</related>
+ <tablerow>3</tablerow>
+ <text><u>Deliver [RRPP]</u> (You may set <i>Human Trafficking</i> aside and pay [RRPP]. If you do, the next time you deploy a card, deploy <i>Human Trafficking</i> without paying its cost.)
+
+<p>Choose up to [X] (X is 2 if you delivered.) Human combatants to permanently gain control of, they become melee Augmented Gladiators with <i>'Vital Tracker'</i>s attached.</p></text>
+</card>
+<card>
+ <name>Kyoko Yuimaru</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_003_001.png">pd</set>
+ <color>M</color>
+ <manacost>2__</manacost>
+ <cmc>4</cmc>
+ <type>R. Asset - Augmented Gladiator</type>
+ <pt>7/5</pt>
+ <tablerow>2</tablerow>
+ <text>([_] can be paid with either [R] or [P].)
+
+<p><i>Kyoko Yuimaru</i> enters the battlefield with your choice of <u>brutal</u> (<i>Kyoko Yuimaru</i> deals combat damage before assets without brutal.) or <u>permanence</u> (Damage <i>Kyoko Yuimaru</i> deals permanently reduces the attack power and health of the assets which it damages.)</p>
+
+<p>Whenever a Gladiator attacks you may deploy a Style card from your discard choosing it.</p></text>
+</card>
+<card>
+ <name>Torment the Opponent</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>RP</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Style Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a melee combatant you control, until end of turn it gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.) while a combatant of your choice an opponent controls with equal or lesser generalized cost gets -1/-1 and becomes exhausted.</text>
+</card>
+<card>
+ <name>Angel Pit Announcer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_004_001.png">pd</set>
+ <color>M</color>
+ <manacost>3RP</manacost>
+ <cmc>5</cmc>
+ <type>R. Asset - AI Announcer</type>
+ <tablerow>1</tablerow>
+ <text>Each time <i>Angel Pit Announcer</i> has seen three combatants die, you may search your deck for a style card, put it into your discard, then shuffle your deck.</text>
+</card>
+<card>
+ <name>Pindown the Opponent</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_002_001.png">pd</set>
+ <color>M</color>
+ <manacost>RP</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Style</type>
+ <tablerow>3</tablerow>
+ <text><u>Append to Opponent's Effect [RP]</u> (As an opponent deploys an effect you may reveal <i>Pindown the Opponent</i> and pay [RP] if you do add this card's effects as it resolves.)
+
+<p>Choose a combatant to exhaust. It can't be refreshed as long as a melee combatant of your choice you control remains on the battlefield.</p></text>
+</card>
+<card>
+ <name>Brutalize the Opponent</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PU_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>1PP</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Style Response</type>
+ <tablerow>3</tablerow>
+ <text><p><i>Brutalize the Opponent</i> costs [1] less if you didn't go first.</p>
+
+<p>Choose a melee combatant, until end of turn it gains <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.) It then deals damage equal to its power to another combatant of your choice.</p></text>
+</card>
+<card>
+ <name>Overexposed Finishing Blow</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_003_001.png">pd</set>
+ <color>M</color>
+ <manacost>1RP</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Style</type>
+ <tablerow>3</tablerow>
+ <text>Choose a melee combatant to, until end of turn, both deal and take double damage.</text>
+</card>
+<card>
+ <name>High Kick</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RU_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Style Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose a melee combatant to, until end of turn, get +2/+0.
+
+<p>If <i>High Kick</i> is deployed during combat, until end of turn, gain control of another combatant not actively participating in combat of your choice. Refresh that asset.</p></text>
+</card>
+<card>
+ <name>Masochistic Angel</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Augmented Gladiator</type>
+ <pt>3/4</pt>
+ <tablerow>2</tablerow>
+ <text>([_] can be paid with either [R] or [P].)
+
+<p>Whenever <i>Masochistic Angel</i> is chosen, until end of turn, it gets +2/+0.</p></text>
+</card>
+<card>
+ <name>Nether Stomp</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RP_002_001.png">pd</set>
+ <color>M</color>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Style Response</type>
+ <tablerow>3</tablerow>
+ <text>([_] can be paid with either [R] or [P])
+
+<p>Choose a melee combatant you control to deal damage equal to its attack power to another combatant of your choice.</p></text>
+</card>
+<card>
+ <name>Angel's Katana</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_CC_001_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Sword</type>
+ <tablerow>1</tablerow>
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Angel's Katana</i>'s cost, if you do choose another combatant to attach it to.)
+
+<p>When <i>Angel's Katana</i> enters the battlefield, choose a combatant to attach it to</p>
+
+<p>Attached combatant gets +1/+0, <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.), and melee.</p></text>
+</card>
+<card>
+ <name>Underworld Crowd</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_CR_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>2RR</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Human Mob</type>
+ <pt>8/8</pt>
+ <tablerow>2</tablerow>
+ <text><u>Mob</u> (You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mobs you control.)
+
+<p><i>Underworld Crowd</i> can't be damaged or chosen by anything Order ([Y]).</p></text>
+</card>
+<card>
+ <name>Sadistic Angel</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PC_001_001.png">pd</set>
+ <color>P</color>
+ <manacost>2P</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Gladiator</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text><u>Permanence</u> (Damage <i>Sadistic Angel</i> deals permanently reduces the attack power and health of the assets which it damages.)</text>
+</card>
+<card>
+ <name>Rookie Angel</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PC_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Augmented Child Gladiator</type>
+ <pt>5/5</pt>
+ <tablerow>2</tablerow>
+ <text><u>Brutal</u> (<i>Rookie Angel</i> deals combat damage before assets without brutal.)
+
+<p>At the beginning of your turn, <i>Rookie Angel</i> permanently gets -1/-1.</p></text>
+</card>
+<card>
+ <name>Match Thrower</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PC_003_001.png">pd</set>
+ <color>P</color>
+ <manacost>P</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Gladiator</type>
+ <pt>4/6</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Match Thrower</i> enters the battlefield, it permanently gets -4/-4 unless an opponent draws two cards.</text>
+</card>
+<card>
+ <name>Handler</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RP_003_001.png">pd</set>
+ <color>M</color>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Executive</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text>([_] can be paid with either [R] or [P])</text>
+</card>
+<card>
+ <name>Vital Tracker</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_CC_002_001.png">pd</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Link</type>
+ <tablerow>1</tablerow>
+ <text>When <i>Vital Tracker</i> enters the battlefield, choose a combatant you own to attach it to.
+
+<p>At the beginning of your turn, if you don't control the attached asset, gain control of it.</p></text>
+</card>
+<card>
+ <name>? Label Manager</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RO_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>RO</manacost>
+ <cmc>2</cmc>
+ <type>Commander - Human Executive</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander</i> -- Whenever a card in your deck has its attack power or health changed, change the other stat to match.
+
+<p><i>As Asset</i> -- Combatants you control with matching attack power and health cost [1] less.</p></text>
+</card>
+<card>
+ <name>Hatsune Miku The First Digital Dva</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RO_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>3RO</manacost>
+ <cmc>5</cmc>
+ <type>R. Asset - AI Musician</type>
+ <tablerow>1</tablerow>
+ <text>Whenever another combatant enters the battlefield, draw a card.</text>
+</card>
+<card>
+ <name>Band Equipment</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_OR_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>3O</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Equipment</type>
+ <related>Harmonize</related>
+ <tablerow>1</tablerow>
+ <text><u>Exchange [2]</u> (Pay [2], Discard this card from your hand: Draw a card.)
+
+<p>When <i>Band Equipment</i> enters the battlefield, choose upto five combatants to attach it to. Treat all chosen assets as a single unit with all of their effects, as well as all of their combined stats.</p>
+
+<p>The combined unit has "<i>Harmonize</i> -- As long as the combined unit's attack power and health are the same, it gets +1/+1 for each asset intercepting it."</p></text>
+</card>
+<card>
+ <name>"Living in the Shadows"</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RR_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>3R</manacost>
+ <cmc>4</cmc>
+ <type>R. Effect - Melody</type>
+ <tablerow>3</tablerow>
+ <text>(This effect can only be deployed if you control a renowned permanent.)
+
+<p><i>"Living in the Shadows"</i> can only be deployed during combat, before you declare attackers.</p>
+
+<p>Put a combatant from your hand onto the battlefield declared as an attacker. Return it to your hand at end of turn.</p></text>
+</card>
+<card>
+ <name>Ecdysiast Singer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RR_003_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Augmented Civilian Musician</type>
+ <pt>6/4</pt>
+ <related>Harmonize</related>
+ <tablerow>2</tablerow>
+ <text><i>Harmonize</i> -- Whenever <i>Ecdysiast Singer</i> deals combatant damage to a commander, if its attack power and health are the same, gain control of target Human combatant an opponent controls.</text>
+</card>
+<card>
+ <name>Backstage Meltdown</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RU_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>RR</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text><i>Backstage Meltdown</i> deals 3 damage to each combatant whose attack power is not the same as its health.</text>
+</card>
+<card>
+ <name>Vocal Training</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RO_001_001.png">pd</set>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>([_] can be paid with either [R] or [O].)
+
+<p><u>Append to Combatant [1RO]</u> (As you deploy a combatant you may reveal <i>Vocal Training</i> and pay [1RO] if you do add this card's effects as it resolves.)</p>
+
+<p>Choose a combatant, until end of turn, the lower of its attack power or health is increased to match the higher.</p></text>
+</card>
+<card>
+ <name>Inspiring Message</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_OU_001_001.png">pd</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Melody</type>
+ <related>Harmonize</related>
+ <tablerow>3</tablerow>
+ <text><u>Deliver [R]</u> (You may set <i>Inspiring Message</i> aside and pay [R]. If you do, the next time you deploy a card, deploy <i>Inspiring Message</i> without paying its cost.)
+
+<p>Choose a combatant, until end of turn it gains, "<i>Harmonize</i> -- As long as this combatant's attack power and health are the same, it gets +1/+1 for each asset intercepting it."</p></text>
+</card>
+<card>
+ <name>"Gonna Jump Now and Be Free"</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RO_002_001.png">pd</set>
+ <color>M</color>
+ <manacost>1RO</manacost>
+ <cmc>3</cmc>
+ <type>Effect - Melody</type>
+ <tablerow>3</tablerow>
+ <text>As an additional cost to deploy <i>"Gonna Jump Now and Be Free"</i>, <u>forfeit</u> (Put the specified asset into its owner's discard.) a combatant you control.
+
+<p>The top card of your deck costs the forfeited cards cost less (ex. If you forfeit Hatsune Miku the card will cost [3RO] less, matching energy types exactly.)</p></text>
+</card>
+<card>
+ <name>Musician's Laptop</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RO_003_001.png">pd</set>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Laptop</type>
+ <related>Harmonize</related>
+ <tablerow>1</tablerow>
+ <text>([_] can be paid with either [R] or [O].)
+
+<p>When <i>Musician's Laptop</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p><i>Harmonize</i> -- Whenever the attached asset attacks or intercepts, if its attack power and health are the same, draw a card.</p></text>
+</card>
+<card>
+ <name>Vocaloid Voice Actress</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RO_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>_</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Civilian Acter</type>
+ <pt>0/2</pt>
+ <related>Harmonize</related>
+ <tablerow>2</tablerow>
+ <text>([_] can be paid with either [R] or [O].)
+
+<p><i>Harmonize</i> -- As long as <i>Vocaloid Voice Actress</i>'s attack power and touphness are the same, it gets +2/+2.</p></text>
+</card>
+<card>
+ <name>Cocaine Induced Inspiration</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RO_002_001.png">pd</set>
+ <manacost>__</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Drug</type>
+ <tablerow>3</tablerow>
+ <text>([_] can be paid with either [R] or [O].)
+
+<p>The top <u>X</u> (X is one plus the number of times <i>Cocaine Induced Inspiration</i> has been deployed this game.) combatants in your deck permanently gain +1/+0.</p></text>
+</card>
+<card>
+ <name>Pitch Correction Implant</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RO_003_001.png">pd</set>
+ <color>M</color>
+ <manacost>1RO</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment Augmentation</type>
+ <tablerow>1</tablerow>
+ <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
+
+<p>When <i>Pitch Correction Implant</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached combatant has the lower of its attack power or health increased to match the higher.</p></text>
+</card>
+<card>
+ <name>Street Performer</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RC_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>2R</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Civilian Musician</type>
+ <pt>4/5</pt>
+ <related>Harmonize</related>
+ <tablerow>2</tablerow>
+ <text><i>Harmonize</i> -- Whenever <i>Street Performer</i> deals combat damage to a commander, if its attack power and health are the same, choose a card in your hand to permanently gain +0/+2.</text>
+</card>
+<card>
+ <name>"I'm Addicted to the Madness"</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RC_002_001.png">pd</set>
+ <color>R</color>
+ <manacost>R</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Melody</type>
+ <tablerow>3</tablerow>
+ <text>The top card of your deck permanently gains one of <u>brutal</u> (It deals combat damage before assets without brutal.), <u>rush</u> (It can attack and intercept as soon as it enters the battlefield, but it can't be explicitly exhausted.), <u>pierce</u> (It deals combat damage greater than the health of the assets intercepting it to the commander it is attacking and bypasses armor.), +1/-1, or -1/+1 at random.</text>
+</card>
+<card>
+ <name>Tour Deadlines</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RC_003_001.png">pd</set>
+ <color>R</color>
+ <manacost>XR</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>The top [X] cards of your deck permanently gain <u>rush</u> (They can attack and intercept as soon as they enter the battlefield, but it can't be explicitly exhausted.)</text>
+</card>
+<card>
+ <name>Hospital Press Manager</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_YC_001_001.png">pd</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Doctor</type>
+ <pt>0/5</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever another combatant enters the battlefield, your commander gains 1 loyalty.</text>
+</card>
+<card>
+ <name>Impressive Shot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_U_001.png">pd</set>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type></type>
+ <tablerow>1</tablerow>
+ <text></text>
+</card>
+<card>
+ <name>Local Range's Prodigy</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RG_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>_</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Citizen</type>
+ <pt>2/2</pt>
+ <tablerow>2</tablerow>
+ <text>([_] can be paid with either [R] or [G].)
+
+<p><u>Trickshot</u> (The first time <i>Local Range's Prodigy</i> is chosen by a style card each turn, create a 'Bullet' on the battlefield.)</p></text>
+</card>
+<card>
+ <name>? Head Roboticist</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RB_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>3RB</manacost>
+ <cmc>5</cmc>
+ <type>Commander - Augmented Researcher</type>
+ <pt>6/8</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander</i> -- At the beginning of combat on your turn, you may redistribute the equipment you control.
+
+<p><i>As Asset</i> -- Whenever an Augmentation enters the battlefield under your control, you may shuffle an Augmentation in your discard into your deck.</p></text>
+</card>
+<card>
+ <name>Corporate Espionage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RB_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>1RB</manacost>
+ <cmc>3</cmc>
+ <type>Effect</type>
+ <related>Incarceration</related>
+ <tablerow>3</tablerow>
+ <text><u>Warrent</u> (When you deploy <i>Corporate Espionage</i>, shuffle an 'Incarceration' into your deck.)
+
+<p>Choose a non-combatant asset an opponent control to create a copy of.</p>
+
+<p>Draw a card.</p></text>
+</card>
+<card>
+ <name>Adrenaline Injector</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RU_001_001.png">pd</set>
+ <color>R</color>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Equipment Augmentation</type>
+ <tablerow>1</tablerow>
+ <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
+
+<p>When <i>Adrenaline Injector</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>If the attached asset would die, it instead dies at the end of the turn.</p></text>
+</card>
+<card>
+ <name>Clearview Flagship</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RB_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>_</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Equipment Augmentation</type>
+ <tablerow>1</tablerow>
+ <text><p>([_] can be paid with either [R] or [B].)</p>
+
+<p>(If a Human asset has an Augmentation attached, it becomes Augmented.)</p>
+
+<p>When <i>Clearview Flagship</i> enters the battlefield, choose a combatant to attach it to.</p>
+
+<p>Attached combatant gets +1/+1.</p></text>
+</card>
+<card>
+ <name>Suffering Incarnate</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_OY_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>3OY</manacost>
+ <cmc>5</cmc>
+ <type>R. Asset - Virtual Boss</type>
+ <pt>8/8</pt>
+ <tablerow>2</tablerow>
+ <text>Whenever an opponent deploys an effect, their commander is <u>drained 2</u> (The specified commander looses 2 loyalty, your commander gains 2 loyalty).</text>
+</card>
+<card>
+ <name>Corporate Ascension</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_GB_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>GB</manacost>
+ <cmc>2</cmc>
+ <type>Effect - Passive</type>
+ <tablerow>3</tablerow>
+ <text>(Passive Effects remain on the battlefield once they resolve.)
+
+<p>If <i>Corporate Ascension</i> has seen 20 generators enter the battlefield, you win the game.</p></text>
+</card>
+<card>
+ <name>? Media Mogul</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_BP_001_001.png">pd</set>
+ <color>M</color>
+ <manacost>1BP</manacost>
+ <cmc>3</cmc>
+ <type>Commander - Human Reporter</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text><i>As Commander</i> -- Each player plays with the top card of their deck revealed.
+
+<p><i>As Asset</i> -- [T]: Each player <u>decays 1</u> (They each put the top card of their deck into their discard.)</p></text>
+</card>
+<card>
+ <name>Evidence Camera</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_CR_002_001.png">pd</set>
+ <manacost>2</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Camera</type>
+ <tablerow>1</tablerow>
+ <text>[T]: Look at the top card of any player's deck, you may put it on the bottom.
+
+<p>[1B], [T]: Choose a player to draw a card.</p>
+
+<p>Once <i>Evidence Camera</i> has been exhausted five times, choose a player to gain five loyalty.</p></text>
+</card>
+<card>
+ <name>Covert Interview</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PU_002_001.png">pd</set>
+ <color>P</color>
+ <manacost>1P</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>As <i>Covert Interview</i> resolves you may pay [B] or [P], if you do, choose a player to <u>decay 1</u> (The specified player puts the top card of their deck into their discard.)
+
+<p>Chose an opponent to reveal their hand and then discard a card of your choice.</p></text>
+</card>
+<card>
+ <name>Expose the Corruption</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_BC_001_001.png">pd</set>
+ <color>B</color>
+ <manacost>B</manacost>
+ <cmc>1</cmc>
+ <type>Effect - Response</type>
+ <tablerow>3</tablerow>
+ <text>Choose any number of players to <u>decay 1</u> (The specified players each put the top card of their deck into their discard.)</text>
+</card>
+</cards>
+</cockatrice_carddatabase>

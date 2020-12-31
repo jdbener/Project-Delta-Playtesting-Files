@@ -50,10 +50,11 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
         #print(r)
     if "<u>Doubt" in card['Rules']: related += "\n <related>Doubt</related>"
     if "<u>Warrent" in card['Rules']: related += "\n <related>Incarceration</related>"
-
+    if "<i>'Tip" in card['Rules']: related += "\n <related>Tip</related>"
+    
     return "\n"+"<card>"\
         +"\n "+"<name>"+card['Name'].replace(",", "")+"</name>"\
-        +"\n "+"<set picURL=\""+url+card['Slot']+"_001.png\">"+setCode+"</set>"\
+        +"\n "+"<set picURL=\""+url+card['Setted Slot']+"_001.png\">"+setCode+"</set>"\
         + color\
         +"\n "+"<manacost>"+card['Cost']+"</manacost>"\
         +"\n <cmc>" + str(cmc) + "</cmc>"\
@@ -62,7 +63,7 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
         + transient\
         + related\
         +"\n "+"<tablerow>"+str(row)+"</tablerow>"\
-        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("<p>", "\n\n<p>").replace("<br>", "\n").replace("</br>", "\n").replace("<br/>", "\n").replace("~@", card['Name'].split(",")[0]).replace("~", card['Name']).strip("\n ")+"</text>"\
+        +"\n "+"<text>"+card["Rules"].replace("][", "").replace("<p>", "\n\n<p>").replace("<br>", "\n").replace("</br>", "\n").replace("<br/>", "\n").replace("~@", "<i>" + card['Name'].split(",")[0] + "</i>").replace("~", "<i>" + card['Name'] + "</i>").strip("\n ")+"</text>"\
         +"\n"+"</card>"
 
 urls = getURLs()
@@ -78,6 +79,7 @@ out = r'''<?xml version="1.0" encoding="UTF-8"?>
   </set>
  </sets>
 <cards>'''
+alreadyPrintedCards = []
 for sheet in urls:
     sheet = sheet.replace("https://docs.google.com/spreadsheets/d/","").split("/")[0]
     sheet = urllib.request.urlopen("https://docs.google.com/spreadsheets/d/" + sheet + "/gviz/tq?tqx=out:csv")\
@@ -85,9 +87,15 @@ for sheet in urls:
     
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
-        if len(card['Slot']):
+        if len(card['Setted Slot']):
             try: 
-                if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'): out += writeCard(card)
+                # Confirm that the card hasn't already been processed
+                if not (card['Name'] in alreadyPrintedCards):
+                    if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'): out += writeCard(card)
+                    alreadyPrintedCards.append( str(card['Name']) )
+                else:
+                    print("card: ", card['Name'], " already found in card database... skipping.")                    
+                    
             except:
                 print("card parsing failed.")
                 continue
