@@ -10,6 +10,10 @@ def getURLs():
         out.append(tmp.strip())
 
 def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/", setCode = "pd"):
+    # Set
+    result = re.search("([\S]*?)_[0RrOoYyGgBbPpMmCc][CcUuRr]?_", card['Setted Slot'])
+    if result:
+        setCode = result.group(1).lower()
     # Type
     type = card['Type']
     if card['Subtype'] != "": type += " - " + card['Subtype']
@@ -66,9 +70,21 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
         +"\n "+"<text>"+card["Rules"].replace("][", "").replace("<p>", "\n\n<p>").replace("<br>", "\n").replace("</br>", "\n").replace("<br/>", "\n").replace("~@", "<i>" + card['Name'].split(",")[0] + "</i>").replace("~", "<i>" + card['Name'] + "</i>").strip("\n ")+"</text>"\
         +"\n"+"</card>"
 
+def getCardSets(reader):
+    sets = []
+    for card in reader:
+        result = re.search("([\S]*?)_[0RrOoYyGgBbPpMmCc][CcUuRr]?_", card['Setted Slot'])
+        if result:
+            sets.append(result.group(1).lower())
+            sets = list(set(sets))
+    return sets
+    
+    
+
+
 urls = getURLs()
 print("Processessing...")
-out = r'''<?xml version="1.0" encoding="UTF-8"?>
+outHeader = r'''<?xml version="1.0" encoding="UTF-8"?>
 <cockatrice_carddatabase version="3">
  <sets>
   <set>
@@ -76,15 +92,17 @@ out = r'''<?xml version="1.0" encoding="UTF-8"?>
    <longname>Project Delta</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
-  </set>
- </sets>
-<cards>'''
+  </set>'''
+out = ""
+cardSets = []
 alreadyPrintedCards = []
 for sheet in urls:
     sheet = sheet.replace("https://docs.google.com/spreadsheets/d/","").split("/")[0]
     sheet = urllib.request.urlopen("https://docs.google.com/spreadsheets/d/" + sheet + "/gviz/tq?tqx=out:csv")\
         .read().decode('utf-8').replace(" (0-4 = common, 5-8 = uncommon, 9-10 = rare)", "")
     
+    reader = csv.DictReader(sheet.splitlines())
+    for x in getCardSets(reader): cardSets.append(x)
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
         if len(card['Setted Slot']):
@@ -100,6 +118,13 @@ for sheet in urls:
                 print("card parsing failed.")
                 continue
 out += "\n</cards>\n</cockatrice_carddatabase>"
+# Different set for each set we found while scanning through the database files
+for s in set(cardSets):
+    outHeader += '\n  <set>\n   <name>' + s + '</name>\n   <longname>' + s.upper() + '</longname>\n   <settype>Custom</settype>\n   <releasedate>2020-09-19</releasedate>\n  </set>'
+outHeader += '''
+ </sets>
+<cards>'''
+out = outHeader + out
 #print(out)
 
 f = open("cards.xml", "w")
