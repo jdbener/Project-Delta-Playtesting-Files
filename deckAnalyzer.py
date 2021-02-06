@@ -26,7 +26,7 @@ for sheet in urls:
             try:
                 if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'):
                     card['Name'] = card['Name'].replace(",", "")
-                    db[card['Name']] = card
+                    if not card['Name'] in db: db[card['Name']] = card
             except:
                 print("card parsing failed.")
                 continue
@@ -64,7 +64,7 @@ for zone in deck.cockatrice_deck.zone:
             totalPower += int(card['number']) * int(db[card['name']]['Effectiveness'])
             
             # Images
-            response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[card['name']]['Slot']+"_001.png")
+            response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[card['name']]['Setted Slot']+"_001.png")
             img = Image.open(BytesIO(response.read()))
             img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
             if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
