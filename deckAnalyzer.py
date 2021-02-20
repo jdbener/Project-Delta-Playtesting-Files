@@ -50,6 +50,7 @@ def imageIncrement(imageCount):
     return imageCount
 
 deck = getDeck()
+related = []
 mainPower = 0
 totalPower = 0
 imageCount = [0, 0]
@@ -62,21 +63,46 @@ for zone in deck.cockatrice_deck.zone:
             if(zone['name'] == 'main'):
                 mainPower += int(card['number']) * int(db[card['name']]['Effectiveness'])
             totalPower += int(card['number']) * int(db[card['name']]['Effectiveness'])
-            
+
+            # Related cards
+            relatedSrc = []
+            result = re.findall("<i>([\S\s]*?)<\\/i>", db[card['name']]["Rules"])
+            for r in result:
+                if any(bad in r.lower() for bad in ["\"", ")", "as", "strength in numbers", "symmetry", "enrage"]): continue
+                relatedSrc.append(r.strip(" \t\n'")) #+= "\n <related>" +  + "</related>"
+                #print(r)
+            if "<u>Doubt" in db[card['name']]['Rules']: relatedSrc.append("Doubt")# += "\n <related>Doubt</related>"
+            if "<u>Warrent" in db[card['name']]['Rules']: relatedSrc.append("Incarceration")# += "\n <related>Incarceration</related>"
+            if "<i>'Tip" in db[card['name']]['Rules']: relatedSrc.append("Tip")# += "\n <related>Tip</related>"
+            for r in list(set(relatedSrc)):
+                related.append(r)
+
             # Images
             response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[card['name']]['Setted Slot']+"_001.png")
             img = Image.open(BytesIO(response.read()))
             img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
             if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
-            
+
             for i in range(0, int(card['number'])):
                 image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
                 imageCount = imageIncrement(imageCount)
 
+imageCount = imageIncrement(imageCount) # One blank image
+# Related Images
+for r in list(set(related)):
+    response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[r]['Setted Slot']+"_001.png")
+    img = Image.open(BytesIO(response.read()))
+    img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
+    if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
+
+    for i in range(0, int(card['number'])):
+        image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
+        imageCount = imageIncrement(imageCount)
+
 image.save("deckImage.png")
 print(image.size)
-#image.show()            
-            
-print("Cards in deck: ", (imageCount[1] * 10 + imageCount[0]))
+#image.show()
+
+print("Card Images in deck: ", (imageCount[1] * 10 + imageCount[0]))
 print("Main deck power: ", mainPower)
 print("Total deck power: ", totalPower)

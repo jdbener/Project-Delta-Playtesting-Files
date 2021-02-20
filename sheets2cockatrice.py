@@ -46,16 +46,19 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
     color = "\n <color>"+card['Color'].upper().replace("GENERIC", "C")[0]+"</color>"
     if color == "\n <color>C</color>": color = ""
     # related
-    related = ""
+    relatedSrc = []
     result = re.findall("<i>([\S\s]*?)<\\/i>", card["Rules"])
     for r in result:
         if any(bad in r.lower() for bad in ["\"", ")", "as", "strength in numbers", "symmetry", "enrage"]): continue
-        related += "\n <related>" + r.strip(" \t\n'") + "</related>"
+        relatedSrc.append(r.strip(" \t\n'"))
         #print(r)
-    if "<u>Doubt" in card['Rules']: related += "\n <related>Doubt</related>"
-    if "<u>Warrent" in card['Rules']: related += "\n <related>Incarceration</related>"
-    if "<i>'Tip" in card['Rules']: related += "\n <related>Tip</related>"
-    
+    if "<u>Doubt" in card['Rules']: relatedSrc.append("Doubt")
+    if "<u>Warrent" in card['Rules']: relatedSrc.append("Incarceration")
+    if "<i>'Tip" in card['Rules']: relatedSrc.append("Tip")
+    related = ""
+    for r in list(set(relatedSrc)):
+        related += "\n <related>" + r + "</related>"
+
     return "\n"+"<card>"\
         +"\n "+"<name>"+card['Name'].replace(",", "")+"</name>"\
         +"\n "+"<set picURL=\""+url+card['Setted Slot']+"_001.png\">"+setCode+"</set>"\
@@ -78,8 +81,8 @@ def getCardSets(reader):
             sets.append(result.group(1).lower())
             sets = list(set(sets))
     return sets
-    
-    
+
+
 
 
 urls = getURLs()
@@ -100,20 +103,20 @@ for sheet in urls:
     sheet = sheet.replace("https://docs.google.com/spreadsheets/d/","").split("/")[0]
     sheet = urllib.request.urlopen("https://docs.google.com/spreadsheets/d/" + sheet + "/gviz/tq?tqx=out:csv")\
         .read().decode('utf-8').replace(" (0-4 = common, 5-8 = uncommon, 9-10 = rare)", "")
-    
+
     reader = csv.DictReader(sheet.splitlines())
     for x in getCardSets(reader): cardSets.append(x)
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
         if len(card['Setted Slot']):
-            try: 
+            try:
                 # Confirm that the card hasn't already been processed
                 if not (card['Name'] in alreadyPrintedCards):
                     if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'): out += writeCard(card)
                     alreadyPrintedCards.append( str(card['Name']) )
                 else:
-                    print("card: ", card['Name'], " already found in card database... skipping.")                    
-                    
+                    print("card: ", card['Name'], " already found in card database... skipping.")
+
             except:
                 print("card parsing failed.")
                 continue
