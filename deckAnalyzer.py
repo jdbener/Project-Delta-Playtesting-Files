@@ -88,16 +88,21 @@ for zone in deck.cockatrice_deck.zone:
                 imageCount = imageIncrement(imageCount)
 
 imageCount = imageIncrement(imageCount) # One blank image
+related = list(set(related))
 # Related Images
-for r in list(set(related)):
-    response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[r]['Setted Slot']+"_001.png")
-    img = Image.open(BytesIO(response.read()))
-    img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
-    if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
+for r in related:
+    try: 
+        response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[r]['Setted Slot']+"_001.png")
+        img = Image.open(BytesIO(response.read()))
+        img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
+        if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
 
-    for i in range(0, int(card['number'])):
+        
         image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
         imageCount = imageIncrement(imageCount)
+    except:
+        print("related card '" + r + "' not found")
+        continue
 
 image.save("deckImage.png")
 print(image.size)
