@@ -41,7 +41,7 @@ def getDeck():
             #print(f)
         #except: continue
     return f
-    
+
 def imageIncrement(imageCount):
     imageCount[0] += 1
     if imageCount[0] >= 10:
@@ -86,18 +86,18 @@ for zone in deck.cockatrice_deck.zone:
             for i in range(0, int(card['number'])):
                 image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
                 imageCount = imageIncrement(imageCount)
+    imageCount = imageIncrement(imageCount) # One blank image between zones
 
-imageCount = imageIncrement(imageCount) # One blank image
 related = list(set(related))
 # Related Images
 for r in related:
-    try: 
+    try:
         response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[r]['Setted Slot']+"_001.png")
         img = Image.open(BytesIO(response.read()))
         img = img.resize((int(512), int(512/img.size[0] * img.size[1])), Image.LANCZOS)
         if image.size == (1, 1): image = image.resize((img.size[0] * 10, img.size[1] * 7))
 
-        
+
         image.paste(img, (img.size[0] * imageCount[0], img.size[1] * imageCount[1]))
         imageCount = imageIncrement(imageCount)
     except:
