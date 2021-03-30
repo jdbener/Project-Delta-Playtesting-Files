@@ -22,7 +22,7 @@ for sheet in urls:
 
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
-        if len(card['Slot']):
+        if len(card['Setted Slot']):
             try:
                 if not (card['Name'] == 'R' or card['Name'] == 'U' or card['Name'] == 'C'):
                     card['Name'] = card['Name'].replace(",", "")
@@ -75,7 +75,7 @@ for zone in deck.cockatrice_deck.zone:
             if "<u>Warrent" in db[card['name']]['Rules']: relatedSrc.append("Incarceration")# += "\n <related>Incarceration</related>"
             if "<i>'Tip" in db[card['name']]['Rules']: relatedSrc.append("Tip")# += "\n <related>Tip</related>"
             for r in list(set(relatedSrc)):
-                related.append(r)
+                related.append(r.replace(",", ""))
 
             # Images
             response = urllib.request.urlopen("https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/"+db[card['name']]['Setted Slot']+"_001.png")
