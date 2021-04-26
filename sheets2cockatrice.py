@@ -109,7 +109,7 @@ for sheet in urls:
     for x in getCardSets(reader): cardSets.append(x)
     reader = csv.DictReader(sheet.splitlines())
     for card in reader:
-        if len(card['Setted Slot']):
+        if len(card['Setted Slot']) and card['Setted Slot'] != '0':
             try:
                 # Confirm that the card hasn't already been processed
                 if not (card['Name'] in alreadyPrintedCards):
@@ -124,7 +124,9 @@ for sheet in urls:
 out += "\n</cards>\n</cockatrice_carddatabase>"
 # Different set for each set we found while scanning through the database files
 for s in set(cardSets):
-    outHeader += '\n  <set>\n   <name>' + s + '</name>\n   <longname>' + s.upper() + '</longname>\n   <settype>Custom</settype>\n   <releasedate>2020-09-19</releasedate>\n  </set>'
+    setMap = {"rt": "Rising Tensions", "rs": "Rising Spirits"}
+    if s in setMap.keys(): outHeader += '\n  <set>\n   <name>' + s + '</name>\n   <longname>' + setMap[s] + '</longname>\n   <settype>Custom</settype>\n   <releasedate>2020-09-19</releasedate>\n  </set>'
+    else: outHeader += '\n  <set>\n   <name>' + s + '</name>\n   <longname>' + s.upper() + '</longname>\n   <settype>Custom</settype>\n   <releasedate>2020-09-19</releasedate>\n  </set>'
 outHeader += '''
  </sets>
 <cards>'''

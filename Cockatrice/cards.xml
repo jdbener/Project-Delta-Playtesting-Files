@@ -8,14 +8,14 @@
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rs</name>
-   <longname>RS</longname>
+   <name>rt</name>
+   <longname>Rising Tensions</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rt</name>
-   <longname>RT</longname>
+   <name>rs</name>
+   <longname>Rising Spirits</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
@@ -29,9 +29,9 @@
  <type>Asset - <u>Transient</u> Bullet</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <text><u>Transient</u> (If <i>Bullet</i> would enter your discard, remove it from the game instead.)
+ <text><u>Transient</u> (If <i>Bullet</i> would enter your discard, instead remove it from the game.)
 
-<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Bullet</i>: Chose anything for <i>Bullet</i> to deal 2 damage to.</p></text>
+<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Bullet</i>: <i>Bullet</i> deals 2 damage to an asset or player of your choice.</p></text>
 </card>
 <card>
  <name>Doubt</name>
@@ -41,7 +41,7 @@
  <type>Effect - <u>Transient</u> Tragedy</type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text><u>Transient</u> (If <i>Doubt</i> would enter your discard, remove it from the game instead.)
+ <text><u>Transient</u> (If <i>Doubt</i> would enter your discard, instead remove it from the game.)
 
 <p>When you draw <i>Doubt</i>, reveal it and your commander loses 1 loyalty.</p>
 
@@ -67,7 +67,7 @@
  <type>Effect - <u>Transient</u> Clue <u>Response</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text><u>Transient</u> (If <i>Tip</i> would enter your discard, remove it from the game instead.), <u>Response</u> (You may deploy <i>Tip</i> in response to other cards and abilities.), <u>Advantageous</u> (When <i>Tip</i> resolves, draw a card.)
+ <text><u>Transient</u> (If <i>Tip</i> would enter your discard, instead remove it from the game.), <u>Response</u> (You may deploy <i>Tip</i> in response to other cards and effects.), <u>Advantageous</u> (When <i>Tip</i> resolves, draw a card.)
 
 <p>When you draw <i>Tip</i>, reveal it, then draw a card.</p></text>
 </card>
@@ -80,7 +80,7 @@
  <pt>1/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <text><u>Transient</u> (If <i>Duck</i> would enter your discard, remove it from the game instead.), <u>Flying</u> (<i>Duck</i> can only be intercepted by assets with ranged. If <i>Duck</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.)</text>
+ <text><u>Transient</u> (If <i>Duck</i> would enter your discard, instead remove it from the game.), <u>Flying</u> (<i>Duck</i> can only be intercepted by assets with ranged or flying. If <i>Duck</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.)</text>
 </card>
 <card>
  <name>Emergency Defibrillator</name>
@@ -91,9 +91,9 @@
  <type>Effect - <u>Fleeting</u> <u>Transient</u> <u>Response</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text><u>Fleeting</u> (Discard <i>Emergency Defibrillator</i> at the end of your turn.), <u>Transient</u> (If <i>Emergency Defibrillator</i> would enter your discard, remove it from the game instead.), <u>Response</u> (You may deploy <i>Emergency Defibrillator</i> in response to other cards and abilities.)
+ <text><u>Fleeting</u> (Discard <i>Emergency Defibrillator</i> at the end of your turn.), <u>Transient</u> (If <i>Emergency Defibrillator</i> would enter your discard, instead remove it from the game.), <u>Response</u> (You may deploy <i>Emergency Defibrillator</i> in response to other cards and effects.)
 
-<p>Choose a combatant that entered your discard this turn to return to your hand.</p></text>
+<p>Choose a combatant that entered your discard this turn, return that card to your hand.</p></text>
 </card>
 <card>
  <name>Fellow Officer</name>
@@ -105,7 +105,7 @@
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <text><u>Transient</u> (If <i>Fellow Officer</i> would enter your discard, remove it from the game instead.)
+ <text><u>Transient</u> (If <i>Fellow Officer</i> would enter your discard, instead remove it from the game.)
 
 <p><i>Fellow Officer</i> can be placed into a ranged slot of a formation.</p></text>
 </card>
@@ -117,7 +117,9 @@
  <type>Effect - <u>Transient</u> <u>Response</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text>Choose a card in your hand to permanently cost [1] less.</text>
+ <text><u>Transient</u> (If <i>Savings</i> would enter your discard, instead remove it from the game.), <u>Response</u> (You may deploy <i>Savings</i> in response to other cards and effects.)
+
+<p>Choose a card in your hand, it permanently costs [1] less.</p></text>
 </card>
 <card>
  <name>W.E.B</name>
@@ -142,8 +144,8 @@
  <related>Brigg's Remorse</related>
  <tablerow>2</tablerow>
  <text><p>(Becomes <i>'Brigg's Remorse'</i> if you already control <i>Martha Briggs</i>.)
-<b><i>As Commander</i> --</b> Whenever an asset enters the battlefield, you may pay [R] if you do it gains <u>airdrop</u> (The specified asset can attack, intercept, and exhaust as soon as it is deployed.)
-<b><i>As Asset</i> --</b> After interceptors are declared, if <i>Martha Briggs</i> would do combat damage to a commander, you may put a combatant onto the battlefield attacking, then <u>forfeit</u> it at the end of your turn.</p></text>
+<b><i>As Commander</i> --</b> Whenever an asset resolves, you may pay [R]. If you do it gains <u>airdrop</u> (The specified asset enters the battlefield as soon as it resolves.)
+<b><i>As Asset</i> --</b> After interceptors are declared, if <i>Martha Briggs</i> would do combat damage to a commander, you may put a combatant onto the battlefield attacking. If you do, <u>forfeit</u> it at the end of your turn.</p></text>
 </card>
 <card>
  <name>Brigg's Remorse</name>
@@ -155,7 +157,7 @@
  <token>1</token>
  <related>Martha Briggs, Spacecorp Commander</related>
  <tablerow>3</tablerow>
- <text><p>Choose anything for <i>Brigg's Remorse</i> to deal [X] damage to.</p>
+ <text><p><i>Brigg's Remorse</i> deals [X] to an asset or player of your choice.</p>
 
 <p>You may deploy an asset in your hand with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Brigg's Remorse</i> has a generalized cost of [1].) [X] or less without paying its cost.</p>
 
@@ -181,7 +183,7 @@
  <cmc>4</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Search your deck for a card to put into your hand, then shuffle your deck and discard a card at random.</text>
+ <text>Search your deck for a card, put it into your hand, then shuffle your deck and discard a card at random.</text>
 </card>
 <card>
  <name>Asteroid Demolition</name>
@@ -191,9 +193,9 @@
  <cmc>4</cmc>
  <type>R. Effect</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose [X] permanents at random to be <u>forfeit</u> (Put the specified assets into their owners' discards.) by their owners.</p></text>
+<p>Choose [X] permanents at random to be <u>forfeited</u> (Put the specified assets into their owners' discards.) by their owners.</p></text>
 </card>
 <card>
  <name>Lexi Xenos Spacecorp Recruit</name>
@@ -204,9 +206,9 @@
  <type>R. Asset - Human Female Spacecorp Cadet</type>
  <pt>5/5</pt>
  <tablerow>2</tablerow>
- <text>(If you deploy or otherwise obtain another card with the same name as <i>Lexi Xenos, Spacecorp Recruit</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Lexi's Last Day'</i> if you already control <i>Lexi Xenos, Spacecorp Recruit</i>.)
+ <text>(If you obtain another card with the same name as <i>Lexi Xenos, Spacecorp Recruit</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Lexi's Last Day'</i> if you already control <i>Lexi Xenos, Spacecorp Recruit</i>.)
 
-<p>When <i>Lexi Xenos</i> leaves the battlefield, you may search your deck for up to four cards to remove from the game.</p></text>
+<p>When <i>Lexi Xenos</i> leaves the battlefield, you may search your deck for up to four cards, remove them from the game.</p></text>
 </card>
 <card>
  <name>Lexi's Last Day</name>
@@ -218,7 +220,7 @@
  <token>1</token>
  <related>Lexi Xenos, Spacecorp Recruit</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Choose a combatant you control to deal <u>X</u> (X is its attack power) damage to itself and another combatant of your choice.</p>
 
@@ -232,7 +234,7 @@
  <cmc>5</cmc>
  <type>R. Effect</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><u>Retribution</u> (When you draw <i>Take Fate in Your own Hands</i> as a result of taking damage, you may deploy it without paying its cost.)</p>
 
@@ -246,7 +248,7 @@
  <cmc>4</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a card on the stack, until end of turn, gain control of it. It permanently gains <u>airdrop</u> (It can attack and exhaust as soon as it is deployed.)</text>
+ <text>Choose a card on the stack, until end of turn, gain control of it. It permanently gains <u>airdrop</u> (It enters the battlefield as soon as it resolves.)</text>
 </card>
 <card>
  <name>SpaceCorp Miner</name>
@@ -255,7 +257,8 @@
  <manacost>3R</manacost>
  <cmc>4</cmc>
  <type>Asset - Miner Spacecorp <u>Spacecraft</u></type>
- <tablerow>1</tablerow>
+ <pt>4/5</pt>
+ <tablerow>2</tablerow>
  <text><u>Spacecraft</u> (<i>SpaceCorp Miner</i> can only intercept or be intercepted by assets with spacecraft.)
 
 <p>[2RR], 50% chance of discarding a card at random: Until end of turn, assets you control get +1/+0.</p></text>
@@ -268,9 +271,9 @@
  <cmc>4</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a generator for its owner to <u>forfeit</u> (Put the specified asset into its owner's discard.)
+ <text>Choose a generator, its owner <u>forfeits</u> (Put the specified asset into its owner's discard.) it.
 
-<p>You have a 50% chance to <u>forfeit</u> (Put the specified asset into its owner's discard.) a random generator you control.</p></text>
+<p>There is a 50% chance you <u>forfeit</u> (Put the specified asset into its owner's discard.) a random generator you control.</p></text>
 </card>
 <card>
  <name>Crash Landing</name>
@@ -282,7 +285,7 @@
  <tablerow>3</tablerow>
  <text>All assets loose unbreakable until end of turn.
 
-<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) an asset you control: Choose anything, <i>Crash Landing</i> deals X (X is the discarded asset's attack power.) damage to it.</p></text>
+<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) an asset you control: Choose an asset or player, <i>Crash Landing</i> deals X (X is the discarded asset's attack power.) damage to it.</p></text>
 </card>
 <card>
  <name>Anti-Pirate Guards</name>
@@ -339,7 +342,7 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Draw two cards then discard a card at random.</text>
+ <text>Draw two cards, then discard a card at random.</text>
 </card>
 <card>
  <name>Failed Reentry</name>
@@ -349,7 +352,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose an asset, until end of turn it gets +4/+0 and <u>airdrop</u> (It can attack and exhaust as soon as it is deployed.).
+ <text>Choose an asset, until end of turn, it gets +4/+0 and <u>airdrop</u> (It enters the battlefield as soon as it resolves.).
 
 <p><u>Forfeit</u> (Put the specified asset into its owner's discard.) it at the end of the turn.</p></text>
 </card>
@@ -376,10 +379,10 @@
  <tablerow>2</tablerow>
  <text><u>Spacecraft</u> (<i>Doomed Convoy</i> can only intercept or be intercepted by assets with spacecraft.)
 
-<p>When <i>Doomed Convoy</i> enters the battlefield, there is a 25% chance to give it to a random opponent.</p></text>
+<p>When <i>Doomed Convoy</i> resolves, there is a 25% chance to give it to a random opponent.</p></text>
 </card>
 <card>
- <name>Quinton Anon The Inciter of Violence</name>
+ <name>Quinton Anon Voice of the People</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_R_CMDR_2_001.png">rt</set>
  <color>R</color>
  <manacost>1RR</manacost>
@@ -404,9 +407,9 @@
  <token>1</token>
  <related>Quinton Anon, The Inciter of Violence</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a combatant to permanently get +1/+1 and brutal.</p>
+<p>Choose a combatant, it permanently gets +1/+1 and brutal.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Quinton Anon, The Inciter of Violence'</i> into your deck.</p></text>
 </card>
@@ -420,7 +423,7 @@
  <pt>4/4</pt>
  <related>Marina's Charm</related>
  <tablerow>2</tablerow>
- <text>(If you deploy or otherwise obtain another card with the same name as <i>Marina Arigotti, Femme Fatale</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Marina's Charm'</i> if you already control <i>Marina Arigotti, Femme Fatale</i>.)
+ <text>(If you obtain another card with the same name as <i>Marina Arigotti, Femme Fatale</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Marina's Charm'</i> if you already control <i>Marina Arigotti, Femme Fatale</i>.)
 
 <p>When <i>Marina Arigotti</i> enters the battlefield, choose a human to gain control of until she leaves the battlefield.</p></text>
 </card>
@@ -434,7 +437,7 @@
  <token>1</token>
  <related>Marina Arrigotti, Femme Fatale</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Choose a <u>male</u> (If a card doesn't explicitly say Male or Female it counts as both.) combatant an opponent controls, until end of turn, gain control of it.</p>
 
@@ -451,7 +454,7 @@
  <tablerow>2</tablerow>
  <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)
 
-<p>If an opponent would lose loyalty outside of combat, they loose twice as much loyalty instead.</p></text>
+<p>If an opponent's commander would lose loyalty outside of combat, they loose twice as much loyalty instead.</p></text>
 </card>
 <card>
  <name>Eccentric Celebrity</name>
@@ -462,7 +465,7 @@
  <type>Asset - Augmented Civilian Leader</type>
  <pt>4/2</pt>
  <tablerow>2</tablerow>
- <text>When <i>Eccentric Celebrity</i> enters the battlefield create a <u>transient</u> copy of a random Emotion ([R]) effect in your deck with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Eccentric Celebrity</i> has a generalized cost of [3].) of [4] or less in your hand.</text>
+ <text>When <i>Eccentric Celebrity</i> enters the battlefield, create a <u>transient</u> copy of a random Emotion ([R]) effect in your deck with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Eccentric Celebrity</i> has a generalized cost of [3].) [4] or less in your hand.</text>
 </card>
 <card>
  <name>Armed Mob</name>
@@ -473,7 +476,7 @@
  <type>Asset - Human Civilian <u>Mob</u></type>
  <pt>6/6</pt>
  <tablerow>2</tablerow>
- <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control..)</text>
+ <text><u>Mob</u> (You may assign any number of mob combatants you control to a unit. Any number of your opponent's combatants may intercept these units. You, not your opponent, choose how combat damage is divided among the intercepted and intercepting mob units you control.)</text>
 </card>
 <card>
  <name>Growing Mob</name>
@@ -499,19 +502,17 @@
  <tablerow>2</tablerow>
  <text><u>Retribution</u> (When you draw <i>Angry Customer</i> as a result of taking damage, you may deploy it without paying its cost.)
 
-<p>When <i>Angry Customer</i> enters the battlefield, it deals 3 damage to anything you choose.</p></text>
+<p>When <i>Angry Customer</i> enters the battlefield, it deals 3 damage to an asset or player of your choice.</p></text>
 </card>
 <card>
  <name>Charm</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_RU_012_001.png">rt</set>
  <color>R</color>
- <manacost> </manacost>
- <cmc>0</cmc>
+ <manacost>1RR</manacost>
+ <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>(You can't deploy <i>Charm</i>.)
-
-<p><u>Append to Combatant [3RR]</u> (As you deploy a combatant you may reveal <i>Charm</i> and pay [3RR] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)</p>
+ <text><p><u>Append to Combatant [3RR]</u> (As you deploy a combatant you may reveal <i>Charm</i> and pay [3RR]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)</p>
 
 <p>Choose a combatant an opponent controls, until end of turn, gain control of it.</p></text>
 </card>
@@ -525,7 +526,7 @@
  <tablerow>3</tablerow>
  <text><u>Advantageous</u> (When <i>Stacked Deck</i> resolves, draw a card.)
 
-<p>Choose a card on the stack to replace with the top card of its controller's deck.</p></text>
+<p>Choose a card on the stack, replace it with the top card of its controller's deck.</p></text>
 </card>
 <card>
  <name>Mulligan</name>
@@ -537,7 +538,7 @@
  <tablerow>3</tablerow>
  <text>If an opponent searched their deck for a card this turn, <i>Mulligan</i> costs [R] less.
 
-<p>Each player shuffles their hand into their deck and draws that many cards plus one.</p></text>
+<p>Each player shuffles their hand into their deck, then draws that many cards plus one.</p></text>
 </card>
 <card>
  <name>Wrist Mounted Flamethrower</name>
@@ -547,7 +548,7 @@
  <cmc>3</cmc>
  <type>Asset - Flamethrower</type>
  <tablerow>1</tablerow>
- <text>When <i>Wrist Mounted Flamethrower</i> enters the battlefield, choose a combatant to attach it to.
+ <text>When <i>Wrist Mounted Flamethrower</i> enters the battlefield, attach it to a combatant of your choice.
 
 <p>The attached combatant has <u>+X/+0</u> (X is the number of combatants that have attacked this turn.) and <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.)</p></text>
 </card>
@@ -586,9 +587,9 @@
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Samuel's Banked Favors'</i> if you already control <i>Samuel Reid, Political Dissident</i>.)
 
-<p><u>Pierce</u> (<i>Samuel Reid</i> deals combat damage greater than the health of the assets intercepting it to the commander it is attacking and bypasses armor.), <u>Warrant</u></p>
+<p><u>Pierce</u> (<i>Samuel Reid</i> deals combat damage greater than the combined health of the assets intercepting it to the commander it is attacking and bypasses armor.), <u>Warrant</u></p>
 
-<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield, you may pay [1O], if you do it permanently gains <u>pierce</u>, <u>reckless</u>, and ranged.</p></text>
+<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield, you may pay [1O]. If you do it permanently gains <u>pierce</u>, <u>reckless</u>, and ranged.</p></text>
 </card>
 <card>
  <name>Samuel's Banked Favors</name>
@@ -600,7 +601,7 @@
  <token>1</token>
  <related>Samuel Reid, Political Dissident</related>
  <tablerow>3</tablerow>
- <text><p>The top [X] (X is the number of combatants in your discard.) cards of your deck permanently cost [Z] (Z is one plus the number of combatants that entered the battlefield under your opponent's control this turn.) less.</p>
+ <text><p>The top <u>X</u> (X is the number of combatants in your discard.) cards of your deck permanently cost [Z] (Z is one plus the number of combatants that entered the battlefield under your opponent's control this turn.) less.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Samuel Reid, Political Dissident'</i> into your deck.)</p></text>
 </card>
@@ -614,7 +615,7 @@
  <pt>13/13</pt>
  <related>Remember the Plan!</related>
  <tablerow>2</tablerow>
- <text>(If you deploy or otherwise obtain another card with the same name as <i>Christen Frisk</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Remember the Plan!'</i> if you already control <i>Christen Frisk</i>.)
+ <text>(If you obtain another card with the same name as <i>Christen Frisk</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Remember the Plan!'</i> if you already control <i>Christen Frisk</i>.)
 
 <p><u>Reckless</u> (<i>Christen Frisk</i> can't intercept.)</p>
 
@@ -630,7 +631,7 @@
  <token>1</token>
  <related>Christen Frisk, Delta Commander</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Refresh all combatants you control.</p>
 
@@ -645,7 +646,7 @@
  <type>Asset - Augmented Male Civilian Rebel</type>
  <pt>4/8</pt>
  <tablerow>2</tablerow>
- <text><i>Strength in Numbers</i> -- Whenever <i>Arms Runner</i> attacks, choose another combatant to attack with <i>Arms Runner</i>, until end of turn that asset gets +2/+2 and ranged. If that combatant has <i>Strength in Numbers</i> its chosen asset gets +2/+2 and ranged as well, repeat this process until there are no more combatants or a combatant which has already received this buff is chosen.</text>
+ <text><i>Strength in Numbers</i> -- Whenever <i>Arms Runner</i> attacks, choose another combatant, that combatant attacks with <i>Arms Runner</i>, until end of turn that combatant gets +2/+2 and ranged. If that combatant has <i>Strength in Numbers</i> its chosen asset gets +2/+2 and ranged as well, repeat this process until there are no more combatants or a combatant which has already received this buff is chosen.</text>
 </card>
 <card>
  <name>Inspiring Leadership</name>
@@ -655,7 +656,7 @@
  <cmc>3</cmc>
  <type>Effect -  </type>
  <tablerow>3</tablerow>
- <text><u>Append to Combatant [3OO]</u> (As you deploy a combatant you may reveal <i>Inspiring Leadership</i> and pay [3OO] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Combatant [3OO]</u> (As you deploy a combatant you may reveal <i>Inspiring Leadership</i> and pay [3OO]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
 <p>You may activate your commander's As Commander effect (ignoring any costs and timing/occurrence restrictions.)</p></text>
 </card>
@@ -703,7 +704,7 @@
  <type>Asset - Human Civilian Intern</type>
  <pt>5/3</pt>
  <tablerow>2</tablerow>
- <text><u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.), <u>Quick Hire</u> (When <i>Political Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+ <text><u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.), <u>Quick Hire</u> (When <i>Political Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [O].</p>
 
@@ -791,7 +792,7 @@
  <tablerow>3</tablerow>
  <text><u>Retribution</u> (When you draw <i>Production Layoffs</i> as a result of taking damage, you may deploy it without paying its cost.)
 
-<p>Choose a generator to return to its owner's hand.</p></text>
+<p>Choose a generator, return it to its owner's hand.</p></text>
 </card>
 <card>
  <name>Loyal Supporter</name>
@@ -804,7 +805,7 @@
  <tablerow>2</tablerow>
  <text><u>Advantageous</u> (When <i>Loyal Supporter</i> resolves, draw a card.), <u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.)
 
-<p><u>Once</u> (Once you have activated this effect, remove it from this card): remove the first Tragedy card in your deck from the game.</p></text>
+<p><u>Once</u> (As you activate this effect, remove it from this card): remove the first Tragedy card in your deck from the game.</p></text>
 </card>
 <card>
  <name>Sara Anthony Master of Disguise</name>
@@ -820,7 +821,7 @@
 
 <p><u>Warrant</u></p>
 
-<p><b><i>As Commander</i> --</b> Once each game, at the beginning of your turn, you may choose a combatant to transform into a copy of another combatant with an equal or lesser <u>generalized cost</u>.</p>
+<p><b><i>As Commander</i> --</b> Once each game, at the beginning of one of your turns, you may choose a combatant, transform it into a copy of another combatant with an equal or lesser <u>generalized cost</u>.</p>
 
 <p><b><i>As Asset</i> --</b> Sara Anthony may enter the battlefield as a copy of another combatant of your choice.</p></text>
 </card>
@@ -833,7 +834,7 @@
  <type>R. Effect - <u>Personal</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Search your deck for a card, put a copy of it into your hand, then shuffle your deck.</p>
 
@@ -847,13 +848,14 @@
  <cmc>2</cmc>
  <type>R. Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a combatant in your hand with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Delta Operative has a generalized cost of [2].) [X] or less to put into play intercepting an attacking combatant of your choice an opponent controls.</p></text>
+<p>Choose a combatant in your hand with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Delta Operative has a generalized cost of [2].) [X] or less; put it into play intercepting an attacking combatant of your choice an opponent controls.</p></text>
 </card>
 <card>
  <name>Lurking Operative</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OR_006_001.png">rt</set>
+ <color>O</color>
  <manacost>OO</manacost>
  <cmc>2</cmc>
  <type>Asset - Human Delta Operative <u>Response</u></type>
@@ -871,9 +873,9 @@
  <cmc>4</cmc>
  <type>Asset - <u>Discovery</u> Cause</type>
  <tablerow>1</tablerow>
- <text>(When <i>Project Delta</i> enters the battlefield or at the beginning of your turn progress to the next phase unless the final phase has been reached.)
+ <text>(When <i>Project Delta</i> enters the battlefield or at the beginning of your turn, progress to the next phase unless the final phase has been reached.)
 
-<p><b><i>1-3)</i></b> Choose a card in your hand with <u>generalized cost</u> [X] or less to deploy without paying its cost.</p>
+<p><b><i>1-3)</i></b> Choose a card in your hand with <u>generalized cost</u> [X] or less; deploy it without paying its cost.</p>
 
 <p><b><i>Final)</i></b> If an opponent would lose the game, each opponent loses the game.</p></text>
 </card>
@@ -885,7 +887,7 @@
  <cmc>3</cmc>
  <type>Asset - Drug</type>
  <tablerow>1</tablerow>
- <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Pain Amplifier</i>: Choose a combatant to permanently take double damage.</text>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Pain Amplifier</i>: Choose a combatant; it permanently takes double damage.</text>
 </card>
 <card>
  <name>Stolen Helicopter</name>
@@ -896,9 +898,9 @@
  <type>Asset - <u>Vehicle</u> Helicopter</type>
  <pt>5/1</pt>
  <tablerow>2</tablerow>
- <text><u>Flying</u> (<i>Stolen Helicopter</i> can only be intercepted by assets with ranged. If <i>Stolen Helicopter</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.), <u>Reckless</u>, <u>Vehicle</u>
+ <text><u>Flying</u> (<i>Stolen Helicopter</i> can only be intercepted by assets with ranged or flying. If <i>Stolen Helicopter</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.), <u>Reckless</u>, <u>Vehicle</u>
 
-<p><i>Strength in Numbers</i> -- Whenever <i>Stolen Helicopter</i> attacks, choose another combatant to attack with <i>Stolen Helicopter</i>, until end of turn that asset gains <u>brutal</u> and +1/+0.</p></text>
+<p><i>Strength in Numbers</i> -- Whenever <i>Stolen Helicopter</i> attacks, choose another combatant, that combatant attacks with <i>Stolen Helicopter</i>, until end of turn that combatant gains <u>brutal</u> and +1/+0.</p></text>
 </card>
 <card>
  <name>Delta Infiltrator</name>
@@ -910,7 +912,7 @@
  <tablerow>1</tablerow>
  <text><u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.)
 
-<p><i>Strength in Numbers</i> -- Whenever <i>Delta Infiltrator</i> attacks, choose another combatant to attack with <i>Delta Infiltrator</i>, until end of turn that asset gets <u>shield</u> (Prevent the next instance of damage that asset would receive. Once damage has been prevented this way, that asset loses shield.)</p></text>
+<p><i>Strength in Numbers</i> -- Whenever <i>Delta Infiltrator</i> attacks, choose another combatant, that combatant attacks with <i>Delta Infiltrator</i>, until end of turn that combatant gains <u>shield</u> (Prevent the next instance of damage that asset would receive. Once damage has been prevented this way, that asset loses shield.)</p></text>
 </card>
 <card>
  <name>Lost and Found</name>
@@ -920,7 +922,7 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Draw two cards then put two cards from your hand on top of your deck.</text>
+ <text>Draw two cards, then put two cards from your hand on top of your deck.</text>
 </card>
 <card>
  <name>Wirecutter</name>
@@ -941,9 +943,9 @@
  <cmc>2</cmc>
  <type>Asset - Equipment Suit</type>
  <tablerow>1</tablerow>
- <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Stealth Suit</i>'s cost, if you do choose another asset to attach it to.)
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Stealth Suit</i>'s cost, if you do choose another asset; attach <i>Stealth Suit</i> to it.)
 
-<p>Attached asset has <u>response</u> (The attached card can be deployed during response phases.) and <u>subterfuge</u> (Damage dealt by the attached card, doesn't cause your opponents to draw cards.)</p>
+<p>The attached asset has <u>response</u> (The attached card can be deployed during response phases.) and <u>subterfuge</u> (Damage dealt by the attached card, doesn't cause your opponents to draw cards.)</p>
 
 <p>You may attach <i>Stealth Suit</i> to assets in your hand.</p></text>
 </card>
@@ -971,7 +973,7 @@
 
 <p><i>Sabotage</i> costs [1] less to deploy if you didn't go first.</p>
 
-<p>Choose a generator to be <u>forfeited</u> (Put the specified generator into its owner's discard.) by its controller.</p></text>
+<p>Choose a generator; its controller <u>forfeites</u> (Put the specified generator into its owner's discard.) it.</p></text>
 </card>
 <card>
  <name>Restrain</name>
@@ -1004,7 +1006,7 @@
  <cmc>1</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose an asset to gain <u>subterfuge</u> (Damage dealt by that card, doesn't cause your opponents to draw cards.) until end of turn.</text>
+ <text>Choose an asset; until end of turn, it gains <u>subterfuge</u> (Damage dealt by that card, doesn't cause your opponents to draw cards.)</text>
 </card>
 <card>
  <name>A.L.I.V.E First Responder</name>
@@ -1019,7 +1021,7 @@
 
 <p><b><i>As Commander</i> --</b> At the beginning of each turn, <i>A.L.I.V.E</i> gains 1 loyalty.</p>
 
-<p><b><i>As Asset</i> --</b> Each time your commander loses <u>X</u> (X is 1/5 your commander's starting loyalty) loyalty, create an <i>'Emergency Defibrillator'</i> in your hand. If <i>A.L.I.V.E</i> is inside a vehicle, instead create an <i>'Emergency Defibrillator'</i> whenever your commander loses loses loyalty.</p></text>
+<p><b><i>As Asset</i> --</b> Each time your commander loses <u>X</u> (X is 1/5 your commander's starting loyalty) loyalty, create an <i>'Emergency Defibrillator'</i> in your hand. If <i>A.L.I.V.E</i> is inside a vehicle, instead create an <i>'Emergency Defibrillator'</i> whenever your commander loses loyalty.</p></text>
 </card>
 <card>
  <name>Shawn Bright Anti-Riot Bulwark</name>
@@ -1047,7 +1049,7 @@
  <token>1</token>
  <related>Shawn Bright, Anti-Riot Bulwark</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>All Police combatants everywhere permanently gain +1/+1.</p>
 
@@ -1074,9 +1076,9 @@
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text><u>Append to Effect [4Y]</u> (As you deploy an Effect you may reveal <i>Moral</i> and pay [4Y] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Effect [4Y]</u> (As you deploy an Effect you may reveal <i>Moral</i> and pay [4Y]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
-<p>All combatants of a subtype of your choice, on the battlefield, permanently gain +1/+1.</p></text>
+<p>All combatants of a subtype of your choice on the battlefield, permanently gain +1/+1.</p></text>
 </card>
 <card>
  <name>Solitary Confinement</name>
@@ -1086,7 +1088,7 @@
  <cmc>4</cmc>
  <type>Asset - Prison</type>
  <tablerow>1</tablerow>
- <text>Choose an asset to put under <i>Solitary Confinement</i> until <i>Solitary Confinement</i> leaves the battlefield.
+ <text>Choose an asset; set it aside until <i>Solitary Confinement</i> leaves the battlefield.
 
 <p>Players can't deploy card with the same name as the card under <i>Solitary Confinement</i>.</p></text>
 </card>
@@ -1125,9 +1127,9 @@
  <type>Effect - Trap <u>Response</u></type>
  <related>Incarceration</related>
  <tablerow>3</tablerow>
- <text>If an opponent attacked you with three or more combatants this turn, <i>Arrest</i> costs [2Y] less as long as the chosen asset belongs to that opponent.
+ <text><p>Choose an asset to remove from the game. Shuffle an <i>'Incarceration'</i> into its owner's deck.</p>
 
-<p>Choose an asset to remove from the game. Shuffle an <i>'Incarceration'</i> into its owner's deck.</p></text>
+<p>If an opponent attacked you with three or more combatants this turn, <i>Arrest</i> costs [2Y] less as long as the chosen asset belongs to that opponent.</p></text>
 </card>
 <card>
  <name>Department Trainee</name>
@@ -1139,7 +1141,7 @@
  <pt>4/4</pt>
  <related>Fellow Officer</related>
  <tablerow>2</tablerow>
- <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>Department Trainee</i>.), <u>Quick Hire</u> (When <i>Department Trainee</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>Department Trainee</i>.), <u>Quick Hire</u> (When <i>Department Trainee</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [Y].</p>
 
@@ -1155,7 +1157,7 @@
  <pt>4/4</pt>
  <related>Fellow Officer</related>
  <tablerow>2</tablerow>
- <text>When <i>SWAT Team Leader</i> enters the battlefield, create <u>X</u> (X is 1 plus the number of cards named <i>SWAT Team Leader</i> that have been deployed this game.) <i>'Fellow Officer'</i>s on the battlefield.</text>
+ <text>When <i>SWAT Team Leader</i> resolves, create <u>X</u> (X is 1 plus the number of cards named <i>SWAT Team Leader</i> that have been deployed this game.) <i>'Fellow Officer'</i>s on the battlefield.</text>
 </card>
 <card>
  <name>Operation 11.3</name>
@@ -1165,7 +1167,7 @@
  <cmc>3</cmc>
  <type>Asset - Latent</type>
  <tablerow>1</tablerow>
- <text>Choose an asset to put under <i>Operation 11.3</i> until <i>Operation 11.3</i> leaves the battlefield.</text>
+ <text>Choose an asset; set it aside until <i>Operation 11.3</i> leaves the battlefield.</text>
 </card>
 <card>
  <name>Sedative Cuffs</name>
@@ -1175,7 +1177,7 @@
  <cmc>4</cmc>
  <type>Asset - Equipment Police</type>
  <tablerow>1</tablerow>
- <text>When <i>Sedative Cuffs</i> enters the battlefield choose a combatant to attach it to.
+ <text>When <i>Sedative Cuffs</i> enters the battlefield, choose a non-vehicle combatant to attach it to.
 
 <p>The attached asset can't attack or intercept and has "[1Y]: Until end of turn, this asset loses all effects. This effect may be activated by any player."</p></text>
 </card>
@@ -1235,7 +1237,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a combatant with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Capture the Week has a generalized cost of [2].) [4] or less to remove from the game.</text>
+ <text>Choose a combatant with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Capture the Week has a generalized cost of [2].) [4] or less; remove it from the game.</text>
 </card>
 <card>
  <name>Stun Baton</name>
@@ -1245,11 +1247,11 @@
  <cmc>2</cmc>
  <type>Asset - Equipment Police</type>
  <tablerow>1</tablerow>
- <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Stun Baton</i>'s cost, if you do choose another asset to attach it to.)
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Stun Baton</i>'s cost, if you do choose another asset; attach <i>Stun Baton</i> to it.)
 
-<p>When <i>Stun Baton</i> enters the battlefield, attach it to target combatant.</p>
+<p>When <i>Stun Baton</i> enters the battlefield, attach it to a combatant of your choice.</p>
 
-<p>Whenever the attached asset deals damage to a combatant, the next time that combatant would be untapped, it isn't.</p></text>
+<p>Whenever the attached asset deals damage to a combatant, the next time that combatant would be refreshed, it isn't.</p></text>
 </card>
 <card>
  <name>Crystal Waters Anti-Trafficker</name>
@@ -1259,8 +1261,8 @@
  <cmc>1</cmc>
  <type>Commander - Human Female Civilian Investigator</type>
  <pt>1/1</pt>
- <related>Tip</related>
  <related>Answer to Prayers</related>
+ <related>Tip</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Answer to Prayers'</i> if you already control <i>Crystal Waters, Anti-Trafficker</i>.)
 
@@ -1278,9 +1280,9 @@
  <token>1</token>
  <related>Crystal Waters, Anti-Trafficker</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a combatant to <u>fully Heal</u> (Remove all attack power and health reductions, and all damage from the specified asset.), until end of turn, it can't be chosen or damaged.</p>
+<p>Choose a combatant; <u>fully Heal</u> (Remove all attack power and health reductions, and all damage from the specified asset.) that combatant. Until end of turn, it can't be chosen or damaged.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Crystal Waters, Anti-Trafficker'</i> into your deck.)</p></text>
 </card>
@@ -1292,7 +1294,7 @@
  <cmc>7</cmc>
  <type>R. Effect</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Choose any number of combatants to return to their owner's hands.</p>
 
@@ -1308,8 +1310,8 @@
  <related>Tip</related>
  <tablerow>3</tablerow>
  <text><p>Choose one --
--> Choose a permanent you control to put onto the battlefield of an opponent of your choice.
--> Choose a card in your hand to put into the hand of an opponent of your choice.</p>
+-> Choose an asset you control, then choose an opponent to gain control of that asset.
+-> Choose an opponent and a card in your hand, put that card into their hand.</p>
 
 <p>Shuffle a <i>'Tip'</i> into your deck.</p></text>
 </card>
@@ -1391,7 +1393,7 @@
  <cmc>2</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose anything attached to a combatant to be <u>forfeited</u> (Put the specified cards into their owner's discard.) by its controller.</text>
+ <text>Choose anything attached to a combatant; its controller <u>forfeites</u> (Put the specified cards into their owner's discard.) it.</text>
 </card>
 <card>
  <name>Charitable Mother</name>
@@ -1403,7 +1405,7 @@
  <pt>1/1</pt>
  <related>Tip</related>
  <tablerow>2</tablerow>
- <text>When <i>Charitable Mother</i> enters the battlefield choose one:
+ <text>When <i>Charitable Mother</i> enters the battlefield, choose one:
 -> Your commander gains 2 loyalty.
 -> Shuffle a <i>'Tip'</i> into your deck.</text>
 </card>
@@ -1416,7 +1418,7 @@
  <type>Asset - Drone</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>[T], Exhaust another combatant you control, the next time either of these cards would be refreshed, they aren't: Choose a combatant to exhaust.</text>
+ <text>[T], Exhaust another combatant you control, the next time it would be refreshed, it isn't: Choose a combatant to exhaust.</text>
 </card>
 <card>
  <name>Underworld Investigator</name>
@@ -1438,7 +1440,7 @@
  <cmc>3</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose one --
+ <text>Choose one:
 -> Your commander gains 3 loyalty.
 -> Choose an asset to <u>Heal 3</u> (If the specified asset has attack power or health reductions, reduce them by 3 [reducing permanent reductions first]. Otherwise remove 3 damage from it.)
 -> Choose an asset to loose bleeding.</text>
@@ -1466,7 +1468,7 @@
  <tablerow>3</tablerow>
  <text><i>Light in the Darkness</i> costs [Y] less if you didn't go first.
 
-<p>Choose a combatant to, until end of turn, have its attack power reduced to 0.</p></text>
+<p>Choose a combatant, until end of turn, its attack power is reduced to 0.</p></text>
 </card>
 <card>
  <name>L.O.K.I.O Logistics AI</name>
@@ -1483,7 +1485,7 @@
 
 <p><b><i>As Asset</i> --</b> Each time <i>L.O.K.I.O</i> has seen you hire two cards as generators, draw a card.</p>
 
-<p>If <i>L.O.K.I.O</i> is inside a vehicle it gains, "[T]: Choose an asset to exhaust or refresh."</p></text>
+<p>If <i>L.O.K.I.O</i> is inside a vehicle it gains, "[T]: Choose an asset; exhaust or refresh it."</p></text>
 </card>
 <card>
  <name>Peace in Troubled Times</name>
@@ -1495,7 +1497,7 @@
  <token>1</token>
  <related>L.O.K.I.O, Logistics AI</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Each commander's loyalty is doubled (up to their starting loyalty.)</p>
 
@@ -1511,7 +1513,7 @@
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a card in your discard to return to your hand.</text>
+ <text>Choose a card in your discard; return it to your hand.</text>
 </card>
 <card>
  <name>Medical Expenses</name>
@@ -1555,11 +1557,11 @@
  <type>Asset - Human Civilian Intern</type>
  <pt>3/2</pt>
  <tablerow>2</tablerow>
- <text><u>Ablative Armor 3</u> (Damage dealt to <i>Agricultural Intern</i> by any source is reduced by three. Whenever damage is reduced this way, <i>Agricultural Intern</i>'s armor is reduced by one.), <u>Quick Hire</u> (When <i>Agricultural Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+ <text><u>Ablative Armor 3</u> (Damage dealt to <i>Agricultural Intern</i> by any source is reduced by three. Whenever damage is reduced this way, <i>Agricultural Intern</i>'s armor is reduced by one.), <u>Quick Hire</u> (When <i>Agricultural Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [G] to your energy bank.</p>
 
-<p>[4], [T]: Add one energy of each type a generator you control could produce to your energy bank.</p></text>
+<p>[3], [T]: Add one energy of each type a generator you control could produce to your energy bank.</p></text>
 </card>
 <card>
  <name>Abundant Harvest</name>
@@ -1584,7 +1586,7 @@
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 3</u> (Damage dealt to <i>Construction Drone</i> by any source is reduced by three. Whenever damage is reduced this way, <i>Construction Drone</i>'s armor is reduced by one.)
 
-<p><u>Once</u> (Once you have activated this effect, remove it from this card): search your deck for a vitality card, you may hire it as a generator, then shuffle your deck.</p></text>
+<p><u>Once</u> (As you activate this effect, remove it from this card): search your deck for a vitality card, you may hire it as a generator, then shuffle your deck.</p></text>
 </card>
 <card>
  <name>exaLink Defense Drone</name>
@@ -1644,7 +1646,7 @@
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 3</u> (Damage dealt to them by any source is reduced by three. Whenever damage is reduced this way, that combatant's armor is reduced by one.)
 
-<p>Generators you control have <u>unbreakable</u> (They can't be killed.)</p></text>
+<p>Generators you control have <u>unbreakable</u> (They can't be forfeited.)</p></text>
 </card>
 <card>
  <name>Resource Reclamation</name>
@@ -1654,7 +1656,7 @@
  <cmc>2</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a generator to return to its owner's hand.</text>
+ <text>Choose a generator; return it to its owner's hand.</text>
 </card>
 <card>
  <name>Tree Planter</name>
@@ -1681,9 +1683,9 @@
 
 <p><u>Ablative Armor 4</u></p>
 
-<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, you may pay [GG], if you do it permanently gains <u>ablative armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
+<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, you may pay [GG]. If you do, it permanently gains <u>ablative armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
 
-<p><b><i>As Asset</i> --</b> [G], [T]: Choose a combatant to have its armor repaired to its original maximum.</p></text>
+<p><b><i>As Asset</i> --</b> [G], [T]: Choose a combatant; its armor is repaired to its original maximum.</p></text>
 </card>
 <card>
  <name>Grant a Promotion</name>
@@ -1695,9 +1697,9 @@
  <token>1</token>
  <related>Capt. Stonewall, PMC Commander</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose an asset to permanently get +4/+3 and <u>ablative armor 3</u> (Damage dealt to the specified asset by any source is reduced by 3. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</p>
+<p>Choose an asset; it permanently gets +4/+3 and <u>ablative armor 3</u> (Damage dealt to the specified asset by any source is reduced by 3. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</p>
 
 <p><u>Personal</u> (Shuffle <i>'Capt. Stonewall, PMC Commander'</i> into your deck.)</p></text>
 </card>
@@ -1723,7 +1725,7 @@
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 2</u> (Damage dealt to <i>Welcoming Veteran</i> by any source is reduced by two. Whenever damage is reduced this way, <i>Welcoming Veteran</i>'s armor is reduced by one.), <u>Formation</u>
 
-<p>Whenever you hire a card as a generator, add one energy of any type to your energy bank.</p></text>
+<p>Whenever you hire a card as a generator, add one energy of any type a generator you control could produce to your energy bank.</p></text>
 </card>
 <card>
  <name>Aircraft Carrier</name>
@@ -1737,7 +1739,7 @@
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 16</u> (Damage dealt to <i>Aircraft Carrier</i> by any source is reduced by sixteen. Whenever damage is reduced this way, <i>Aircraft Carrier</i>'s armor is reduced by one.)
 
-<p>Each time <i>Aircraft Carrier</i> has attacked three times, create a <u>transient</u> (If it would enter a discard, it ceases to exist instead.) <i>'Fighter Jet'</i> on the battlefield.</p></text>
+<p>Each time <i>Aircraft Carrier</i> has attacked three times, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Fighter Jet'</i> on the battlefield.</p></text>
 </card>
 <card>
  <name>Battlefield Promotion</name>
@@ -1747,7 +1749,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose an asset to permanently get +2/+0 and <u>ablative armor 2</u> (Damage dealt to the specified asset by any source is reduced by 2. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</text>
+ <text>Choose an asset; it permanently gets +2/+0 and <u>ablative armor 2</u> (Damage dealt to the specified asset by any source is reduced by 2. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</text>
 </card>
 <card>
  <name>Equipment Upgrades</name>
@@ -1757,7 +1759,7 @@
  <cmc>3</cmc>
  <type>Effect -  </type>
  <tablerow>3</tablerow>
- <text>Choose an asset to have its armor repaired to its original maximum and then doubled.</text>
+ <text>Choose an asset; its armor is repaired to its original maximum and then doubled.</text>
 </card>
 <card>
  <name>Duel in the Barracks</name>
@@ -1767,7 +1769,7 @@
  <cmc>2</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a combatant you control to <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks, if able.) an asset of your choice you don't control.</text>
+ <text>Choose a combatant you control; it <u>challenges</u> (The challenged asset must intercept its challenger the next time it's challenger attacks, if able.) an asset of your choice you don't control.</text>
 </card>
 <card>
  <name>Hunker Down and Wait for Reinforcements</name>
@@ -1804,6 +1806,16 @@
  <text><u>Formation - Attack Front 4, Back 3</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.])</text>
 </card>
 <card>
+ <name>Practiced Disarmament</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_015_001.png">rt</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose an asset attached to a combatant;its owner <u>forfeits</u> (Put the specified asset into its owner's discard.) it.</text>
+</card>
+<card>
  <name>PMC Recruit</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GC_013_001.png">rt</set>
  <color>G</color>
@@ -1826,7 +1838,7 @@
 
 <p><i>Adrenaline</i> enters the battlefield exhausted.</p>
 
-<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Adrenaline</i>: Choose an asset to get +4/+4 until end of turn.</p></text>
+<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Adrenaline</i>: Choose an asset; until end of turn, it gets +4/+4.</p></text>
 </card>
 <card>
  <name>Sister in Arms</name>
@@ -1837,7 +1849,7 @@
  <type>Asset - Human Female Soldier</type>
  <pt>4/6</pt>
  <tablerow>2</tablerow>
- <text><i>Strength in Numbers</i> -- Whenever <i>Sister in Arms</i> attacks, choose another combatant to attack with <i>Sister in Arms</i>, until end of turn that asset gets +2/+0.</text>
+ <text><i>Strength in Numbers</i> -- Whenever <i>Sister in Arms</i> attacks, choose another combatant, that combatant attacks with <i>Sister in Arms</i>, until end of turn that asset gets +2/+0.</text>
 </card>
 <card>
  <name>Survivalist</name>
@@ -1869,9 +1881,9 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text><u>Append to Combatant [1G]</u> (As you deploy a combatant you may reveal <i>Steroids</i> and pay [1G] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Combatant [1G]</u> (As you deploy a combatant you may reveal <i>Steroids</i> and pay [1G]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
-<p>Choose a combatant, until end of turn, it gets +2/+2.</p></text>
+<p>Choose a combatant; until end of turn, it gets +2/+2.</p></text>
 </card>
 <card>
  <name>exaLink GC010</name>
@@ -1892,7 +1904,7 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a combatant to, until end of turn, gain <u>Formation</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.])</text>
+ <text>Choose a combatant; until end of turn, it gains <u>Formation</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.])</text>
 </card>
 <card>
  <name>New Made Lieutenant</name>
@@ -1930,9 +1942,9 @@
  <token>1</token>
  <related>The Director</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Each player looks at the top [X] cards of their deck and draws up to two of them.</p>
+<p>Each player looks at the top [X] cards of their deck, then draws up to two of them.</p>
 
 <p><u>Personal</u> (Shuffle <i>'The Director'</i> into your deck.)</p></text>
 </card>
@@ -1969,7 +1981,7 @@
  <tablerow>3</tablerow>
  <text><u>Doubt 2</u> (When you deploy <i>Confused Loyalties</i>, shuffle two 'Doubt's into your deck.)
 
-<p>Choose two players, swap control of all assets they control.</p></text>
+<p>Choose two players; swap control of all assets they control.</p></text>
 </card>
 <card>
  <name>Careful Preparation</name>
@@ -1981,7 +1993,7 @@
  <tablerow>3</tablerow>
  <text>(This effect can only be deployed [or prepared] if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
 
-<p><u>Prepare 4 -- [B]</u> (Pay [B] and put <i>Careful Preparation</i> into your deck fourth from the top, when you would draw <i>Careful Preparation</i>, instead deploy it without paying its cost.)</p>
+<p><u>Prepare 4 -- [B]</u> (Pay [B] and put <i>Careful Preparation</i> into your deck fourth from the top. When you would draw <i>Careful Preparation</i>, instead deploy it without paying its cost.)</p>
 
 <p>Draw three cards.</p></text>
 </card>
@@ -2007,7 +2019,7 @@
  <tablerow>3</tablerow>
  <text><u>Retribution</u> (When you draw <i>Curfew</i> as a result of taking damage, you may deploy it without paying its cost.)
 
-<p>Choose an asset, return all cards with the same name to their owner's hands. They lose all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
+<p>Choose an asset; return all cards with the same name to their owner's hands. They lose all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
 </card>
 <card>
  <name>Abuse of the Tax Code</name>
@@ -2019,7 +2031,7 @@
  <tablerow>3</tablerow>
  <text><i>Abuse of the Tax Code</i> costs [1] less for every card on the stack.
 
-<p><u>Hack</u> (Send the specified cards on the stack to their owners' discards, none of their effects happen.) every card on the stack unless each card's controller pays [X] for it.</p></text>
+<p><u>Hack</u> (Send the specified cards on the stack to their owners' discards, none of their effects happen.) every other card on the stack unless each card's controller pays [X] for it.</p></text>
 </card>
 <card>
  <name>Intelligence Intern</name>
@@ -2030,11 +2042,11 @@
  <type>Asset - Human Civilian Intern</type>
  <pt>3/3</pt>
  <tablerow>2</tablerow>
- <text><u>Firewall</u> (Intelligence Intern can't be chosen.), <u>Quick Hire</u> (When <i>Intelligence Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+ <text><u>Firewall [2]</u> (Intelligence Intern can't be chosen unless the player choosing it pays [2].), <u>Quick Hire</u> (When <i>Intelligence Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [B].</p>
 
-<p>[2BB], [T]: Choose a player to reveal the top three cards of their deck, they then put them back in any order.</p></text>
+<p>[2BB], [T]: Choose a player; they reveal the top three cards of their deck, then puts them back in any order.</p></text>
 </card>
 <card>
  <name>Construct Digital Profile</name>
@@ -2044,7 +2056,7 @@
  <cmc>4</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a player to reveal their hand.
+ <text>Choose a player; they reveal their hand.
 
 <p>You may discard any number of cards in your hand, then draw that many cards.</p></text>
 </card>
@@ -2056,7 +2068,7 @@
  <cmc>3</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Chose an effect on the stack, you may deploy a copy of that effect without paying its mana cost.</text>
+ <text>Chose an effect on the stack; deploy a copy of that effect without paying its mana cost.</text>
 </card>
 <card>
  <name>Analysis of Past Defeats</name>
@@ -2091,7 +2103,7 @@
  <tablerow>3</tablerow>
  <text>Look at the top three cards of your deck, draw one of them, then put the rest back on top in any order.
 
-<p>You may pay an additional [2B] as you deploy <i>Plan</i>, if you do choose an asset to return to its owner's hand, it looses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
+<p>You may pay an additional [2B] as you deploy <i>Plan</i>, if you do choose an asset; return it to its owner's hand, then it loses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</p></text>
 </card>
 <card>
  <name>Intelligence Agent</name>
@@ -2112,7 +2124,7 @@
  <cmc>2</cmc>
  <type>Effect - Virus</type>
  <tablerow>3</tablerow>
- <text>Choose an opponent to reveal three unrevealed cards in their hand (if there are three or less unrevealed cards in their hand they reveal their hand instead.)
+ <text>Choose an opponent; they reveal three unrevealed cards in their hand (if there are three or less unrevealed cards in their hand they reveal their hand instead.)
 
 <p>That opponent's maximum hand size is reduced by one until the start of your next turn.</p></text>
 </card>
@@ -2124,7 +2136,7 @@
  <cmc>3</cmc>
  <type>Asset - Link</type>
  <tablerow>1</tablerow>
- <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Paralyzer</i>: Choose a combatant to return to its owner's hand, it looses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</text>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Paralyzer</i>: Choose a combatant; return it to its owner's hand, then it loses all <u>stat modifications</u> (Added/changed words, attack power, health, or ranged status.)</text>
 </card>
 <card>
  <name>Interrogate</name>
@@ -2136,7 +2148,7 @@
  <tablerow>3</tablerow>
  <text><i>Interrogate</i> costs [B] less to deploy if you didn't go first.
 
-<p>Choose a player to reveal a non-revealed card in their hand. If they can't you draw a card.</p></text>
+<p>Choose a player; they reveal a non-revealed card in their hand. If they can't you draw a card.</p></text>
 </card>
 <card>
  <name>Drone Tracking</name>
@@ -2146,7 +2158,7 @@
  <cmc>3</cmc>
  <type>Effect - Virus</type>
  <tablerow>3</tablerow>
- <text>Each opponent reveals all of the Augmented and Link cards in their hand.</text>
+ <text>Each opponent reveals all of the Augmented and Link cards in their hands.</text>
 </card>
 <card>
  <name>Foresight</name>
@@ -2158,7 +2170,7 @@
  <tablerow>3</tablerow>
  <text><u>Advantageous</u> (When <i>Foresight</i> resolves, draw a card.), <u>Response</u> (<i>Foresight</i> can be deployed during response phases.)
 
-<p>Choose an effect in your hand to, until end of turn, gain <u>response</u>.</p></text>
+<p>Choose an effect in your hand, until end of turn, it gains <u>response</u>.</p></text>
 </card>
 <card>
  <name>Information Bunker</name>
@@ -2182,7 +2194,7 @@
  <tablerow>2</tablerow>
  <text><u>Hacker</u> (If <i>Anti-Hacker</i> would deal damage to a commander, its owner instead puts that many cards from their deck into their discard.)
 
-<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Anti-Hacker</i>: <u>Effect Hack</u> (Choose an effect on the stack to send to its owner's discard, none of its effects happen.) unless its controller pays [1].</p></text>
+<p><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Anti-Hacker</i>: <u>Effect Hack</u> (Choose an effect on the stack; send it to its owner's discard, none of its effects happen.) unless its controller pays [1].</p></text>
 </card>
 <card>
  <name>Archive</name>
@@ -2192,7 +2204,7 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Draw a card. Choose a card in your hand to shuffle into your deck.</text>
+ <text>Draw a card. Choose a card in your hand; shuffle it into your deck.</text>
 </card>
 <card>
  <name>Sara Anthony Cyber Criminal</name>
@@ -2222,7 +2234,7 @@
  <token>1</token>
  <related>Sara Anthony, Cyber Criminal</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><i>Dark Web Research</i> costs [B] less if you didn't go first.</p>
 
@@ -2241,7 +2253,7 @@
  <tablerow>1</tablerow>
  <text><u>Doubt 2</u> (When you deploy <i>Governmental Reeducation</i>, shuffle two 'Doubt's into your deck.)
 
-<p>When <i>Governmental Reeducation</i> enters the battlefield, choose a combatant to attach it to.</p>
+<p>When <i>Governmental Reeducation</i> enters the battlefield, attach it to a combatant of your choice.</p>
 
 <p>You control the attached asset.</p></text>
 </card>
@@ -2275,7 +2287,7 @@
  <cmc>3</cmc>
  <type>Effect - Virus <u>Response</u></type>
  <tablerow>3</tablerow>
- <text><u>Card Hack</u> (Choose a card on the stack to send to its owner's discard, none of its effects happen.), that card's owner looks at the top 4 cards of their deck and draws one of them.</text>
+ <text><u>Card Hack</u> (Choose a card on the stack; send it to its owner's discard, none of its effects happen.), that card's owner looks at the top 4 cards of their deck and draws one of them.</text>
 </card>
 <card>
  <name>High Profile SQL Injection</name>
@@ -2285,7 +2297,7 @@
  <cmc>4</cmc>
  <type>Effect - Virus</type>
  <tablerow>3</tablerow>
- <text><p>Choose an opponent, to choose a card in their hand to shuffle into your deck.</p></text>
+ <text><p>Choose an opponent and choose a card in their hand, shuffle that card into your deck.</p></text>
 </card>
 <card>
  <name>Jonathan Arrigotti Sara's Partner in Crime</name>
@@ -2295,8 +2307,8 @@
  <cmc>2</cmc>
  <type>R. Asset - Human Child Male Hacker</type>
  <pt>3/2</pt>
- <related>High Profile SQL Injection</related>
  <related>Go Little Guy! Go!</related>
+ <related>High Profile SQL Injection</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Go Little Guy! Go!'</i> if you already control <i>Jonathan Arrigotti</i>)
 
@@ -2315,11 +2327,11 @@
  <related>Scout Drone</related>
  <related>Jonathan Arrigotti, Sara's Partner in Crime</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><u>Advantageous</u></p>
 
-<p>Create a <u>transient</u> <i>'Scout Drone'</i> with a random keyword, from amongst the keywords on assets on the battlefield, on the battlefield.</p>
+<p>Create a <u>transient</u> <i>'Scout Drone'</i> with a random keyword, from amongst the keywords on all assets currently on the battlefield, on the battlefield.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Jonathan Arrigotti, Sara's Partner in Crime'</i> into your deck.)</p></text>
 </card>
@@ -2331,9 +2343,9 @@
  <cmc>1</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text><u>Append to Effect [1B]</u> (As you deploy an effect you may reveal <i>Reject</i> and pay [1B] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Effect [1B]</u> (As you deploy an effect you may reveal <i>Reject</i> and pay [1B]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
-<p>Choose an asset to return to its owner's hand.</p></text>
+<p>Choose an asset; return it to its owner's hand.</p></text>
 </card>
 <card>
  <name>Rookie Anon</name>
@@ -2356,7 +2368,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a non-human combatant to have its attack power reduced to 0 and its health increased to infinity until end of turn.</text>
+ <text>Choose a non-human combatant; until end of turn, its attack power is reduced to 0 and its health is increased to infinity.</text>
 </card>
 <card>
  <name>Hacking Game</name>
@@ -2390,7 +2402,7 @@
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a non-Human asset on the battlefield, create a <u>transient</u> (If it would enter a discard, it ceases to exist instead.) copy of it.</text>
+ <text>Choose a non-Human asset on the battlefield, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) copy of it.</text>
 </card>
 <card>
  <name>Scout Drone</name>
@@ -2401,11 +2413,11 @@
  <type>Asset - Drone Spy</type>
  <pt>1/1</pt>
  <tablerow>2</tablerow>
- <text><p>(A deck may have any number of Scout Drones in it.)</p>
+ <text><p>(A deck may have any number of <i>Scout Drone</i>s in it.)</p>
 
 <p><u>Exchange [B]</u> (Pay [B], Discard <i>Scout Drone</i> from your hand: Draw a card.)</p>
 
-<p><u>Flying</u> (<i>Scout Drone</i> can only be intercepted by assets with ranged. If <i>Scout Drone</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.)</p></text>
+<p><u>Flying</u> (<i>Scout Drone</i> can only be intercepted by assets with ranged or flying. If <i>Scout Drone</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.)</p></text>
 </card>
 <card>
  <name>Their Password was 'password'</name>
@@ -2415,7 +2427,7 @@
  <cmc>1</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a card to <u>hack</u> (Send the specified card to its owner's discard, none of its effects happen.) with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Their Password was 'password' has a generalized cost of [1].) [2] or less.</text>
+ <text>Choose a card to <u>hack</u> (The specified card's owner discards it, none of its effects happen.) with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. Their Password was 'password' has a generalized cost of [1].) [2] or less.</text>
 </card>
 <card>
  <name>Evasive Fugitive</name>
@@ -2426,7 +2438,9 @@
  <type>Asset - Human Civilian Criminal</type>
  <pt>2/3</pt>
  <tablerow>2</tablerow>
- <text><i>Evasive Fugitive</i> can't be intercepted unless an opponent controls an unexhausted generator.</text>
+ <text><u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.)
+
+<p><i>Evasive Fugitive</i> can't be intercepted unless an opponent controls an unexhausted source generator.</p></text>
 </card>
 <card>
  <name>Incremental Attack</name>
@@ -2438,7 +2452,7 @@
  <tablerow>3</tablerow>
  <text><u>Advantageous</u> (When <i>Incremental Attack</i> resolves, draw a card.)
 
-<p><u>Effect Hack</u> (Choose an effect on the stack and send it to its owner's discard, none of its effects happen.), unless its controller pays <u>[X]</u> ([X] is 1 plus the number of cards named <i>Incremental Attack</i> that have been deployed this game.)</p></text>
+<p><u>Effect Hack</u> (Choose an effect on the stack; send it to its owner's discard, none of its effects happen.), unless its controller pays <u>[X]</u> ([X] is 1 plus the number of cards named <i>Incremental Attack</i> that have been deployed this game.)</p></text>
 </card>
 <card>
  <name>Skiddy</name>
@@ -2463,9 +2477,9 @@
  <tablerow>2</tablerow>
  <text><p>(Becomes <i>'Lux's Quest'</i> if you already control Lux.) <u>Warrant</u></p>
 
-<p><b><i>As Commander</i> --</b> Whenever an asset you don't control leaves the battlefield, you may look at the top two cards of your deck and put any number of them on the bottom.</p>
+<p><b><i>As Commander</i> --</b> Whenever an asset you don't control leaves the battlefield or comes under your control, you may look at the top two cards of your deck and put any number of them in your discard.</p>
 
-<p><b><i>As Asset</i> --</b> Whenever Lexi Xenos deals combat damage to a commander, put the top two cards of the commander's owner's deck under Lexi Xenos. You may deploy these cards as if they were in your hand.</p></text>
+<p><b><i>As Asset</i> --</b> Whenever Lexi Xenos deals combat damage to a commander, put the top two cards of that commander's owner's deck under Lexi Xenos. You may deploy these cards as if they were in your hand.</p></text>
 </card>
 <card>
  <name>Lux's Quest</name>
@@ -2476,11 +2490,11 @@
  <type>R. Effect - <u>Personal</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>
 
-<p>Choose an asset to permanently gain control of.</p><u>Personal</u> (Shuffle <i>'Lexi "Lux" Xenos, Pirate Captain'</i> into your deck.)</p></text>
+<p>Choose an asset; permanently gain control of it.</p><u>Personal</u> (Shuffle <i>'Lexi "Lux" Xenos, Pirate Captain'</i> into your deck.)</p></text>
 </card>
 <card>
  <name>Lina Pathak Pirate Technician</name>
@@ -2490,8 +2504,8 @@
  <cmc>4</cmc>
  <type>R. Asset - Augmented Female Pirate Engineer</type>
  <pt>2/8</pt>
- <related>Lina's Tinkering</related>
  <related>Prototype Tractor Beam</related>
+ <related>Lina's Tinkering</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Lina's Tinkering'</i> if you already control <i>Lina Pathak, Pirate Technician</i>.)
 
@@ -2509,9 +2523,9 @@
  <token>1</token>
  <related>Lina Pathak, Pirate Technician</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a non-combatant asset in your hand or on the battlefield and another in your discard to swap.</p>
+<p>Choose a non-combatant asset in your hand or on the battlefield and another in your discard; swap them.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Lina Pathak, Pirate Technician'</i> into your deck.)</p></text>
 </card>
@@ -2523,7 +2537,7 @@
  <cmc>3</cmc>
  <type>R. Asset - Equipment</type>
  <tablerow>1</tablerow>
- <text>When <i>Prototype Tractor Beam</i> enters the battlefield, attach it to target combatant.
+ <text>When <i>Prototype Tractor Beam</i> enters the battlefield, choose a combatant to attach it to.
 
 <p>The attached asset gains <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.), ranged, and "whenever this asset deals combat damage to a commander, gain control of an asset that commander's controller controls with <u>generalized cost</u> less than or equal to this asset's attack power, then <u>forfeit</u> <i>Prototype Tractor Beam</i>."</p></text>
 </card>
@@ -2536,24 +2550,24 @@
  <type>R. Effect</type>
  <related>Incarceration</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><u>Warrent</u> (When you deploy <i>Commandeer</i>, shuffle an 'Incarceration' into your deck.)</p>
 
-<p>Choose an asset to permanently gain control of.</p></text>
+<p>Permanently gain control of an asset of your choice.</p></text>
 </card>
 <card>
  <name>Throat Slit</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PR_004_001.png">rt</set>
  <color>P</color>
- <manacost>3PP</manacost>
- <cmc>5</cmc>
+ <manacost>2PP</manacost>
+ <cmc>4</cmc>
  <type>Effect</type>
  <related>Incarceration</related>
  <tablerow>3</tablerow>
  <text><u>Warrent</u> (When you deploy <i>Throat Slit</i>, shuffle an 'Incarceration' into your deck.)
 
-<p>Choose a combatant to kill.</p></text>
+<p>Kill a combatant of your choice.</p></text>
 </card>
 <card>
  <name>Cripple</name>
@@ -2565,7 +2579,7 @@
  <tablerow>3</tablerow>
  <text><u>Retribution</u> (When you draw <i>Cripple</i> as a result of taking damage, you may deploy it without paying its cost.)
 
-<p>Choose an asset to permanently gain <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.) and -6/-6.</p></text>
+<p>Choose an asset; it permanently gains <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.) and -6/-6.</p></text>
 </card>
 <card>
  <name>Interceptor</name>
@@ -2590,7 +2604,7 @@
  <type>Asset - Human Female Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text><u>Once</u> (Once you have activated this effect, remove it from this card): put the bottom card of your opponent's deck into your hand.</text>
+ <text><u>Once</u> (As you activate this effect, remove it from this card): put the bottom card of your opponent's deck into your hand.</text>
 </card>
 <card>
  <name>Occupational Hazards</name>
@@ -2623,7 +2637,7 @@
  <type>Asset - Augmented Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>Give <i>Resourceful Hostage</i> to an opponent: Draw two cards (this effect can only be activated during your deployment phases.)</text>
+ <text>Give an opponent <i>Resourceful Hostage</i>: Draw two cards (this effect can only be activated during your deployment phases.)</text>
 </card>
 <card>
  <name>Exchange Volunteer</name>
@@ -2634,7 +2648,7 @@
  <type>Asset - Human Male Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>Give <i>Exchange Volunteer</i> to an opponent: Choose a Pirate that opponent controls to gain control of (this effect can only be activated during your deployment phases.)</text>
+ <text>Give an opponent <i>Exchange Volunteer</i>: Choose a Pirate that opponent controls; gain control of it (this effect can only be activated during your deployment phases.)</text>
 </card>
 <card>
  <name>Sacrificial Hostage</name>
@@ -2645,7 +2659,7 @@
  <type>Asset - Human Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>Give <i>Sacrificial Hostage</i> to an opponent: You may choose a card you control to return to your hand.</text>
+ <text>Give an opponent <i>Sacrificial Hostage</i>: You may choose a card you control; return it to your hand.</text>
 </card>
 <card>
  <name>Lux's Crewwoman</name>
@@ -2667,7 +2681,7 @@
  <type>Asset - Human Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>[T], Give <i>Backstabbing Hostage</i> to an opponent: Choose a combatant that opponent controls, until end of turn, it gets -4/-4.</text>
+ <text>[T], Give an opponent <i>Backstabbing Hostage</i>: Choose a combatant that opponent controls; until end of turn, it gets -4/-4.</text>
 </card>
 <card>
  <name>Lethal Hostage</name>
@@ -2678,7 +2692,7 @@
  <type>Asset - Human Pirate</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>Give <i>Lethal Hostage</i> to an opponent: Choose a combatant that opponent controls to gain <u>bleeding</u> (At the end of their owner's turn the specified asset permanently loses 1 health.)</text>
+ <text>Give an opponent <i>Lethal Hostage</i>: Choose a combatant that opponent controls; it gains <u>bleeding</u> (At the end of their owner's turn the specified asset permanently loses 1 health.)</text>
 </card>
 <card>
  <name>Bing Du Zhe Unhinged Researcher</name>
@@ -2691,7 +2705,7 @@
  <related>Frantic Research</related>
  <tablerow>2</tablerow>
  <text><p>(Becomes <i>'Frantic Research'</i> if you already control Bing.)
-<b><i>As Commander</i> --</b> At the beginning of your turn, if you have no cards in hand, draw an additional card then <i>Bing Du Zhe</i> loses one loyalty.</p>
+<b><i>As Commander</i> --</b> At the beginning of your turn, if you have no cards in hand, draw an additional card, then <i>Bing Du Zhe</i> loses one loyalty.</p>
 
 <p><b><i>As Asset</i> --</b> <u>Forfeit X</u> (X is the generalized cost of the card to be returned.) non-<u>Transient</u> assets you control which share a type with an asset of your choice in your discard: Return that asset from your discard to the battlefield, it becomes an Augmented Mutant.</p></text>
 </card>
@@ -2705,7 +2719,7 @@
  <token>1</token>
  <related>Bing Du Zhe, Unhinged Researcher</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Draw the bottom <u>X</u> (X is the damage your commander has taken this turn.) cards of your deck.</p>
 
@@ -2721,7 +2735,7 @@
  <pt>7/4</pt>
  <related>Rampager's Fury</related>
  <tablerow>2</tablerow>
- <text>(If you deploy or otherwise obtain another card with the same name as <i>Rampaging Monstrosity</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Rampager's Fury'</i> if you already control <i>Rampaging Monstrosity</i>.)<u>Permanence</u>
+ <text>(If you obtain another card with the same name as <i>Rampaging Monstrosity</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Rampager's Fury'</i> if you already control <i>Rampaging Monstrosity</i>.)<u>Permanence</u>
 Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other asset that attacked this turn, then choose a commander to lose <u>X</u> (X is the damage dealt this way) loyalty.</text>
 </card>
 <card>
@@ -2734,7 +2748,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <token>1</token>
  <related>Rampaging Monstrosity</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Each asset that attacked this turn gains <u>bleeding</u> (At the end of their owner's turns the specified assets permanently lose 1 health.)</p>
 
@@ -2750,7 +2764,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <related>Mortal Reaction</related>
  <related>Test Subject</related>
  <tablerow>1</tablerow>
- <text>(When <i>Monstrous Experiment</i> enters the battlefield or at the beginning of your turn progress to the next phase unless the final phase has been reached.)
+ <text>(When <i>Monstrous Experiment</i> enters the battlefield or at the beginning of your turn, progress to the next phase unless the final phase has been reached.)
 
 <p><b><i>1)</i></b> Each player <u>forfeits</u> a combatant.</p>
 
@@ -2766,7 +2780,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a combatant to have its attack power and health both permanently become the lower of two.</text>
+ <text>Choose a combatant; its attack power and health both permanently become the lower of two.</text>
 </card>
 <card>
  <name>Subject Cage</name>
@@ -2776,7 +2790,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <cmc>3</cmc>
  <type>Asset - Prison</type>
  <tablerow>1</tablerow>
- <text>When <i>Subject Cage</i> enters the battlefield, choose a combatant to attach it to.
+ <text>When <i>Subject Cage</i> enters the battlefield, attach it to a combatant of your choice.
 
 <p>The attached combatant can't attack or intercept and has <u>bleeding</u> (At the end of their owner's turns the specified assets permanently lose 1 health.)</p></text>
 </card>
@@ -2790,7 +2804,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <tablerow>3</tablerow>
  <text><p>Each individual combatant permanently gets <u>-X/-X</u> (X is its attack power.)</p>
 
-<p>Each opponent <u>decays 4</u> (The specified player puts the top four cards of their deck into their discard.)</p>
+<p>Each opponent <u>decays 4</u> (The specified players put the top four cards of their deck into their discard.)</p>
 
 <p>Your commander loses 3 loyalty.</p></text>
 </card>
@@ -2802,7 +2816,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <cmc>3</cmc>
  <type>Effect - Experiment</type>
  <tablerow>3</tablerow>
- <text>Choose an asset to permanently get -3/-3.
+ <text>Choose a combatant; it permanently gets -3/-3.
 
 <p>Your commander gains 3 loyalty.</p></text>
 </card>
@@ -2827,7 +2841,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <type>Asset - Human Subject</type>
  <pt>1/2</pt>
  <tablerow>2</tablerow>
- <text><u>Once</u> (Once you have activated this effect, remove it from this card): each player <u>forfeits</u> (Put the specified asset into its owner's discard.) a combatant they control.</text>
+ <text><u>Once</u> (As you activate this effect, remove it from this card): each player <u>forfeits</u> (Put the specified asset into its owner's discard.) a combatant they control.</text>
 </card>
 <card>
  <name>Failed Experiment</name>
@@ -2849,7 +2863,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <type>Asset - Human Civilian Intern</type>
  <pt>2/4</pt>
  <tablerow>2</tablerow>
- <text><u>Permanence</u> (Damage <i>Questionable Intern</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Quick Hire</u> (When <i>Questionable Intern</i> is hired as a generator, it can exhaust as soon as it enters the battlefield.)
+ <text><u>Permanence</u> (Damage <i>Questionable Intern</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Quick Hire</u> (When <i>Questionable Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [P].</p>
 
@@ -2863,12 +2877,12 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <cmc>3</cmc>
  <type>Asset - Augmented Male Civilian Scientist</type>
  <pt>2/4</pt>
- <related>Incarceration</related>
  <related>Engineered Plague</related>
+ <related>Incarceration</related>
  <tablerow>2</tablerow>
  <text><u>Permanence</u> (Damage <i>Plague Engineer</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Warrent</u> (When you deploy <i>Plague Engineer</i>, shuffle an 'Incarceration' into your deck.)
 
-When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If it would enter a discard, it ceases to exist instead.) <i>Engineered Plague</i> in your hand.</text>
+When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Engineered Plague'</i> in your hand.</text>
 </card>
 <card>
  <name>Test Subject</name>
@@ -2903,7 +2917,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>3</tablerow>
  <text><i>Engineered Plague</i> costs [1] less to deploy if you didn't go first.
 
-<p>Choose a combatant, until end of turn it gets <u>-X/-X</u> (X is 1 plus the number of cards named <i>Engineered Plague</i> that have been deployed this game.)</p></text>
+<p>Choose a combatant; until end of turn, it gets <u>-X/-X</u> (X is 1 plus the number of cards named <i>Engineered Plague</i> that have been deployed this game.)</p></text>
 </card>
 <card>
  <name>Forced Autoimmune Reaction</name>
@@ -2913,7 +2927,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose a combatant to, until end of turn, get <u>-X/-X</u> (X is its attack power.)</text>
+ <text>Choose a combatant; until end of turn, it gets <u>-X/-X</u> (X is its attack power.)</text>
 </card>
 <card>
  <name>Mortal Reaction</name>
@@ -2923,7 +2937,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>1</cmc>
  <type>Effect - Experiment</type>
  <tablerow>3</tablerow>
- <text><u>Append to Experiment [PP]</u> (As you deploy a card with experiment you may reveal <i>Mortal Reaction</i> and pay [PP]. If you do, add this card's effects as it resolves.)
+ <text><u>Append to Experiment [PP]</u> (As you deploy a card with Experiment you may reveal <i>Mortal Reaction</i> and pay [PP]. If you do, add this card's effects as it resolves.)
 
 <p>Choose a combatant, and activate any of its on death abilities.</p></text>
 </card>
@@ -2935,7 +2949,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>1</cmc>
  <type>Asset - Drug</type>
  <tablerow>1</tablerow>
- <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Adrenochrome</i>: Choose an asset to permanently get <u>+X/+X</u> (X is the number of combatants <i>Adrenochrome</i> has seen die while it was on the battlefield.)</text>
+ <text><u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Adrenochrome</i>: Choose an asset; it permanently gets <u>+X/+X</u> (X is the number of combatants <i>Adrenochrome</i> has seen die while it was on the battlefield.)</text>
 </card>
 <card>
  <name>Lunar Colony Control Outpost</name>
@@ -2949,7 +2963,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>Lunar Colony Control Outpost</i>s in it.)</p>
 
-<p>[T]: Add [R] to your energy bank (You may activate this effect the turn you hire <i>Lunar Colony Control Outpost</i>.)</p></text>
+<p>[T]: Add [R]  (You may activate this effect the turn you hire <i>Lunar Colony Control Outpost</i>.)</p></text>
 </card>
 <card>
  <name>City Slums</name>
@@ -2963,7 +2977,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>City Slums</i> in it.)</p>
 
-<p>[T]: Add [O] to your energy bank (You may activate this effect the turn you hire <i>City Slums</i>.)</p></text>
+<p>[T]: Add [O]  (You may activate this effect the turn you hire <i>City Slums</i>.)</p></text>
 </card>
 <card>
  <name>Precinct Headquarters</name>
@@ -2977,7 +2991,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>Precinct Headquarters</i> in it.)</p>
 
-<p>[T]: Add [Y] to your energy bank (You may activate this effect the turn you hire <i>Precinct Headquarters</i>.)</p></text>
+<p>[T]: Add [Y]  (You may activate this effect the turn you hire <i>Precinct Headquarters</i>.)</p></text>
 </card>
 <card>
  <name>Agricultural Tower</name>
@@ -2991,7 +3005,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>Agricultural Tower</i>s in it.)</p>
 
-<p>[T]: Add [G] to your energy bank (You may activate this effect the turn you hire <i>Agricultural Tower</i>.)</p></text>
+<p>[T]: Add [G]  (You may activate this effect the turn you hire <i>Agricultural Tower</i>.)</p></text>
 </card>
 <card>
  <name>Stargate Project Office</name>
@@ -3005,7 +3019,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>Stargate Project Office</i>s in it.)</p>
 
-<p>[T]: Add [B] to your energy bank (You may activate this effect the turn you hire <i>Stargate Project Office</i>.)</p></text>
+<p>[T]: Add [B]  (You may activate this effect the turn you hire <i>Stargate Project Office</i>.)</p></text>
 </card>
 <card>
  <name>ProtoSys Laboratory</name>
@@ -3019,7 +3033,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
 
 <p>(A deck may have any number of <i>ProtoSys Laboratory</i>s in it.)</p>
 
-<p>[T]: Add [P] to your energy bank (You may activate this effect the turn you hire <i>ProtoSys Laboratory</i>.)</p></text>
+<p>[T]: Add [P]  (You may activate this effect the turn you hire <i>ProtoSys Laboratory</i>.)</p></text>
 </card>
 <card>
  <name>Power Grid</name>
@@ -3032,9 +3046,9 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <text>(Generators are not assets or effects. You may only play <i>Power Grid</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
 (If <i>Power Grid</i> is not drawn, it becomes <i>'Field Generator'</i>.)
 
-<p>When you hire <i>Power Grid</i>, choose a generator you control to <u>forfeit</u>.</p>
+<p>When you hire <i>Power Grid</i>, choose a generator you control; <u>forfeit</u> it.</p>
 
-<p>[T]: Add <u>[X]</u> ([X] is the number cards named <i>Power Grid</i> on the battlefield.) to your energy bank.</p></text>
+<p>[T]: Add <u>[X]</u> (X is the number cards named <i>Power Grid</i> on the battlefield.)</p></text>
 </card>
 <card>
  <name>Field Generator</name>
@@ -3045,7 +3059,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>0</tablerow>
  <text>(Generators are not assets or effects. You may only play <i>Field Generator</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
 
-<p>[T]: Add [2] to your energy bank.</p></text>
+<p>[T]: Add [2].</p></text>
 </card>
 <card>
  <name>P.O.T.U.S</name>
@@ -3071,9 +3085,9 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <token>1</token>
  <related>P.O.T.U.S</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a combatant to kill.</p>
+<p>Kill a combatant of your choice.</p>
 
 <p><u>Personal</u> (Shuffle <i>'P.O.T.U.S'</i> into your deck.)</p></text>
 </card>
@@ -3085,8 +3099,8 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <type>Asset - <u>Discovery</u></type>
  <related>Explorer Drone</related>
  <tablerow>1</tablerow>
- <text>(When <i>Lunar Water Reserves</i> enters the battlefield or at the beginning of your turn progress to the next phase unless the final phase has been reached.)
-<b><i>1-3)</i></b> Create <u>X</u> (X is the number of turns <i>Lunar Water Reserves</i> has been on the battlefield) <u>transient</u> (If it would enter a discard, it ceases to exist instead.)  <i>'Explorer Drone'</i>s in your hand.
+ <text>(When <i>Lunar Water Reserves</i> enters the battlefield or at the beginning of your turn, progress to the next phase unless the final phase has been reached.)
+<b><i>1-3)</i></b> Create <u>X</u> (X is the number of turns <i>Lunar Water Reserves</i> has been on the battlefield) <u>transient</u> (If it would enter a discard, instead remove it from the game.)  <i>'Explorer Drone'</i>s in your hand.
 <b><i>Final)</i></b> At the beginning of each turn, your commander gains 1 loyalty.</text>
 </card>
 <card>
@@ -3097,7 +3111,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <type>Effect -  </type>
  <related>Doubt</related>
  <tablerow>3</tablerow>
- <text>Choose an exhausted combatant, remove it from the game unless its controller pays [2].
+ <text>Choose an exhausted combatant; remove it from the game unless its controller pays [2].
 
 <p>If they pay the cost shuffle a <i>'Doubt'</i> into your deck.</p></text>
 </card>
@@ -3118,9 +3132,9 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text><u>Append to Opponent's Effect [7]</u> (As an opponent deploys an effect you may reveal <i>Planned Ejection</i> and pay [7] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Opponent's Effect [7]</u> (As an opponent deploys an effect you may reveal <i>Planned Ejection</i> and pay [7]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
-<p>Choose anything to set aside until end of turn.</p></text>
+<p>Choose an asset; until end of turn, set it aside.</p></text>
 </card>
 <card>
  <name>Public Transportation</name>
@@ -3130,7 +3144,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <type>Asset - <u>Vehicle</u></type>
  <pt>2/2</pt>
  <tablerow>2</tablerow>
- <text><p><u>Vehicle</u> (When <i>Public Transportation</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Rush</u> (<i>Public Transportation</i> can attack and intercept as soon as it enters the battlefield, but it can't be explicitly exhausted.)</p></text>
+ <text><p><u>Vehicle</u> (When <i>Public Transportation</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Rush</u> (<i>Public Transportation</i> can attack and intercept as soon as it resolves, but it can't be explicitly exhausted that turn.)</p></text>
 </card>
 <card>
  <name>Standard Issue Big Gun</name>
@@ -3141,7 +3155,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>1</tablerow>
  <text><p>When <i>Standard Issue Big Gun</i> enters the battlefield, choose an asset to attach it to.</p>
 
-<p>Attached asset gets +5/+0, ranged, <u>sluggish</u>, and "Whenever this asset kills a combatant deal 1 damage to each combatant that intercepted this turn the killed asset's owner controls."</p></text>
+<p>The attached asset gets +5/+0, ranged, <u>sluggish</u>, and "Whenever this asset kills a combatant, each combatant that intercepted this turn the killed asset's owner controls, take 1 damage."</p></text>
 </card>
 <card>
  <name>Space Shuttle</name>
@@ -3162,7 +3176,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>1</tablerow>
  <text><p>Whenever a combatant enters the battlefield, you may attach <i>New Hire Welcoming Party</i> to it.</p>
 
-<p>Whenever you hire a card as a generator, until end of turn, attached asset gets +2/+2.</p></text>
+<p>Whenever you hire a card as a generator, until end of turn, the attached asset gets +2/+2.</p></text>
 </card>
 <card>
  <name>Business Laptop</name>
@@ -3171,7 +3185,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>2</cmc>
  <type>Asset - Equipment Laptop</type>
  <tablerow>1</tablerow>
- <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Business Laptop</i>'s cost, if you do choose another asset to attach it to.)
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Business Laptop</i>'s cost, if you do choose another asset; attach <i>Business Laptop</i> to it.)
 
 <p>When <i>Business Laptop</i> enters the battlefield, choose an asset to attach it to.</p>
 
@@ -3184,7 +3198,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>3</cmc>
  <type>Asset - Bomb</type>
  <tablerow>1</tablerow>
- <text>The next time any number of vehicles attacks, you may choose one to kill, then <u>forfeit</u> (Put the specified asset into its owner's discard.) <i>Roadside Bomb</i>.</text>
+ <text>The next time any number of vehicles attack, you may kill one of them, then <u>forfeit</u> (Put the specified asset into its owner's discard.) <i>Roadside Bomb</i>.</text>
 </card>
 <card>
  <name>Fighter Jet</name>
@@ -3226,7 +3240,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>1</tablerow>
  <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Anti-Orbital Gun</i>'s cost, if you do choose another combatant to attach it to.)
 
-<p>When <i>Anti-Orbital Gun</i> enters the battlefield, choose a combatant to attach it to.</p>
+<p>When <i>Anti-Orbital Gun</i> enters the battlefield, attach it to a combatant of your choice.</p>
 
 <p>Attached asset gets +1/+0 and <u>anti-orbital</u> (<i>Anti-Orbital Gun</i> can intercept assets with spacecraft.)</p></text>
 </card>
@@ -3239,9 +3253,9 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <tablerow>0</tablerow>
  <text>(Generators are not assets or effects. You may only play <i>Scrapyard</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
 
-<p>[T]: Add [C] to your energy pool.</p>
+<p>[T]: Add [C].</p>
 
-<p><u>Once</u> (Once you have activated this effect, remove it from this card), [T]: Choose a generator to become an exhausted <i>Scrapyard</i>.</p></text>
+<p><u>Once</u> (As you activate this effect, remove it from this card), [T]: Choose a generator to become an exhausted <i>Scrapyard</i>.</p></text>
 </card>
 <card>
  <name>Release the Quacken!</name>
@@ -3260,7 +3274,7 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>0</cmc>
  <type>Effect - Style <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose anything for <i>Hit em' With The Butt-End</i> to deal 1 damage to, if it would die as a result draw a card.</text>
+ <text>Choose an asset or player; it takes one damage from <i>Hit em' With The Butt-End</i>. If it would die as a result draw a card.</text>
 </card>
 <card>
  <name>Lunar Citizen</name>
@@ -3300,8 +3314,8 @@ When <i>Plague Engineer</i> enters the battlefield create a <u>transient</u> (If
  <cmc>2</cmc>
  <type>Asset - Equipment Space-Suit Exosuit</type>
  <tablerow>1</tablerow>
- <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Pirate Suit</i>'s cost, if you do choose another asset to attach it to.)
-When <i>Pirate Suit</i> enters the battlefield, choose a combatant to attach it to.
+ <text><u>Tradeable</u> (During your deployment phases, you may pay <i>Pirate Suit</i>'s cost, if you do choose another asset; attach <i>Pirate Suit</i> to it.)
+When <i>Pirate Suit</i> enters the battlefield, attach it to a combatant of your choice.
 The attached combatant is a ranged 4/4. It gets an additional +2/+2 if you control an exhausted Source generator.
 If the attached asset would die, <u>forfeit</u> (Put the specified asset into its owner's discard.) <i>Pirate Suit</i>.</text>
 </card>
@@ -3324,9 +3338,18 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>0</tablerow>
  <text>(Generators are not assets or effects. You may only play <i>Power Source</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
 
-<p>[T]: Add [C] to your energy pool.</p>
+<p>[T]: Add [C].</p>
 
 <p>[1], [T]: Choose a generator to exhaust.</p></text>
+</card>
+<card>
+ <name>Shift Change</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CC_009_001.png">rt</set>
+ <manacost>4</manacost>
+ <cmc>4</cmc>
+ <type>Effect</type>
+ <tablerow>3</tablerow>
+ <text>Choose any number of players; they shuffle their hands into their decks, then draw the same number of cards.</text>
 </card>
 <card>
  <name>Internet Service Fees</name>
@@ -3338,7 +3361,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><u>Tax</u> (When Internet Service Fees resolves, if it is not a copy, copy it for each other card and trigger on the stack.)
 
-<p>Choose an opponent, draw a card unless they pay [2].</p></text>
+<p>Choose an opponent; draw a card unless they pay [2].</p></text>
 </card>
 <card>
  <name>Operation 11.4</name>
@@ -3348,9 +3371,9 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>10</cmc>
  <type>R. Effect -  </type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose a player to control during their next turn.</p></text>
+<p>Choose a player; you control them during their next turn.</p></text>
 </card>
 <card>
  <name>Annoying Neighbor</name>
@@ -3373,7 +3396,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><u>Brainwash</u> (Damage dealt by <i>Recycle</i> is gained as loyalty.)
 
-<p>Choose a player, they discard a card of your choice.
+<p>Choose a player; they discard a card of your choice.
 -> If that card is a combatant, draw a card and your commander loses 1 loyalty.
 -> If that card is an effect, deal 3 damage to their commander.</p></text>
 </card>
@@ -3387,7 +3410,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><u>Exchange [1]</u> (Pay [1], Discard <i>Economic Suicide</i> from your hand: Draw a card.)
 
-<p>Choose one (round down)
+<p>Choose one (round down):
 -> Your commander loses half its loyalty.
 -> Discard half of the cards in your hand.
 -> <u>Forfeit</u> (Put the specified asset into its owner's discard.) half of the assets you control.</p></text>
@@ -3401,7 +3424,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>Asset - Augmented Female Gladiator</type>
  <pt>2/2</pt>
  <tablerow>2</tablerow>
- <text><u>Brutal</u> (<i>Battle Angel</i> deals combat damage before assets without brutal.), <u>Rush</u> (<i>Battle Angel</i> can attack and intercept as soon as it enters the battlefield, but it can't be explicitly exhausted.)</text>
+ <text><u>Brutal</u> (<i>Battle Angel</i> deals combat damage before assets without brutal.), <u>Rush</u> (<i>Battle Angel</i> can attack and intercept as soon as it resolves, but it can't be explicitly exhausted that turn.)</text>
 </card>
 <card>
  <name>Burn the Ring</name>
@@ -3413,7 +3436,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><i>Burn the Ring</i> costs [1] less to deploy if you didn't go first.
 
-<p>Choose upto two of anything for <i>Burn the Ring</i> to deal 5 damage split between.</p></text>
+<p>Choose up to two assets and/or players; <i>Burn the Ring</i> deals 5 damage split between them.</p></text>
 </card>
 <card>
  <name>Xenophobia</name>
@@ -3423,7 +3446,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>4</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a combatant subtype, an opponent of your choice reveals their hand, and <i>Xenophobia</i> deals 4 damage to their commander for each card of the chosen type in their hand.</text>
+ <text>Choose a combatant subtype and an opponent of your choice reveals their hand; The opponent's commander takes 4 damage for each card of the chosen type in their hand.</text>
 </card>
 <card>
  <name>Hana Battlemaster</name>
@@ -3433,8 +3456,8 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>3</cmc>
  <type>Commander - Augmented Female Gladiator</type>
  <pt>6/4</pt>
- <related>Hana's Burn the Ring</related>
  <related>Torment the Opponent</related>
+ <related>Hana's Burn the Ring</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Hana's Burn the Ring'</i> if you already control <i>Hana, Battlemaster</i>.)
 
@@ -3451,9 +3474,9 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>R. Effect - <u>Personal</u> Style <u>Response</u></type>
  <token>1</token>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>Choose upto three of anything to deal 6 damage split between.</p>
+<p>Choose up to three assets or players; <i>Hana's Burn the Ring</i> deals 6 damage split between them.</p>
 
 <p><u>Personal</u> (Shuffle <i>'Hana, Battlemaster'</i> into your deck.)</p></text>
 </card>
@@ -3477,13 +3500,13 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <color>M</color>
  <manacost>RP</manacost>
  <cmc>2</cmc>
- <type>Asset - Equipment Augmentation</type>
+ <type>Asset - Equipment <u>Augmentation</u></type>
  <tablerow>1</tablerow>
  <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
 
 <p>When <i>Reaction Augmenter</i> enters the battlefield, choose a combatant to attach it to.</p>
 
-<p>Attached combatant gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.)</p>
+<p>The attached combatant gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.)</p>
 
 <p>Whenever the attached asset kills a combatant it permanently gets +1/+1.</p></text>
 </card>
@@ -3496,9 +3519,9 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>R. Effect</type>
  <related>Vital Tracker</related>
  <tablerow>3</tablerow>
- <text><p><u>Prepare 4 -- [RP]</u> (Pay [RP] and put <i>Angel Trafficking</i> into your deck fourth from the top, when you would draw <i>Angel Trafficking</i>, instead deploy it without paying its cost.)</p>
+ <text><p><u>Prepare 4 -- [RP]</u> (Pay [RP] and put <i>Angel Trafficking</i> into your deck fourth from the top. When you would draw <i>Angel Trafficking</i>, instead deploy it without paying its cost.)</p>
 
-<p>Choose up to [X] (X is 2 if you prepared.) Human combatants to permanently gain control of, they become melee Augmented Gladiators with <u>Transient</u> <i>'Vital Tracker'</i>s attached.</p></text>
+<p>Choose up to [X] (X is 2 if you prepared.) Human combatants; you permanently gain control of them. They become melee Augmented Gladiators with <u>Transient</u> <i>'Vital Tracker'</i>s attached.</p></text>
 </card>
 <card>
  <name>Hana Shinuda</name>
@@ -3527,11 +3550,11 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <token>1</token>
  <related>Hana Shinuda</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><u>Retribution</u> (When you draw <i>Hana's Rise</i> as a result of taking damage, you may deploy it without paying its cost.)</p>
 
-<p>Choose a combatant to kill, add energy to your bank equal to its cost (including energy type.)</p>
+<p>Kill a combatant of your choice, add energy to your bank equal to its cost (including energy type.)</p>
 
 <p><u>Personal</u> (Shuffle <i>'Hana Shinuda'</i> into your deck.)</p></text>
 </card>
@@ -3543,7 +3566,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>2</cmc>
  <type>Effect - Style <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a melee combatant you control, until end of turn it gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.) while a combatant of your choice an opponent controls with equal or lesser generalized cost gets -1/-1 and becomes exhausted.</text>
+ <text>Choose a melee combatant you control; until end of turn, it gets +1/+1 and <u>brutal</u> (It deals combat damage before assets without brutal.). A combatant of your choice an opponent controls with equal or lesser generalized cost; until end of turn, gets -1/-1 and becomes exhausted.</text>
 </card>
 <card>
  <name>Angel Pit Announcer</name>
@@ -3563,9 +3586,9 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>2</cmc>
  <type>Effect - Style</type>
  <tablerow>3</tablerow>
- <text><u>Append to Opponent's Effect [RP]</u> (As an opponent deploys an effect you may reveal <i>Pindown the Opponent</i> and pay [RP] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)
+ <text><u>Append to Opponent's Effect [RP]</u> (As an opponent deploys an effect you may reveal <i>Pindown the Opponent</i> and pay [RP]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
 
-<p>Choose a combatant to exhaust. It can't be refreshed as long as a melee combatant of your choice you control remains on the battlefield.</p></text>
+<p>Choose a combatant to exhaust; It can't be refreshed as long as a melee combatant you control of your choice remains on the battlefield.</p></text>
 </card>
 <card>
  <name>Brutalize the Opponent</name>
@@ -3577,7 +3600,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><p><i>Brutalize the Opponent</i> costs [1] less if you didn't go first.</p>
 
-<p>Choose a melee combatant, until end of turn it gains <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.) It then deals damage equal to its power to another combatant of your choice, that combatant gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.).</p></text>
+<p>Choose a melee combatant; until end of turn, it gains <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.) It then deals damage equal to its attack power to another combatant of your choice, that combatant gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.).</p></text>
 </card>
 <card>
  <name>Overexposed Finishing Blow</name>
@@ -3587,19 +3610,19 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>3</cmc>
  <type>Effect - Style</type>
  <tablerow>3</tablerow>
- <text>Choose a melee combatant to, until end of turn, both deal and take double damage.</text>
+ <text>Choose a melee combatant; until end of turn, it both deals and takes double damage.</text>
 </card>
 <card>
  <name>High Kick</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_RU_001_001.png">rs</set>
  <color>R</color>
- <manacost>R</manacost>
- <cmc>1</cmc>
+ <manacost>1R</manacost>
+ <cmc>2</cmc>
  <type>Effect - Style <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose an explicitly Female, melee combatant to, until end of turn, get +2/+0.
+ <text>Choose an explicitly Female, melee combatant; until end of turn, it gets +2/+0.
 
-<p>If <i>High Kick</i> is deployed during combat after interceptors have been declared, until end of turn, gain control of a <u>Male</u> (If a card doesn't explicitly say Male or Female it counts as both.) combatant not actively participating in combat of your choice. Refresh that asset.</p></text>
+<p>If <i>High Kick</i> is deployed during combat, after interceptors have been declared, until end of turn, gain control of a <u>Male</u> (If a card doesn't explicitly say Male or Female it counts as both.) combatant not actively participating in combat of your choice. Refresh that asset.</p></text>
 </card>
 <card>
  <name>Masochistic Angel</name>
@@ -3626,7 +3649,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 
 <p><u>Advantageous</u> (When <i>Nether Stomp</i> resolves, draw a card.)</p>
 
-<p>Choose a melee combatant you control to deal damage equal to its attack power to another combatant of your choice.</p></text>
+<p>Choose a melee combatant you control and another combatant; the first combatant deals damage equal to its attack power to the second.</p></text>
 </card>
 <card>
  <name>Angel's Katana</name>
@@ -3639,7 +3662,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 
 <p>When <i>Angel's Katana</i> enters the battlefield, choose a combatant to attach it to</p>
 
-<p>Attached combatant gets +1/+0, <u>permanence</u>, melee, and "Whenever this combatant deals damage to a combatant it gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.)"</p></text>
+<p>The attached combatant gets +1/+0, <u>permanence</u>, melee, and "Whenever this combatant deals damage to a combatant it gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.)"</p></text>
 </card>
 <card>
  <name>Underworld Crowd</name>
@@ -3687,7 +3710,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>2</tablerow>
  <text><u>Exchange [R]</u> (Pay [R], Discard <i>Match Thrower</i> from your hand: Draw a card.)
 
-<p>When <i>Match Thrower</i> enters the battlefield, it permanently gets -4/-4 unless an opponent draws two cards.</p></text>
+<p>When <i>Match Thrower</i> enters the battlefield, it permanently gets -4/-4 unless an opponent of your choice draws two cards.</p></text>
 </card>
 <card>
  <name>Handler</name>
@@ -3734,7 +3757,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>0</tablerow>
  <text>(Generators are not assets or effects. You may only play <i>Angel Pit Arena</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
 
-<p>When you hire <i>Angel Pit Arena</i> choose a combatant you control to gain <u>bleeding</u>.</p>
+<p>When you hire <i>Angel Pit Arena</i> choose a combatant you control; it gains <u>bleeding</u>.</p>
 
 <p>[T]: Add [R] or [P] to your energy bank.</p></text>
 </card>
@@ -3773,7 +3796,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <token>1</token>
  <related>?, Digital Diva</related>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards. [_] can be paid with either [R] or [O].)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards. [_] can be paid with either [R] or [O].)
 
 <p>Choose a combatant to, until end of turn, get your choice of -2/-0 or -1/-0.</p>
 
@@ -3802,7 +3825,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>5</cmc>
  <type>R. Effect - Melody</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p><i>"Living in the Shadows"</i> can only be deployed during combat, before you declare attackers.</p>
 
@@ -3841,7 +3864,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text>([_] can be paid with either [R] or [O].)
 
-<p><u>Append to Combatant [1RO]</u> (As you deploy a combatant you may reveal <i>Vocal Training</i> and pay [1RO] if you do add this card's effects as it resolves, it loses those effects once it leaves the stack.)</p>
+<p><u>Append to Combatant [1RO]</u> (As you deploy a combatant you may reveal <i>Vocal Training</i> and pay [1RO]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)</p>
 
 <p>Choose a combatant, until end of turn, the lower of its attack power or health is increased to match the higher.</p></text>
 </card>
@@ -3854,7 +3877,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>Effect - Melody</type>
  <related>Harmonize</related>
  <tablerow>3</tablerow>
- <text><u>Prepare 2 -- [R]</u> (Pay [R] and put <i>Inspiring Message</i> into your deck second from the top, when you would draw <i>Inspiring Message</i>, instead deploy it without paying its cost.)
+ <text><u>Prepare 2 -- [R]</u> (Pay [R] and put <i>Inspiring Message</i> into your deck second from the top. When you would draw <i>Inspiring Message</i>, instead deploy it without paying its cost.)
 
 <p>Choose a combatant, until end of turn it gains, "<i>Harmonize</i> -- As long as this combatant's attack power and health are the same, it gets +1/+1 for each asset intercepting it."</p></text>
 </card>
@@ -3915,7 +3938,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <color>M</color>
  <manacost>1RO</manacost>
  <cmc>3</cmc>
- <type>Asset - Equipment Augmentation</type>
+ <type>Asset - Equipment <u>Augmentation</u></type>
  <tablerow>1</tablerow>
  <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
 
@@ -3982,25 +4005,6 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <p>Choose a combatant, until end of turn, get +2/+0.</p></text>
 </card>
 <card>
- <name>M_CMDR_RY_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Lifegain aggro</type>
- <pt>/</pt>
- <tablerow>2</tablerow>
- <text>Lifegain aggro</text>
-</card>
-<card>
- <name>M_CMDR_RG_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Bullet Spellslinger</type>
- <tablerow>1</tablerow>
- <text>Bullet Spellslinger</text>
-</card>
-<card>
  <name>Impressive Shot</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RG_001_001.png">rs</set>
  <color>M</color>
@@ -4038,7 +4042,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>2</tablerow>
  <text><i>As Commander</i> -- At the beginning of combat on your turn, you may redistribute the equipment you control.
 
-<p><i>As Asset</i> -- Whenever an Augmentation enters the battlefield under your control, you may shuffle an Augmentation in your discard into your deck.</p></text>
+<p><i>As Asset</i> -- Whenever an <u>Augmentation</u> enters the battlefield under your control, you may shuffle an <u>Augmentation</u> in your discard into your deck.</p></text>
 </card>
 <card>
  <name>Corporate Espionage</name>
@@ -4061,7 +4065,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <color>R</color>
  <manacost>1R</manacost>
  <cmc>2</cmc>
- <type>Asset - Equipment Augmentation</type>
+ <type>Asset - Equipment <u>Augmentation</u></type>
  <tablerow>1</tablerow>
  <text>(If a Human asset has an Augmentation attached, it becomes Augmented.)
 
@@ -4075,7 +4079,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <color>M</color>
  <manacost>_</manacost>
  <cmc>1</cmc>
- <type>Asset - Equipment Augmentation</type>
+ <type>Asset - Equipment <u>Augmentation</u></type>
  <tablerow>1</tablerow>
  <text><p>([_] can be paid with either [R] or [B].)</p>
 
@@ -4084,15 +4088,6 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <p>When <i>Clearview Flagship</i> enters the battlefield, choose a combatant to attach it to.</p>
 
 <p>Attached combatant gets +1/+1.</p></text>
-</card>
-<card>
- <name>M_CMDR_OY_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - VR control</type>
- <tablerow>1</tablerow>
- <text>VR control</text>
 </card>
 <card>
  <name>Suffering Incarnate</name>
@@ -4116,42 +4111,6 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <text><u>Heal X</u> (If the specified asset has attack power or health reductions, reduce them by X [reducing permanent reductions first]. Otherwise remove X damage from it. X is the number of times <i>Revitalizing Infusion</i> has been previously deployed this game.)</text>
 </card>
 <card>
- <name>M_CMDR_OG_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Shield midrange</type>
- <tablerow>1</tablerow>
- <text>Shield midrange</text>
-</card>
-<card>
- <name>M_CMDR_OB_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Virus/Hacker midrange</type>
- <tablerow>1</tablerow>
- <text>Virus/Hacker midrange</text>
-</card>
-<card>
- <name>M_CMDR_OP_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Doubt Slinger</type>
- <tablerow>1</tablerow>
- <text>Doubt Slinger</text>
-</card>
-<card>
- <name>M_CMDR_YG_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Tax control</type>
- <tablerow>1</tablerow>
- <text>Tax control</text>
-</card>
-<card>
  <name>Organ Transplant</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_YG_001_001.png">rs</set>
  <color>M</color>
@@ -4159,7 +4118,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>6</cmc>
  <type>R. Effect</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Choose a commander to have its loyalty swapped with your commander's loyalty.</p></text>
 </card>
@@ -4175,33 +4134,6 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <text>Whenever another combatant enters the battlefield, your commander gains 1 loyalty.</text>
 </card>
 <card>
- <name>M_CMDR_YB_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - vehicle ai control</type>
- <tablerow>1</tablerow>
- <text>vehicle ai control</text>
-</card>
-<card>
- <name>M_CMDR_YP_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - self mill</type>
- <tablerow>1</tablerow>
- <text>self mill</text>
-</card>
-<card>
- <name>M_CMDR_GB_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - Megacorp New Hire (landfall) midrange</type>
- <tablerow>1</tablerow>
- <text>Megacorp New Hire (landfall) midrange</text>
-</card>
-<card>
  <name>Corporate Ascension</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_GB_001_001.png">rs</set>
  <color>M</color>
@@ -4210,15 +4142,6 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>Asset - Latent</type>
  <tablerow>1</tablerow>
  <text><p>If <i>Corporate Ascension</i> has seen 20 generators enter the battlefield, you win the game.</p></text>
-</card>
-<card>
- <name>M_CMDR_GP_001</name>
- <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/0_001.png">pd</set>
- <manacost></manacost>
- <cmc>0</cmc>
- <type> - robot reanimator</type>
- <tablerow>1</tablerow>
- <text>robot reanimator</text>
 </card>
 <card>
  <name>? Media Mogul</name>
@@ -4254,7 +4177,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>4</cmc>
  <type>R. Effect - Report</type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned permanent. Floating energy can't be spent to deploy renowned cards.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
 <p>Each opponent's commander loses <u>X</u> (X is the number of revealed cards in their hand.) loyalty.</p></text>
 </card>
@@ -4266,7 +4189,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>5</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text><u>Prepare 3 -- [BP]</u> (Pay [BP] and put <i>Undermine the Competition</i> into your deck third from the top, when you would draw <i>Undermine the Competition</i>, instead deploy it without paying its cost.)
+ <text><u>Prepare 3 -- [BP]</u> (Pay [BP] and put <i>Undermine the Competition</i> into your deck third from the top. When you would draw <i>Undermine the Competition</i>, instead deploy it without paying its cost.)
 
 <p>Choose a player to discard three cards.</p></text>
 </card>
@@ -4303,14 +4226,14 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <text>Choose anything for <i>Fireball</i> to deal <u>X</u> (X is the number of times <i>Fireball</i> has previously been deployed this game.) damage to.</text>
 </card>
 <card>
- <name>Power Word: 'Die!'</name>
+ <name>Soul Rip</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_PR_003_001.png">rs</set>
  <color>P</color>
  <manacost>0</manacost>
  <cmc>0</cmc>
  <type>Effect - Virtual Spell</type>
  <tablerow>3</tablerow>
- <text>Choose a combatant with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Power Word: 'Die!'</i> has a generalized cost of [0].) <u>[X]</u> (X is the number of times <i>Power Word: 'Die!'</i> has previously been deployed this game.) or less to kill.</text>
+ <text>Choose a combatant with <u>generalized cost</u> (The cost of the card if all typed symbols were replaced with generic numbers. E.x. <i>Soul Rip</i> has a generalized cost of [0].) <u>[X]</u> (X is the number of times <i>Soul Rip</i> has previously been deployed this game.) or less to kill.</text>
 </card>
 </cards>
 </cockatrice_carddatabase>
