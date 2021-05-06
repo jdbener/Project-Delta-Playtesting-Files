@@ -8,14 +8,14 @@
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rt</name>
-   <longname>Rising Tensions</longname>
+   <name>rs</name>
+   <longname>Rising Spirits</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rs</name>
-   <longname>Rising Spirits</longname>
+   <name>rt</name>
+   <longname>Rising Tensions</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
@@ -93,7 +93,7 @@
  <tablerow>3</tablerow>
  <text><u>Fleeting</u> (Discard <i>Emergency Defibrillator</i> at the end of your turn.), <u>Transient</u> (If <i>Emergency Defibrillator</i> would enter your discard, instead remove it from the game.), <u>Response</u> (You may deploy <i>Emergency Defibrillator</i> in response to other cards and effects.)
 
-<p>Choose a combatant that entered your discard this turn, return that card to your hand.</p></text>
+<p>Choose a combatant that entered your discard this turn; return that card to your hand.</p></text>
 </card>
 <card>
  <name>Fellow Officer</name>
@@ -119,7 +119,7 @@
  <tablerow>3</tablerow>
  <text><u>Transient</u> (If <i>Savings</i> would enter your discard, instead remove it from the game.), <u>Response</u> (You may deploy <i>Savings</i> in response to other cards and effects.)
 
-<p>Choose a card in your hand, it permanently costs [1] less.</p></text>
+<p>Choose a card in your hand; it permanently costs [1] less.</p></text>
 </card>
 <card>
  <name>W.E.B</name>
@@ -612,7 +612,7 @@
  <manacost>4OOO</manacost>
  <cmc>7</cmc>
  <type>R. Asset - Augmented Female Delta Operative</type>
- <pt>13/13</pt>
+ <pt>13/7</pt>
  <related>Remember the Plan!</related>
  <tablerow>2</tablerow>
  <text>(If you obtain another card with the same name as <i>Christen Frisk</i>, you must choose one to keep and another to send to its owner's discard. Floating energy can't be spent to deploy renowned cards. Becomes <i>'Remember the Plan!'</i> if you already control <i>Christen Frisk</i>.)
@@ -652,11 +652,13 @@
  <name>Inspiring Leadership</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OU_001_001.png">rt</set>
  <color>O</color>
- <manacost>OOO</manacost>
- <cmc>3</cmc>
- <type>Effect -  </type>
+ <manacost>3OOO</manacost>
+ <cmc>6</cmc>
+ <type>R. Effect -  </type>
  <tablerow>3</tablerow>
- <text><u>Append to Combatant [3OO]</u> (As you deploy a combatant you may reveal <i>Inspiring Leadership</i> and pay [3OO]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)
+ <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
+
+<p><u>Append to Combatant [3OOO]</u> (As you deploy a combatant you may reveal <i>Inspiring Leadership</i> and pay [3OOO]. If you do add this card's effects as it resolves; it loses those effects once it leaves the stack.)</p>
 
 <p>You may activate your commander's As Commander effect (ignoring any costs and timing/occurrence restrictions.)</p></text>
 </card>
@@ -729,7 +731,7 @@
  <manacost>O</manacost>
  <cmc>1</cmc>
  <type>Asset - Human Delta Recruit</type>
- <pt>4/4</pt>
+ <pt>5/4</pt>
  <tablerow>2</tablerow>
  <text><u>Reckless</u> (<i>Reckless Recruit</i> can't intercept.)</text>
 </card>
@@ -846,11 +848,9 @@
  <color>O</color>
  <manacost>XO</manacost>
  <cmc>2</cmc>
- <type>R. Effect - <u>Response</u></type>
+ <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
-
-<p>Choose a combatant in your hand with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Delta Operative has a generalized cost of [2].) [X] or less; put it into play intercepting an attacking combatant of your choice an opponent controls.</p></text>
+ <text><p>Choose a combatant in your hand with <u>generalized cost</u> (The cost of the asset if all typed symbols were replaced with generic numbers. E.x. Delta Operative has a generalized cost of [2].) [X] or less; put it into play intercepting an attacking combatant of your choice an opponent controls.</p></text>
 </card>
 <card>
  <name>Lurking Operative</name>
@@ -898,7 +898,7 @@
  <type>Asset - <u>Vehicle</u> Helicopter</type>
  <pt>5/1</pt>
  <tablerow>2</tablerow>
- <text><u>Flying</u> (<i>Stolen Helicopter</i> can only be intercepted by assets with ranged or flying. If <i>Stolen Helicopter</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.), <u>Reckless</u>, <u>Vehicle</u>
+ <text><u>Flying</u> (<i>Stolen Helicopter</i> can only be intercepted by assets with ranged or flying. If <i>Stolen Helicopter</i> is intercepting you may choose another combatant or commander you control, that is not also intercepting, to take the damage instead.), <u>Vehicle</u>
 
 <p><i>Strength in Numbers</i> -- Whenever <i>Stolen Helicopter</i> attacks, choose another combatant, that combatant attacks with <i>Stolen Helicopter</i>, until end of turn that combatant gains <u>brutal</u> and +1/+0.</p></text>
 </card>
@@ -994,7 +994,7 @@
  <manacost>2O</manacost>
  <cmc>3</cmc>
  <type>Asset - Human Male Delta Operative</type>
- <pt>4/4</pt>
+ <pt>6/6</pt>
  <tablerow>2</tablerow>
  <text><u>Reckless</u> (<i>Sara's Assistant</i> can't intercept.), <u>Subterfuge</u> (Damage dealt by this card, doesn't cause your opponents to draw cards.)</text>
 </card>
@@ -1045,7 +1045,7 @@
  <color>Y</color>
  <manacost>1YY</manacost>
  <cmc>3</cmc>
- <type>R. Effect - <u>Personal</u></type>
+ <type>R. Effect - <u>Personal</u> Police</type>
  <token>1</token>
  <related>Shawn Bright, Anti-Riot Bulwark</related>
  <tablerow>3</tablerow>
@@ -1116,7 +1116,7 @@
  <type>Asset - <u>Vehicle</u> Police</type>
  <pt>8/8</pt>
  <tablerow>2</tablerow>
- <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>BearCat</i>.), <u>Vehicle</u> (When <i>BearCat</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+ <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>BearCat</i>.), <u>Vehicle</u> (When <i>BearCat</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.)</text>
 </card>
 <card>
  <name>Arrest</name>
@@ -1261,8 +1261,8 @@
  <cmc>1</cmc>
  <type>Commander - Human Female Civilian Investigator</type>
  <pt>1/1</pt>
- <related>Answer to Prayers</related>
  <related>Tip</related>
+ <related>Answer to Prayers</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Answer to Prayers'</i> if you already control <i>Crystal Waters, Anti-Trafficker</i>.)
 
@@ -1418,7 +1418,7 @@
  <type>Asset - Drone</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text>[T], Exhaust another combatant you control, the next time it would be refreshed, it isn't: Choose a combatant to exhaust.</text>
+ <text>[T]: Until end of turn, combatants you control gain "[T], Exhaust another combatant you control, the next time it would be refreshed, it isn't: Choose a combatant to exhaust."</text>
 </card>
 <card>
  <name>Underworld Investigator</name>
@@ -1469,6 +1469,18 @@
  <text><i>Light in the Darkness</i> costs [Y] less if you didn't go first.
 
 <p>Choose a combatant, until end of turn, its attack power is reduced to 0.</p></text>
+</card>
+<card>
+ <name>Neglectful Parent</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_017_001.png">rt</set>
+ <color>Y</color>
+ <manacost>Y</manacost>
+ <cmc>1</cmc>
+ <type>Asset - Human Civilian</type>
+ <pt>1/1</pt>
+ <related>Scared Child</related>
+ <tablerow>2</tablerow>
+ <text>The first time <i>Neglectful Parent</i> becomes exhausted, create a <u>transient</u> <i>'Scared Child'</i> in your hand.</text>
 </card>
 <card>
  <name>L.O.K.I.O Logistics AI</name>
@@ -1546,7 +1558,7 @@
  <type>Asset - <u>Vehicle</u></type>
  <pt>5/9</pt>
  <tablerow>2</tablerow>
- <text><u>Vehicle</u> (When <i>Forklift</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+ <text><u>Vehicle</u> (When <i>Forklift</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.)</text>
 </card>
 <card>
  <name>Agricultural Intern</name>
@@ -1675,15 +1687,15 @@
  <color>G</color>
  <manacost>3GGG</manacost>
  <cmc>6</cmc>
- <type>Commander - Human Male Soldier Leader</type>
+ <type>Commander - Human Male Mercenary Leader</type>
  <pt>10/10</pt>
  <related>Grant a Promotion</related>
  <tablerow>2</tablerow>
  <text><p>(Becomes <i>'Grant a Promotion'</i> if you already control <i>Capt. Stonewall, PMC Commander</i>.)</p>
 
-<p><u>Ablative Armor 4</u></p>
+<p><u>Ablative Armor 5</u></p>
 
-<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, you may pay [GG]. If you do, it permanently gains <u>ablative armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
+<p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, you may pay [G]. If you do, it permanently gains <u>ablative armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
 
 <p><b><i>As Asset</i> --</b> [G], [T]: Choose a combatant; its armor is repaired to its original maximum.</p></text>
 </card>
@@ -1709,7 +1721,7 @@
  <color>G</color>
  <manacost>2G</manacost>
  <cmc>3</cmc>
- <type>Asset - Augmented Soldier</type>
+ <type>Asset - Augmented Mercenary </type>
  <pt>5/5</pt>
  <tablerow>2</tablerow>
  <text><p>Whenever a combatant enters the battlefield, <i>Daring Recruit</i> may <u>challenge</u> (The challenged asset must intercept its challenger the next time it's challenger attacks, if able.) that asset.</p></text>
@@ -1720,7 +1732,7 @@
  <color>G</color>
  <manacost>1G</manacost>
  <cmc>2</cmc>
- <type>Asset - Human Soldier</type>
+ <type>Asset - Human Mercenary </type>
  <pt>1/2</pt>
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 2</u> (Damage dealt to <i>Welcoming Veteran</i> by any source is reduced by two. Whenever damage is reduced this way, <i>Welcoming Veteran</i>'s armor is reduced by one.), <u>Formation</u>
@@ -1747,7 +1759,7 @@
  <color>G</color>
  <manacost>1G</manacost>
  <cmc>2</cmc>
- <type>Effect - <u>Response</u></type>
+ <type>Effect - <u>Response</u> Mercenary </type>
  <tablerow>3</tablerow>
  <text>Choose an asset; it permanently gets +2/+0 and <u>ablative armor 2</u> (Damage dealt to the specified asset by any source is reduced by 2. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</text>
 </card>
@@ -1757,7 +1769,7 @@
  <color>G</color>
  <manacost>2G</manacost>
  <cmc>3</cmc>
- <type>Effect -  </type>
+ <type>Effect</type>
  <tablerow>3</tablerow>
  <text>Choose an asset; its armor is repaired to its original maximum and then doubled.</text>
 </card>
@@ -1767,7 +1779,7 @@
  <color>G</color>
  <manacost>1G</manacost>
  <cmc>2</cmc>
- <type>Effect</type>
+ <type>Effect - Mercenary</type>
  <tablerow>3</tablerow>
  <text>Choose a combatant you control; it <u>challenges</u> (The challenged asset must intercept its challenger the next time it's challenger attacks, if able.) an asset of your choice you don't control.</text>
 </card>
@@ -1800,7 +1812,7 @@
  <color>G</color>
  <manacost>2G</manacost>
  <cmc>3</cmc>
- <type>Asset - Human Soldier</type>
+ <type>Asset - Human Mercenary </type>
  <pt>/6</pt>
  <tablerow>2</tablerow>
  <text><u>Formation - Attack Front 4, Back 3</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.])</text>
@@ -1821,7 +1833,7 @@
  <color>G</color>
  <manacost>1G</manacost>
  <cmc>2</cmc>
- <type>Asset - Human Soldier Recruit</type>
+ <type>Asset - Human Mercenary Recruit</type>
  <pt>4/1</pt>
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 4</u> (Damage dealt to <i>PMC Recruit</i> by any source is reduced by 4. Whenever damage is reduced this way, <i>PMC Recruit</i>'s armor is reduced by 1.)</text>
@@ -1846,7 +1858,7 @@
  <color>G</color>
  <manacost>2G</manacost>
  <cmc>3</cmc>
- <type>Asset - Human Female Soldier</type>
+ <type>Asset - Human Female Mercenary </type>
  <pt>4/6</pt>
  <tablerow>2</tablerow>
  <text><i>Strength in Numbers</i> -- Whenever <i>Sister in Arms</i> attacks, choose another combatant, that combatant attacks with <i>Sister in Arms</i>, until end of turn that asset gets +2/+0.</text>
@@ -1857,10 +1869,10 @@
  <color>G</color>
  <manacost>2G</manacost>
  <cmc>3</cmc>
- <type>Asset - Human Soldier</type>
+ <type>Asset - Human Survivalist</type>
  <pt>4/6</pt>
  <tablerow>2</tablerow>
- <text><u>Challenge</u> (Whenever <i>Survivalist</i> attacks, choose another combatant to intercept it.)</text>
+ <text><u>Challenge</u> (Whenever <i>Survivalist</i> attacks, choose another combatant to intercept it, if able.)</text>
 </card>
 <card>
  <name>Anti-Orbital Cannon</name>
@@ -1871,7 +1883,7 @@
  <type>Asset - <u>Vehicle</u></type>
  <pt>8/8</pt>
  <tablerow>2</tablerow>
- <text><u>Vehicle</u> (When <i>Anti-Orbital Cannon</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Anti-Orbital</u> (<i>Anti-Orbital Cannon</i> can intercept assets with spacecraft.)</text>
+ <text><u>Vehicle</u> (When <i>Anti-Orbital Cannon</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.), <u>Anti-Orbital</u> (<i>Anti-Orbital Cannon</i> can intercept assets with spacecraft.)</text>
 </card>
 <card>
  <name>Steroids</name>
@@ -1891,7 +1903,7 @@
  <color>G</color>
  <manacost>GG</manacost>
  <cmc>2</cmc>
- <type>Asset - Drone Soldier</type>
+ <type>Asset - Drone Mercenary </type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
  <text><u>Ablative Armor 3</u> (Damage dealt to <i>exaLink GC010</i> by any source is reduced by three. Whenever damage is reduced this way, <i>exaLink GC010</i>'s armor is reduced by one.)</text>
@@ -1912,7 +1924,7 @@
  <color>G</color>
  <manacost>G</manacost>
  <cmc>1</cmc>
- <type>Asset - Human Soldier</type>
+ <type>Asset - Human Mercenary </type>
  <pt>/1</pt>
  <tablerow>2</tablerow>
  <text><u>Formation - Attack Front 2, Back 1</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.])</text>
@@ -2307,8 +2319,8 @@
  <cmc>2</cmc>
  <type>R. Asset - Human Child Male Hacker</type>
  <pt>3/2</pt>
- <related>Go Little Guy! Go!</related>
  <related>High Profile SQL Injection</related>
+ <related>Go Little Guy! Go!</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Go Little Guy! Go!'</i> if you already control <i>Jonathan Arrigotti</i>)
 
@@ -2324,8 +2336,8 @@
  <cmc>4</cmc>
  <type>R. Effect - <u>Personal</u></type>
  <token>1</token>
- <related>Scout Drone</related>
  <related>Jonathan Arrigotti, Sara's Partner in Crime</related>
+ <related>Scout Drone</related>
  <tablerow>3</tablerow>
  <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
@@ -2479,7 +2491,7 @@
 
 <p><b><i>As Commander</i> --</b> Whenever an asset you don't control leaves the battlefield or comes under your control, you may look at the top two cards of your deck and put any number of them in your discard.</p>
 
-<p><b><i>As Asset</i> --</b> Whenever Lexi Xenos deals combat damage to a commander, put the top two cards of that commander's owner's deck under Lexi Xenos. You may deploy these cards as if they were in your hand.</p></text>
+<p><b><i>As Asset</i> --</b> Whenever Lexi Xenos deals combat damage to a commander, put the top two cards of that commander's owner's deck under Lexi Xenos. You treat those cards as if they were in your hand.</p></text>
 </card>
 <card>
  <name>Lux's Quest</name>
@@ -2489,12 +2501,13 @@
  <cmc>3</cmc>
  <type>R. Effect - <u>Personal</u></type>
  <token>1</token>
+ <related>Lexi 'Lux' Xenos, Pirate Captain</related>
  <tablerow>3</tablerow>
  <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
-<p>
+<p>Choose an asset; permanently gain control of it.</p>
 
-<p>Choose an asset; permanently gain control of it.</p><u>Personal</u> (Shuffle <i>'Lexi "Lux" Xenos, Pirate Captain'</i> into your deck.)</p></text>
+<p><u>Personal</u> (Shuffle <i>'Lexi 'Lux' Xenos, Pirate Captain'</i> into your deck.)</p></text>
 </card>
 <card>
  <name>Lina Pathak Pirate Technician</name>
@@ -2591,7 +2604,7 @@
  <pt>5/1</pt>
  <related>Prototype Tractor Beam</related>
  <tablerow>2</tablerow>
- <text><u>Vehicle</u> (When <i>Interceptor</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with spacecraft.)
+ <text><u>Vehicle</u> (When <i>Interceptor</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with spacecraft.)
 
 <p>When <i>Interceptor</i> enters the battlefield, you may attach a <i>'Prototype Tractor Beam'</i> you control to it.</p></text>
 </card>
@@ -2693,6 +2706,17 @@
  <pt>4/4</pt>
  <tablerow>2</tablerow>
  <text>Give an opponent <i>Lethal Hostage</i>: Choose a combatant that opponent controls; it gains <u>bleeding</u> (At the end of their owner's turn the specified asset permanently loses 1 health.)</text>
+</card>
+<card>
+ <name>Daring Hostage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PC_004_001.png">rt</set>
+ <color>P</color>
+ <manacost>3P</manacost>
+ <cmc>4</cmc>
+ <type>Asset - Augmented Pirate</type>
+ <pt>4/4</pt>
+ <tablerow>2</tablerow>
+ <text>Give an opponent <i>Daring Hostage</i>: That opponent chooses two cards in their hand; Those cards are put into your hand (if they have less than two cards in hand, instead they give you their hand.)</text>
 </card>
 <card>
  <name>Bing Du Zhe Unhinged Researcher</name>
@@ -2939,7 +2963,7 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <tablerow>3</tablerow>
  <text><u>Append to Experiment [PP]</u> (As you deploy a card with Experiment you may reveal <i>Mortal Reaction</i> and pay [PP]. If you do, add this card's effects as it resolves.)
 
-<p>Choose a combatant, and activate any of its on death abilities.</p></text>
+<p>Choose a combatant, and activate any of its on death effects.</p></text>
 </card>
 <card>
  <name>Adrenochrome</name>
@@ -3144,7 +3168,7 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <type>Asset - <u>Vehicle</u></type>
  <pt>2/2</pt>
  <tablerow>2</tablerow>
- <text><p><u>Vehicle</u> (When <i>Public Transportation</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Rush</u> (<i>Public Transportation</i> can attack and intercept as soon as it resolves, but it can't be explicitly exhausted that turn.)</p></text>
+ <text><p><u>Vehicle</u> (When <i>Public Transportation</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.), <u>Rush</u> (<i>Public Transportation</i> can attack and intercept as soon as it resolves, but it can't be explicitly exhausted that turn.)</p></text>
 </card>
 <card>
  <name>Standard Issue Big Gun</name>
@@ -3165,7 +3189,7 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <type>Asset - <u>Vehicle</u> <u>Spacecraft</u></type>
  <pt>6/6</pt>
  <tablerow>2</tablerow>
- <text><u>Vehicle</u> (When <i>Space Shuttle</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with spacecraft.)</text>
+ <text><u>Vehicle</u> (When <i>Space Shuttle</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.), <u>Spacecraft</u> (Space Shuttle can only intercept or be intercepted by assets with spacecraft.)</text>
 </card>
 <card>
  <name>New Hire Welcoming Party</name>
@@ -3227,9 +3251,9 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <cmc>1</cmc>
  <type>Asset - AI</type>
  <tablerow>1</tablerow>
- <text><p>When <i>Blackmailer</i> enters the battlefield, name a card. Abilities of the named card can't be activated.</p>
+ <text><p>When <i>Blackmailer</i> enters the battlefield, name a card; effects of the named card can't be activated.</p>
 
-<p>When <i>Blackmailer</i> is put into a vehicle, your opponent reveals their hand.</p></text>
+<p>When <i>Blackmailer</i> is put into a vehicle, your opponents reveal their hands.</p></text>
 </card>
 <card>
  <name>Anti-Orbital Gun</name>
@@ -3327,7 +3351,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <type>Asset - <u>Vehicle</u> Tank</type>
  <pt>4/4</pt>
  <tablerow>2</tablerow>
- <text><u>Vehicle</u> (When <i>Antique Sherman</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all abilities of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+ <text><u>Vehicle</u> (When <i>Antique Sherman</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.)</text>
 </card>
 <card>
  <name>Power Source</name>
@@ -3446,7 +3470,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <cmc>4</cmc>
  <type>Effect - <u>Response</u></type>
  <tablerow>3</tablerow>
- <text>Choose a combatant subtype and an opponent of your choice reveals their hand; The opponent's commander takes 4 damage for each card of the chosen type in their hand.</text>
+ <text>Choose an opponent and a combatant subtype; That opponent reveals their hand, then their commander takes 4 damage for each card of the chosen type in their hand.</text>
 </card>
 <card>
  <name>Hana Battlemaster</name>
@@ -3600,7 +3624,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>3</tablerow>
  <text><p><i>Brutalize the Opponent</i> costs [1] less if you didn't go first.</p>
 
-<p>Choose a melee combatant; until end of turn, it gains <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.) It then deals damage equal to its attack power to another combatant of your choice, that combatant gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.).</p></text>
+<p>Choose a melee combatant; until end of turn, it gains <u>permanence</u> (Damage it deals permanently reduces the attack power and health of the assets which it damages.) Then choose another combatant; The first deals damage equal to its attack power to the second, then the second gains <u>bleeding</u> (At the end of its owner's turn the specified asset permanently loses 1 health.).</p></text>
 </card>
 <card>
  <name>Overexposed Finishing Blow</name>
