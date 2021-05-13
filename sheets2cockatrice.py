@@ -44,8 +44,12 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
             else: cmc += 1
         except: pass
     # Color
-    color = "\n <color>"+card['Color'].upper().replace("GENERIC", "C")[0]+"</color>"
-    if color == "\n <color>C</color>": color = ""
+    colors = [x[0] if len(x) > 0 else x for x in card['Color Calculator'].upper().split(" ")]
+    colors += card['Color'].upper().replace("GENERIC", " ")[0]
+    color = ""
+    for x in set(colors): color += x + " "
+    color = "\n <color>" + color.strip() + "</color>"
+    if color == "\n <color></color>": color = ""
     # related
     relatedSrc = []
     result = re.findall("<i>([\S\s]*?)<\\/i>", card["Rules"])
@@ -120,7 +124,7 @@ for sheet in urls:
 
             except:
                 print("card parsing failed.")
-                continue
+                raise
 out += "\n</cards>\n</cockatrice_carddatabase>"
 # Different set for each set we found while scanning through the database files
 for s in set(cardSets):
