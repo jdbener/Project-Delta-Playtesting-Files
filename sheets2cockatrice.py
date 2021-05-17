@@ -34,7 +34,8 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
     # Token status
     transient = ""
     if "transient" in card['Subtype'].lower(): transient = "\n <token>1</token>"
-    if "personal" in card['Subtype'].lower(): transient = "\n <token>1</token>"
+    if card['Slot'][-1].isalpha(): transient = "\n <token>1</token>"    # All 001b, 001c, etc cards are marked as tokens
+    #if "personal" in card['Subtype'].lower(): transient = "\n <token>1</token>"
     # CMC
     cmc = 0
     result = re.findall("([ROYGBPXZC_]|1?[0-9])", card["Cost"])
