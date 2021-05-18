@@ -47,8 +47,10 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
     # Color
     colors = [x[0] if len(x) > 0 else x for x in card['Color Calculator'].upper().split(" ")]
     colors += card['Color'].upper().replace("GENERIC", " ")[0]
+    colors = list(set(colors))
+    colors.sort()
     color = ""
-    for x in set(colors): color += x + " "
+    for x in colors: color += x + " "
     color = "\n <color>" + color.strip() + "</color>"
     if color == "\n <color></color>": color = ""
     # related
@@ -62,7 +64,9 @@ def writeCard(card, url = "https://raw.githubusercontent.com/jdbener/Project-Del
     if "<u>Warrent" in card['Rules']: relatedSrc.append("Incarceration")
     if "<i>'Tip" in card['Rules']: relatedSrc.append("Tip")
     related = ""
-    for r in list(set(relatedSrc)):
+    relatedSrc = list(set(relatedSrc))
+    relatedSrc.sort()
+    for r in relatedSrc:
         related += "\n <related>" + r + "</related>"
 
     return "\n"+"<card>"\
@@ -86,6 +90,7 @@ def getCardSets(reader):
         if result:
             sets.append(result.group(1).lower())
             sets = list(set(sets))
+    sets.sort()
     return sets
 
 

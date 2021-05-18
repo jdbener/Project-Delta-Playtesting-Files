@@ -8,14 +8,14 @@
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rs</name>
-   <longname>Rising Spirits</longname>
+   <name>rt</name>
+   <longname>Rising Tensions</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
   <set>
-   <name>rt</name>
-   <longname>Rising Tensions</longname>
+   <name>rs</name>
+   <longname>Rising Spirits</longname>
    <settype>Custom</settype>
    <releasedate>2020-09-19</releasedate>
   </set>
@@ -124,7 +124,7 @@
 <card>
  <name>W.E.B</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_0_CMDR_001.png">rt</set>
- <color>R P G Y B M O</color>
+ <color>B G M O P R Y</color>
  <manacost>ROYGBP</manacost>
  <cmc>6</cmc>
  <type>Commander -  </type>
@@ -630,7 +630,9 @@
  <cmc>3</cmc>
  <type>Effect - Emotion <u>Response</u></type>
  <tablerow>3</tablerow>
- <text><i>Anger</i> deals 3 damage to each combatant on the battlefield.</text>
+ <text><u>Retribution</u> (When you draw <i>Anger</i> as a result of taking damage, you may deploy it without paying its cost.)
+
+<p><i>Anger</i> deals 3 damage to each combatant on the battlefield.</p></text>
 </card>
 <card>
  <name>School Boy</name>
@@ -1843,9 +1845,9 @@
 
 <p><b><i>As Commander</i> --</b> Whenever an asset enters the battlefield under your control, you may pay [G]. If you do, it permanently gains <u>ablative armor X</u> (X is 1/4 the number of generators you control, rounded up.)</p>
 
-<p><b><i>As Asset</i> --</b><u>Ablative Armor 5</u></p>
+<p><b><i>As Asset</i> --</b> <u>Ablative Armor 5</u></p>
 
-<p>[G], [T]: Choose a combatant; its armor is repaired to its original maximum.</p></text>
+<p>[G], [T]: Choose a combatant; its armor or ablative armor is repaired to its original maximum.</p></text>
 </card>
 <card>
  <name>Grant a Promotion</name>
@@ -1885,7 +1887,7 @@
  <type>Asset - Human Mercenary </type>
  <pt>1/2</pt>
  <tablerow>2</tablerow>
- <text><u>Ablative Armor 2</u> (Damage dealt to <i>Welcoming Veteran</i> by any source is reduced by two. Whenever damage is reduced this way, <i>Welcoming Veteran</i>'s armor is reduced by one.), <u>Formation</u>
+ <text><u>Armor 2</u> (Damage dealt to <i>Welcoming Veteran</i> by any source is reduced by two. Whenever damage is reduced this way <i>Welcoming Veteran</i> loses that much armor.), <u>Formation</u>
 
 <p>Whenever you hire a card as a generator, add one energy of any type a generator you control could produce to your energy bank.</p></text>
 </card>
@@ -1893,15 +1895,15 @@
  <name>Aircraft Carrier</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GR_007_001.png">rt</set>
  <color>G</color>
- <manacost>4GGGGG</manacost>
- <cmc>9</cmc>
+ <manacost>4GGGG</manacost>
+ <cmc>8</cmc>
  <type>Asset - <u>Vehicle</u> Boat</type>
  <pt>4/4</pt>
  <related>Fighter Jet</related>
  <tablerow>2</tablerow>
- <text><u>Ablative Armor 16</u> (Damage dealt to <i>Aircraft Carrier</i> by any source is reduced by sixteen. Whenever damage is reduced this way, <i>Aircraft Carrier</i>'s armor is reduced by one.)
+ <text><u>Armor 16</u> (Damage dealt to <i>Aircraft Carrier</i> by any source is reduced by 16. Whenever damage is reduced this way <i>Aircraft Carrier</i> loses that much armor.)
 
-<p>Each time <i>Aircraft Carrier</i> has attacked three times, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Fighter Jet'</i> on the battlefield.</p></text>
+<p>Each time <i>Aircraft Carrier</i> has attacked twice, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Fighter Jet'</i> on the battlefield.</p></text>
 </card>
 <card>
  <name>Battlefield Promotion</name>
@@ -1911,7 +1913,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u> Mercenary </type>
  <tablerow>3</tablerow>
- <text>Choose an asset; it permanently gets +2/+0 and <u>ablative armor 2</u> (Damage dealt to the specified asset by any source is reduced by 2. Whenever damage is reduced this way, the specified asset's armor is reduced by 1.)</text>
+ <text>Choose an asset; it permanently gets +2/+0 and <u>armor 2</u> (Damage dealt to the choosen asset by any source is reduced by two. Whenever damage is reduced this way <i>Battlefield Promotion</i> loses that much armor.)</text>
 </card>
 <card>
  <name>Equipment Upgrades</name>
@@ -1921,7 +1923,9 @@
  <cmc>3</cmc>
  <type>Effect</type>
  <tablerow>3</tablerow>
- <text>Choose an asset; its armor is repaired to its original maximum and then doubled.</text>
+ <text>Choose an asset; its armor or ablative armor is repaired to its original maximum and then doubled.
+
+<p>You may pay an additional [1GG] as you deploy <i>Equipment Upgrades</i>; if you do it also converts that asset's armor into ablative armor.</p></text>
 </card>
 <card>
  <name>Duel in the Barracks</name>
@@ -1954,7 +1958,7 @@
  <type>Asset - <u>Vehicle</u> Tank</type>
  <pt>/8</pt>
  <tablerow>2</tablerow>
- <text><u>Ablative Armor 5</u>, <u>Formation - Attack Front 5, Back 7</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.]) <u>Vehicle</u></text>
+ <text><u>Armor 5</u>, <u>Formation - Attack Front 5, Back 7</u> (Cards with Formation have their ranged status determined by their place in their formation. A formation consists of a melee card at the front and up to two ranged cards at the back. The entire formation is treated as a single unit; when damage is calculated the total attack power of the formation is used, however health and keywords are paired between cards in fighting formations [a card not in a formation is paired with the front card.]) <u>Vehicle</u></text>
 </card>
 <card>
  <name>Strike Team Leader</name>
@@ -2485,8 +2489,8 @@
  <cmc>2</cmc>
  <type>R. Asset - Human Child Male Hacker</type>
  <pt>4/2</pt>
- <related>SQL Injection</related>
  <related>Go Little Guy! Go!</related>
+ <related>SQL Injection</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Go Little Guy! Go!'</i> if you already control <i>Jonathan Arrigotti</i>)
 
@@ -2502,8 +2506,8 @@
  <cmc>4</cmc>
  <type>R. Effect - <u>Personal</u></type>
  <token>1</token>
- <related>Scout Drone</related>
  <related>Jonathan Arrigotti, Sara's Partner in Crime</related>
+ <related>Scout Drone</related>
  <tablerow>3</tablerow>
  <text>(This effect can only be deployed if you control a renowned asset. Floating energy can't be spent to deploy renowned cards.)
 
@@ -2683,8 +2687,8 @@
  <cmc>4</cmc>
  <type>R. Asset - Augmented Female Pirate Engineer</type>
  <pt>2/8</pt>
- <related>Prototype Tractor Beam</related>
  <related>Lina's Tinkering</related>
+ <related>Prototype Tractor Beam</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Lina's Tinkering'</i> if you already control <i>Lina Pathak, Pirate Technician</i>.)
 
@@ -2951,8 +2955,8 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <manacost>1PP</manacost>
  <cmc>3</cmc>
  <type>Asset - <u>Discovery</u> Experiment</type>
- <related>Test Subject</related>
  <related>Mortal Reaction</related>
+ <related>Test Subject</related>
  <tablerow>1</tablerow>
  <text>(When <i>Monstrous Experiment</i> enters the battlefield or at the beginning of your turn, progress to the next phase unless the final phase has been reached.)
 
@@ -3070,7 +3074,7 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <type>Asset - Human Civilian Intern</type>
  <pt>2/4</pt>
  <tablerow>2</tablerow>
- <text><u>Permanence</u> (Damage <i>Questionable Intern</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Quick Hire</u> (When <i>Questionable Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
+ <text><u>Permanence</u> (Damage <i>Questionable Intern</i> deals permanently reduces the health of the assets which it damages.), <u>Quick Hire</u> (When <i>Questionable Intern</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [P].</p>
 
@@ -3084,10 +3088,10 @@ Whenever <i>Rampaging Monstrosity</i> attacks it deals 1 damage to each other as
  <cmc>3</cmc>
  <type>Asset - Augmented Male Civilian Scientist</type>
  <pt>2/4</pt>
- <related>Incarceration</related>
  <related>Engineered Plague</related>
+ <related>Incarceration</related>
  <tablerow>2</tablerow>
- <text><u>Permanence</u> (Damage <i>Plague Engineer</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Warrent</u> (When you deploy <i>Plague Engineer</i>, shuffle an 'Incarceration' into your deck.)
+ <text><u>Permanence</u> (Damage <i>Plague Engineer</i> deals permanently reduces the health of the assets which it damages.), <u>Warrent</u> (When you deploy <i>Plague Engineer</i>, shuffle an 'Incarceration' into your deck.)
 
 When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Engineered Plague'</i> in your hand.</text>
 </card>
@@ -3707,13 +3711,13 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Blossom Battlemaster</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RP_001_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>1RP</manacost>
  <cmc>3</cmc>
  <type>Commander - Augmented Female Gladiator</type>
  <pt>6/4</pt>
- <related>Torment the Opponent</related>
  <related>Blossom's Burn the Ring</related>
+ <related>Torment the Opponent</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Blossom's Burn the Ring'</i> if you already control <i>Blossom, Battlemaster</i>.)
 
@@ -3724,7 +3728,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Blossom's Burn the Ring</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RP_001b_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>RP</manacost>
  <cmc>2</cmc>
  <type>R. Effect - <u>Personal</u> Style <u>Response</u></type>
@@ -3753,7 +3757,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Reaction Augmenter</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_001_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>RP</manacost>
  <cmc>2</cmc>
  <type>Asset - Equipment <u>Augmentation</u></type>
@@ -3769,7 +3773,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Angel Trafficking</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_002_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>XXXRP</manacost>
  <cmc>5</cmc>
  <type>R. Effect</type>
@@ -3799,7 +3803,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Blossom's Rise</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_003b_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>3RRPP</manacost>
  <cmc>7</cmc>
  <type>R. Effect - <u>Personal</u></type>
@@ -3817,7 +3821,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Torment the Opponent</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_001_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>RP</manacost>
  <cmc>2</cmc>
  <type>Effect - Style <u>Response</u></type>
@@ -3827,7 +3831,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Angel Pit Announcer</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_004_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>3RP</manacost>
  <cmc>5</cmc>
  <type>R. Asset - AI Announcer</type>
@@ -3837,7 +3841,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Pindown the Opponent</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_002_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>RP</manacost>
  <cmc>2</cmc>
  <type>Effect - Style</type>
@@ -3861,7 +3865,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Overexposed Finishing Blow</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RP_003_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>1RP</manacost>
  <cmc>3</cmc>
  <type>Effect - Style</type>
@@ -3995,7 +3999,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Unhinged Pyromaniac</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RP_004_001.png">rs</set>
- <color>R P M</color>
+ <color>M P R</color>
  <manacost>2RP</manacost>
  <cmc>4</cmc>
  <type>Asset - Augmented Female Gladiator</type>
@@ -4021,7 +4025,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>? Label Manager</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RO_001_001.png">rs</set>
- <color>R O M</color>
+ <color>M O R</color>
  <manacost>RROO</manacost>
  <cmc>4</cmc>
  <type>Commander - Human Executive</type>
@@ -4037,7 +4041,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Record Sales</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RO_001b_001.png">rs</set>
- <color>R O M</color>
+ <color>M O R</color>
  <manacost>1RROO</manacost>
  <cmc>5</cmc>
  <type>R. Effect - <u>Personal</u></type>
@@ -4055,7 +4059,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>? Digital Diva</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_RO_001_001.png">rs</set>
- <color>R O M</color>
+ <color>M O R</color>
  <manacost>3RO</manacost>
  <cmc>5</cmc>
  <type>R. Asset - AI Female Musician</type>
@@ -4163,7 +4167,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Gonna Jump Now and Be Free'</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RO_002_001.png">rs</set>
- <color>R O M</color>
+ <color>M O R</color>
  <manacost>1RO</manacost>
  <cmc>3</cmc>
  <type>Effect - Melody <u>Response</u></type>
@@ -4232,7 +4236,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Pitch Correction Implant</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MC_RO_003_001.png">rs</set>
- <color>R O M</color>
+ <color>M O R</color>
  <manacost>1RO</manacost>
  <cmc>3</cmc>
  <type>Asset - Equipment <u>Augmentation</u></type>
@@ -4315,12 +4319,12 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 
 <p><i>Bedroom Star</i> costs [1] less to deploy if you didn't go first.</p>
 
-<p><i>Harmonize</i> -- Each time <i>Bedroom Star</i> has seen dealt combat damage to a commander, while its attack power and health were the same, three times; the top combatant of your deck permanently gets +0/+1.</p></text>
+<p><i>Harmonize</i> -- Each time <i>Bedroom Star</i> has attacked or intercepted twice, while its attack power and health were the same; the top combatant of your deck permanently gets +1/+1.</p></text>
 </card>
 <card>
  <name>Impressive Shot</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RG_001_001.png">rs</set>
- <color>R G M</color>
+ <color>G M R</color>
  <manacost>1RG</manacost>
  <cmc>3</cmc>
  <type>Effect - Trickshot Style <u>Response</u></type>
@@ -4347,7 +4351,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>? Head Roboticist</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_RB_001_001.png">rs</set>
- <color>R B M</color>
+ <color>B M R</color>
  <manacost>3RB</manacost>
  <cmc>5</cmc>
  <type>Commander - Augmented Researcher</type>
@@ -4360,7 +4364,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Corporate Espionage</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RB_001_001.png">rs</set>
- <color>R B M</color>
+ <color>B M R</color>
  <manacost>1RB</manacost>
  <cmc>3</cmc>
  <type>Effect</type>
@@ -4405,7 +4409,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Suffering Incarnate</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_OY_001_001.png">rs</set>
- <color>O Y M</color>
+ <color>M O Y</color>
  <manacost>3OY</manacost>
  <cmc>5</cmc>
  <type>R. Asset - Virtual Boss</type>
@@ -4426,7 +4430,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Organ Transplant</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_YG_001_001.png">rs</set>
- <color>Y G M</color>
+ <color>G M Y</color>
  <manacost>4YG</manacost>
  <cmc>6</cmc>
  <type>R. Effect</type>
@@ -4449,7 +4453,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Corporate Ascension</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_GB_001_001.png">rs</set>
- <color>G B M</color>
+ <color>B G M</color>
  <manacost>GB</manacost>
  <cmc>2</cmc>
  <type>Asset - Latent</type>
@@ -4459,7 +4463,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>? Media Mogul</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_M_CMDR_BP_001_001.png">rs</set>
- <color>P B M</color>
+ <color>B M P</color>
  <manacost>1BP</manacost>
  <cmc>3</cmc>
  <type>Commander - Human Reporter</type>
@@ -4485,7 +4489,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Presentation of Compromising Information</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_BP_001_001.png">rs</set>
- <color>P B M</color>
+ <color>B M P</color>
  <manacost>2BP</manacost>
  <cmc>4</cmc>
  <type>R. Effect - Report</type>
@@ -4497,7 +4501,7 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <card>
  <name>Undermine the Competition</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MR_BP_002_001.png">rs</set>
- <color>P B M</color>
+ <color>B M P</color>
  <manacost>3BP</manacost>
  <cmc>5</cmc>
  <type>Effect</type>
