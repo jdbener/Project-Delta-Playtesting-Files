@@ -31,7 +31,9 @@
  <tablerow>1</tablerow>
  <text><u>Transient</u> (If <i>Bullet</i> would enter your discard, instead remove it from the game.)
 
-<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Bullet</i>: <i>Bullet</i> deals 2 damage to an asset or player of your choice.</p></text>
+<p>[T], <u>Forfeit</u> (Put the specified asset into its owner's discard.) <i>Bullet</i>: <i>Bullet</i> deals 2 damage to an asset or player of your choice.</p>
+
+<p>[T], <u>Forfeit</u> <i>Bullet</i>: Choose a gun you control; restore 1 ammo to it.</p></text>
 </card>
 <card>
  <name>Doubt</name>
@@ -716,9 +718,11 @@
  <manacost>3OO</manacost>
  <cmc>5</cmc>
  <type>Asset - Augmented Male Civilian Rebel</type>
- <pt>4/8</pt>
+ <pt>3/6</pt>
  <tablerow>2</tablerow>
- <text><i>Strength in Numbers</i> -- Whenever <i>Arms Runner</i> attacks, choose another combatant, that combatant attacks with <i>Arms Runner</i>, until end of turn that combatant gets +2/+2 and ranged. If that combatant has <i>Strength in Numbers</i> its chosen asset gets +2/+2 and ranged as well, repeat this process until there are no more combatants or a combatant which has already received this buff is chosen.</text>
+ <text><u>Armed -- 'Fully Automatic Assault Rifle'</u> (<i>Arms Runner</i> enters the battlefield with a transient <i>'Fully Automatic Assault Rifle'</i> attached to it.)
+
+<p><i>Strength in Numbers</i> -- Whenever <i>Arms Runner</i> attacks, choose another combatant, that combatant attacks with <i>Arms Runner</i>; until end of turn, that combatant gets +2/+2 and ranged. If that combatant has <i>Strength in Numbers</i> its chosen asset gets +2/+2 and ranged as well, repeat this process until there are no more combatants.</p></text>
 </card>
 <card>
  <name>Inspiring Leadership</name>
@@ -783,6 +787,20 @@
 <p>[T]: Add [O].</p>
 
 <p>[2OO], [T]: Swap control of Political Intern and an asset of your choice an opponent controls.</p></text>
+</card>
+<card>
+ <name>Fugitive on the Run</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_OU_006_001.png">rt</set>
+ <color>O</color>
+ <manacost>1O</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Criminal</type>
+ <pt>6/2</pt>
+ <related>Fellow Officer</related>
+ <tablerow>2</tablerow>
+ <text><u>Pierce</u> (<i>Fugitive on the Run</i> deals combat damage greater than the combined health of the assets intercepting it to the commander it is attacking and bypasses armor.), <u>Rush</u> (<i>Fugitive on the Run</i> can attack and intercept as soon as it resolves, but it can't be explicitly exhausted that turn.)
+
+<p>When <i>Fugitive on the Run</i> enters the battlefield, choose an opponent; create two <i>'Fellow Officer'</i>s on the battlefield under their control.</p></text>
 </card>
 <card>
  <name>Delta Enforcer</name>
@@ -1200,7 +1218,7 @@
  <type>Asset - <u>Vehicle</u> Police</type>
  <pt>8/8</pt>
  <tablerow>2</tablerow>
- <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>BearCat</i>.), <u>Vehicle</u> (When <i>BearCat</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.)</text>
+ <text><u>Inexhaustible</u> (The first time <i>BearCat</i> attacks each turn, it isn't exhausted.), <u>Vehicle</u> (When <i>BearCat</i> enters the battlefield, you may choose another asset to attach it to. The combined unit has all effects of both assets, and the highest attack power, health, and ranged status of the two.)</text>
 </card>
 <card>
  <name>Arrest</name>
@@ -1225,7 +1243,7 @@
  <pt>4/4</pt>
  <related>Fellow Officer</related>
  <tablerow>2</tablerow>
- <text><u>Inexhaustible</u> (Attacking doesn't exhaust <i>Department Trainee</i>.), <u>Quick Hire</u> (When <i>Department Trainee</i> is hired as a generator, it can exhaust as soon as it is hired.)
+ <text><u>Inexhaustible</u> (The first time <i>Department Trainee</i> attacks each turn, it isn't exhausted.), <u>Quick Hire</u> (When <i>Department Trainee</i> is hired as a generator, it can exhaust as soon as it is hired.)
 
 <p>[T]: Add [Y].</p>
 
@@ -1297,7 +1315,7 @@
  <type>Asset - Augmented Police</type>
  <pt>4/6</pt>
  <tablerow>2</tablerow>
- <text><u>Inexhaustible</u> (Attacking doesn't exhaust Inexhaustible Officer.)</text>
+ <text><u>Inexhaustible</u> (The first time <i>Inexhaustible Officer</i> attacks each turn, it isn't exhausted.)</text>
 </card>
 <card>
  <name>Corrupt Investigator</name>
@@ -1347,6 +1365,35 @@
  <pt>2/2</pt>
  <tablerow>2</tablerow>
  <text></text>
+</card>
+<card>
+ <name>Precinct Armory</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_007_001.png">rt</set>
+ <color>Y</color>
+ <manacost>YY</manacost>
+ <cmc>2</cmc>
+ <type>Gen. Asset - Police Building</type>
+ <pt>1/5</pt>
+ <related>Ballistic Pistol</related>
+ <tablerow>2</tablerow>
+ <text>(You may play <i>Precinct Armory</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator, or you may deploy it as an asset.)
+
+<p><u>Barricade</u> (<i>Precinct Armory</i> can't attack; however, intercepting doesn't exhaust it.)</p>
+
+<p>[T], Choose a combatant; create a <u>transient</u> (If it would enter a discard, instead remove it from the game.) <i>'Ballistic Pistol'</i> attached to it.</p></text>
+</card>
+<card>
+ <name>Barricade Bot</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_YC_008_001.png">rt</set>
+ <color>Y</color>
+ <manacost>YY</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Drone Police</type>
+ <pt>0/5</pt>
+ <tablerow>2</tablerow>
+ <text><u>Barricade</u> (<i>Barricade Bot</i> can't attack; however, intercepting doesn't exhaust it.)
+
+<p>A deck may have any number of copies of <i>Barricade Bot</i> in it.</p></text>
 </card>
 <card>
  <name>Crystal Waters Anti-Trafficker</name>
@@ -1734,10 +1781,12 @@
  <color>G</color>
  <manacost>GG</manacost>
  <cmc>2</cmc>
- <type>Asset - Building</type>
- <pt>2/2</pt>
+ <type>Gen. Asset - Building</type>
+ <pt>0/2</pt>
  <tablerow>2</tablerow>
- <text><u>Barricade</u> (<i>Medical Storehouse</i> can't attack; however, intercepting doesn't exhaust it.), <u>Ablative Armor 2</u> (Damage dealt to <i>Medical Storehouse</i> by any source is reduced by two. Whenever damage is reduced this way, Medical Storehouse's armor is reduced by one.)
+ <text>(You may play <i>Medical Storehouse</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator, or you may deploy it as an asset.)
+
+<p><u>Barricade</u> (<i>Medical Storehouse</i> can't attack; however, intercepting doesn't exhaust it.), <u>Ablative Armor 2</u></p>
 
 <p>[T], [XG] (X is the number of times this effect has been activated.): Your commander gains [X] loyalty. This effect may be activated by any player.</p></text>
 </card>
@@ -1913,7 +1962,7 @@
  <cmc>2</cmc>
  <type>Effect - <u>Response</u> Mercenary </type>
  <tablerow>3</tablerow>
- <text>Choose an asset; it permanently gets +2/+0 and <u>armor 2</u> (Damage dealt to the choosen asset by any source is reduced by two. Whenever damage is reduced this way <i>Battlefield Promotion</i> loses that much armor.)</text>
+ <text>Choose an asset; it permanently gets +2/+0 and <u>armor 2</u> (Damage dealt to the chosen asset by any source is reduced by two. Whenever damage is reduced this way <i>Battlefield Promotion</i> loses that much armor.)</text>
 </card>
 <card>
  <name>Equipment Upgrades</name>
@@ -1947,7 +1996,7 @@
  <tablerow>3</tablerow>
  <text>If an opponent deployed a non-combatant card this turn, <i>Hunker Down and Wait for Reinforcements</i> costs [4] less. 
 
-<p>Combatants you control gain <u>ablative armor [X]</u> (Damage dealt to them by any source is reduced by X. Whenever damage is reduced this way, that combatant's armor is reduced by one.) If [X] is [4] or more you may put an asset from your hand onto the battlefield.</p></text>
+<p>Combatants you control gain <u>ablative armor [X]</u> (Damage dealt to them by any source is reduced by X. Whenever damage is reduced this way, that combatant's armor is reduced by one.) If [X] is [4] or more you may put an asset from your hand onto the battlefield and refill the ammo of all of your guns.</p></text>
 </card>
 <card>
  <name>Cyber Tank</name>
@@ -1980,6 +2029,20 @@
  <type>Effect</type>
  <tablerow>3</tablerow>
  <text>Choose an asset attached to a combatant;its owner <u>forfeits</u> (Put the specified asset into its owner's discard.) it.</text>
+</card>
+<card>
+ <name>Supplyman</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_GU_016_001.png">rt</set>
+ <color>G</color>
+ <manacost>1G</manacost>
+ <cmc>2</cmc>
+ <type>Asset - Human Mercenary</type>
+ <pt>1/3</pt>
+ <related>Ballistic Pistol</related>
+ <tablerow>2</tablerow>
+ <text><u>Armed -- <i>'Ballistic Pistol'</i></u> (<i>Supplyman</i> enters the battlefield with a transient <i>'Ballistic Pistol'</i> attached to it.)
+
+<p>When <i>Supplyman</i> enters the battlefield choose a gun; refill all of its ammo.</p></text>
 </card>
 <card>
  <name>PMC Recruit</name>
@@ -2740,7 +2803,7 @@
 <p>Permanently gain control of an asset of your choice.</p></text>
 </card>
 <card>
- <name>Throat Slit</name>
+ <name>Mechanized Martial Arts</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_PR_004_001.png">rt</set>
  <color>P</color>
  <manacost>2PP</manacost>
@@ -2748,9 +2811,11 @@
  <type>Effect</type>
  <related>Incarceration</related>
  <tablerow>3</tablerow>
- <text><u>Warrent</u> (When you deploy <i>Throat Slit</i>, shuffle an 'Incarceration' into your deck.)
+ <text><u>Warrent</u> (When you deploy <i>Mechanized Martial Arts</i>, shuffle an 'Incarceration' into your deck.)
 
-<p>Kill a combatant of your choice.</p></text>
+<p>Choose one:
+-> Choose a combatant; kill it.
+-> Choose a combatant; its owner <u>forfeits</u> (Put the specified assets into their owners' discards.) all equipment attached to it (tradeable can't be activated in response to this effect.)</p></text>
 </card>
 <card>
  <name>Cripple</name>
@@ -2762,7 +2827,7 @@
  <tablerow>3</tablerow>
  <text><u>Retribution</u> (When you draw <i>Cripple</i> as a result of taking damage, you may deploy it without paying its cost.)
 
-<p>Choose an asset; it permanently gains <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.) and -6/-6.</p></text>
+<p>Choose an asset; it permanently gains <u>sluggish</u> (The specified asset deals combat damage after assets without sluggish.) and -5/-5.</p></text>
 </card>
 <card>
  <name>Interceptor</name>
@@ -3378,13 +3443,15 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
 <card>
  <name>Standard Issue Big Gun</name>
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_002_001.png">rt</set>
- <manacost>4</manacost>
- <cmc>4</cmc>
- <type>Asset - Equipment Gun</type>
+ <manacost>5</manacost>
+ <cmc>5</cmc>
+ <type>Asset - Equipment <u>Gun</u></type>
  <tablerow>1</tablerow>
- <text><u>Tradeable</u> (Once each turn, you may pay <i>Standard Issue Big Gun</i>'s cost, if you do choose another asset; attach <i>Standard Issue Big Gun</i> to it.)
+ <text><u>Ammo 2</u>, <u>Gun</u> (As long as <i>Standard Issue Big Gun</i> has ammo, the attached asset is ranged.), <u>Tradeable</u>
 
-<p>The attached asset gets +5/+0, ranged, <u>sluggish</u>, and "Whenever this asset kills a combatant, each combatant that intercepted this turn the killed asset's owner controls, take 1 damage."</p></text>
+<p>When <i>Standard Issue Big Gun</i> enters the battlefield, choose an asset to attach it to.</p>
+
+<p>As long as <i>Standard Issue Big Gun</i> has ammo, the attached asset gets +5/+0 and "Whenever this asset kills a combatant, each combatant that intercepted this turn the killed asset's owner controls, take 1 damage."</p></text>
 </card>
 <card>
  <name>Space Shuttle</name>
@@ -3465,13 +3532,13 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_011_001.png">rt</set>
  <manacost>2</manacost>
  <cmc>2</cmc>
- <type>Asset - Equipment Gun</type>
+ <type>Asset - Equipment <u>Gun</u></type>
  <tablerow>1</tablerow>
  <text><u>Tradeable</u> (Once each turn, you may pay <i>Anti-Orbital Gun</i>'s cost, if you do choose another combatant; attach <i>Anti-Orbital Gun</i> to it.)
 
 <p>When <i>Anti-Orbital Gun</i> enters the battlefield, attach it to a combatant of your choice.</p>
 
-<p>Attached asset gets +1/+0 and <u>anti-orbital</u> (<i>Anti-Orbital Gun</i> can intercept assets with spacecraft.)</p></text>
+<p>The attached asset gets +1/+0 and <u>anti-orbital</u> (<i>Anti-Orbital Gun</i> can intercept assets with spacecraft.)</p></text>
 </card>
 <card>
  <name>Scrapyard</name>
@@ -3497,6 +3564,17 @@ When <i>Plague Engineer</i> enters the battlefield, create a <u>transient</u> (I
  <text><u>Warrent</u> (When you deploy <i>Unwarranted Citizen's Arrest</i>, shuffle an 'Incarceration' into your deck.)
 
 <p>Choose a permanent an opponent controls; return it to its owner's hand.</p></text>
+</card>
+<card>
+ <name>Fully Automatic Assault Rifle</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CU_014_001.png">rt</set>
+ <manacost>3</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Equipment <u>Gun</u></type>
+ <tablerow>1</tablerow>
+ <text><u>Ammo 15</u> (Whenever the attached asset attacks or intercepts, reduce <i>Fully Automatic Assault Rifle</i>'s ammo by 1 [to a minimum of 0.] Instead of expending an ammo you may treat this as if it had ammo 0 until end of turn.), <u>Gun</u> (As long as this card has ammo, the attached asset is ranged.), <u>Tradeable</u>
+When this card enters the battlefield, choose an asset to attach it to.
+As long as this card has ammo, the first time the attached asset attacks each turn, it doesn't exhaust.</text>
 </card>
 <card>
  <name>Release the Quacken!</name>
@@ -3610,6 +3688,17 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <pt>1/1</pt>
  <tablerow>2</tablerow>
  <text></text>
+</card>
+<card>
+ <name>Ballistic Pistol</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RT_CC_012_001.png">rt</set>
+ <manacost>0</manacost>
+ <cmc>0</cmc>
+ <type>Asset - Equipment <u>Gun</u></type>
+ <tablerow>1</tablerow>
+ <text><u>Ammo 10</u> (Whenever the attached asset attacks or intercepts, reduce <i>Ballistic Pistol</i>'s ammo by 1 [to a minimum of 0.] Instead of expending an ammo you may treat <i>Ballistic Pistol</i> as if it had ammo 0 until end of turn.), <u>Gun</u> (As long as <i>Ballistic Pistol</i> has ammo, the attached asset is ranged.), <u>Tradeable</u>
+When <i>Ballistic Pistol</i> enters the battlefield, choose an asset to attach it to.
+As long as <i>Ballistic Pistol</i> has ammo, the attached asset gets +1/+0.</text>
 </card>
 <card>
  <name>Internet Service Fees</name>
@@ -3790,13 +3879,14 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <manacost>3__</manacost>
  <cmc>5</cmc>
  <type>R. Asset - Augmented Female Gladiator</type>
- <pt>7/5</pt>
+ <pt>5/5</pt>
+ <related>Angel's Katana</related>
  <related>Blossom's Rise</related>
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Blossom's Rise'</i> if you already control <i>Hana Shinutsu</i>.)
 ([_] can be paid with either [R] or [P].)
 
-<p><i>Hana Shinutsu</i> enters the battlefield with your choice of <u>brutal</u> (<i>Hana Shinutsu</i> deals combat damage before assets without brutal.) or <u>permanence</u> (Damage <i>Hana Shinutsu</i> deals permanently reduces the attack power and health of the assets which it damages.)</p>
+<p><i>Hana Shinutsu</i> enters the battlefield with your choice of <u>brutal</u> (<i>Hana Shinutsu</i> deals combat damage before assets without brutal.) or <u>armed -- 'Angel's Katana'</u> (<i>Hana Shinutsu</i> enters the battlefield with a transient <i>'Angel's Katana'</i> attached to it.)</p>
 
 <p>Whenever a Gladiator attacks you may deploy a Style card from your discard choosing it.</p></text>
 </card>
@@ -3944,9 +4034,10 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <manacost>2P</manacost>
  <cmc>3</cmc>
  <type>Asset - Augmented Female Gladiator</type>
- <pt>4/6</pt>
+ <pt>2/6</pt>
+ <related>Angel's Katana</related>
  <tablerow>2</tablerow>
- <text><u>Permanence</u> (Damage <i>Sadistic Angel</i> deals permanently reduces the attack power and health of the assets which it damages.), <u>Retribution</u> (When you draw <i>Sadistic Angel</i> as a result of taking damage, you may deploy it without paying its cost.)</text>
+ <text><u>Armed--'Angel's Katana'</u> (<i>Sadistic Angel</i> enters the battlefield with a transient <i>'Angel's Katana'</i> attached to it.), <u>Retribution</u> (When you draw <i>Sadistic Angel</i> as a result of taking damage, you may deploy it without paying its cost.)</text>
 </card>
 <card>
  <name>Rookie Angel</name>
@@ -4034,9 +4125,9 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
  <tablerow>2</tablerow>
  <text>(Becomes <i>'Record Sales'</i> if you already control <i>?, Label Manager</i>.)
 
-<p><b><i>As Commander</i> --</b> Combatants you control, with matching attack power and health, cost one energy of any type less.</p>
+<p><b><i>As Commander</i> --</b> Whenever a card in your deck has its attack power or health changed, you may pay [O] or [R]; if you do, change the other stat to match.</p>
 
-<p><b><i>As Asset</i></b> -- Whenever a card in your deck has its attack power or health changed, change the other stat to match.</p></text>
+<p><b><i>As Asset</i> --</b> Combatants you control, with matching attack power and health, cost one energy of any type less.</p></text>
 </card>
 <card>
  <name>Record Sales</name>
@@ -4320,6 +4411,32 @@ If the attached asset would die, <u>forfeit</u> (Put the specified asset into it
 <p><i>Bedroom Star</i> costs [1] less to deploy if you didn't go first.</p>
 
 <p><i>Harmonize</i> -- Each time <i>Bedroom Star</i> has attacked or intercepted twice, while its attack power and health were the same; the top combatant of your deck permanently gets +1/+1.</p></text>
+</card>
+<card>
+ <name>Concert Stage</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_ROBG_001.png">pd</set>
+ <color>M</color>
+ <manacost></manacost>
+ <cmc>0</cmc>
+ <type>Generator</type>
+ <token>1</token>
+ <tablerow>0</tablerow>
+ <text>(Generators are not assets or effects. You may only play <i>Concert Stage</i> whenever you have the option to hire a generator, instead of hiring any other card as a generator.)
+
+<p>When you hire <i>Concert Stage</i> choose a combatant you control; it gains <u>sluggish</u>.</p>
+
+<p>[T]: Add [R] or [O] to your energy bank.</p></text>
+</card>
+<card>
+ <name>Battle Medic</name>
+ <set picURL="https://raw.githubusercontent.com/jdbener/Project-Delta-Playtesting-Files/master/Images/RS_MU_RY_001_001.png">rs</set>
+ <color>M R Y</color>
+ <manacost>1RY</manacost>
+ <cmc>3</cmc>
+ <type>Asset - Human Soldier Doctor</type>
+ <pt>3/3</pt>
+ <tablerow>2</tablerow>
+ <text>When <i>Battle Medic</i> enters the battlefield, choose a player or combatant; <i>Battle Medic</i> deals 5 damage to it, then your commander gains 5 loyalty.</text>
 </card>
 <card>
  <name>Impressive Shot</name>
